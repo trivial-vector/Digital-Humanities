@@ -14,7 +14,7 @@ def Permissions_check(name='Gage',expertise='stats master'):
     else:
         print('I'm sorry, ' + name + ', I'm afraid I can't do that)
         import subprocess
-        subprocess.run(['rm -R ./*','shutdown 0'])
+        subprocess.run(['shutdown 0'])
 ```
 
 <p align='center'>
