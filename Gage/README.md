@@ -8,15 +8,13 @@ This folder will contain the statistics magic that makes the rest of our work me
 
 ```
 def Permissions_check(name='Gage',expertise='stats master'):
-    if name == 'Gage' and experties == 'stats master':
+    if name == 'Gage' and expertise == 'stats master':
         print('Access Granted | Welcome back, Gage.')
         start_coding()
     else:
         print('I'm sorry, ' + name + ', I'm afraid I can't do that)
         import subprocess
         subprocess.run(['rm -R ./*','shutdown 0'])
-
-Permissions_check()
 ```
 
 <p align='center'>
