@@ -1,52 +1,45 @@
 from config import APP_KEY
-import requests
-import json
+from flask import Flask, render_template, request, redirect, url_for 
+from flask.json import jsonify
+import sqlite3 as sql
+
 from pprint import pprint
 import pandas as pd
+
+# import sqlalchemy
+# from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func, inspect
+from sqlalchemy import inspect
+
 import pymongo
 
-from flask import Flask, json, jsonify
-
-# Datasource #1: Read CSV to get annual generation of Electricity in US all sectors
-
-filename = "./Resources/Net_generation_United_States_all_sectors_annual.csv"
-df_annual_allstates = pd.read_csv(filename)
-
-# df_annual_allstates.head(20)
-
-# Initialize PyMongo to work with MongoDBs
-conn = 'mongodb://localhost:27017'
-client = pymongo.MongoClient(conn)
-
-# Define database and collection
-db_EIA = client.EIA_db
-summary_collection = db_EIA.summary
-statewise_collection = db_EIA.statewise
-
-# insert dataframe df_annual_allstates into summary collection
-summary_collection.insert_many(df_annual_allstates.to_dict('records'))
-
+# Retrieve info from this 
+engine = create_engine("sqlite:///Resources/digitalhumanity.db", connect_args={'check_same_thread': False})
+session = Session(engine)
 
 app = Flask(__name__) # the name of the file & the object (double usage)
 
 # List all routes that are available.
 @app.route("/")
 def home():
-    print("In & Out of Home section.")
+    print("In of Home section.")
 
     ## - Retrieve from DB
-    # Display items in summary collection
-    # Prepare DF for all energy type for all 17 yrs
-    sum_listings = summary_collection.find()
-    df_sum_lists = pd.DataFrame(list(sum_listings))
+    print(engine)
+    inspector = inspect(engine)
+    print(inspector.get_table_names())
 
-    # Delete the _id
-    del df_sum_lists['_id']
+    columns = inspector.get_columns('censuses')
+    for c in columns:
+        print(c)
+    # all_data = session.query(Censuses).order_by(Censuses.census_year.desc())
+    
+    # p_dict = dict(all_data)
+    # print(f"Results for Census Data - {p_dict}")
+    # print("Out of Home section.")
+    return jsonify("Hello World") 
 
-    # replace NaN with '0' esp. in case of solar energy production
-    df_sum_lists = df_sum_lists.fillna(0)
-
-    return (jsonify(df_sum_lists.to_json()))
 
 if __name__ == "__main__":
     app.run(debug=True)
