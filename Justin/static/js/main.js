@@ -1,6 +1,6 @@
 var myMap = L.map("map", {
   center: [29.758412994217334, -95.37702055828173],
-  zoom: 15
+  zoom: 17
 });
 
 L.tileLayer(
@@ -15,7 +15,7 @@ L.tileLayer(
 ).addTo(myMap);
 
 d3.csv(
-  "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/1900.csv"
+  "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/1908.csv"
 ).then(function(response) {
   var heatArray = [];
   for (var i = 0; i < response.length; i++) {
