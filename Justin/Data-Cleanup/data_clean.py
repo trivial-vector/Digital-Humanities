@@ -8,6 +8,7 @@ data_1907 = pd.read_excel("../../Data/race1907_TableToExcel.xls")
 data_1908 = pd.read_excel("../../Data/race1908_TableToExcel.xls")
 data_1915 = pd.read_excel("../../Data/race1915_TableToExcel.xls")
 data_1917 = pd.read_excel("../../Data/race1917_TableToExcel.xls")
+
 data_list = [data_1900, data_1907, data_1908, data_1915, data_1917]
 yr_list = ['1900', '1907', '1908', '1915', '1917']
 
@@ -27,6 +28,7 @@ for year in range(0, len(yr_list)):
         lat_lons['Latitude'].append(x_spcs[i])
         lat_lons['Longitude'].append(y_spcs[i])
         lat_lons['Street Address'].append(st_addr[i])
+
     df_name = yr_list[year]+'_df'
     df_name = pd.DataFrame(data=lat_lons)
     df_name.to_csv((yr_list[year]+'.csv'), index=False)
