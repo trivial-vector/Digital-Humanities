@@ -36,10 +36,3 @@ def create_additional_info_for_that_year(df, year):
     df_new["Year"] = year
     
     return(df_new)
-
-# ===============================================================================================================================
-# This function upserts the mongo collection with the dataframe content for that particular year
-# ===============================================================================================================================
-def update_db_document_for_that_particular_coll(df, year, db_coll_that_year):
-    for row in df.iterrows():
-        db_coll_that_year.update_many({'Year': year, 'Street Address': row[2]}, {"$set": row.to_dict()}, upsert=True)
