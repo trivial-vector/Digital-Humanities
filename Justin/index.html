@@ -33,7 +33,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,600"
       rel="stylesheet"
     />
 
@@ -48,53 +48,90 @@
       integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
       crossorigin=""
     ></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
 
     <title>Digital Humanities</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm text-light">
-      <a class="navbar-brand" href="">(LOGO)</a>
-      <button
-        class="navbar-toggler d-lg-none"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-g" href="">Overview</a>
-          </li>
-          <li class="nav-item nav-item-active dropdown">
-            <a
-              class="nav-link dropdown-toggle text-g"
-              id="dropdownId"
-              href=""
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Views</a
-            >
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">View 2</a>
-              <a class="dropdown-item" href="#">View 3</a>
-            </div>
-          </li>
-        </ul>
+    <div id="home" class="container-flex mx-5">
+      <div class="row justify-content-center">
+        <div class="mx-5">
+          <p class="display-2">
+            The Reservation
+          </p>
+          <hr />
+          <p class="lead mt-5 ml-5 text-left justify-content-start">
+            Where Allen Parkway Village now stands-south of Buffalo Bayou and
+            west of downtown Houston - was once the city's legally designated
+            red-light district.
+          </p>
+          <p class="lead mt-3 ml-5 justify-content-start">
+            To the east lay the city's stables and refuse burner, to the south
+            the city graveyard and Hebrew cemetary, to the west the city's
+            infectious disease hospital, and to the north the flood-prone
+            Buffalo Bayou.
+          </p>
+          <div id="map" class="justify-content-middle"></div>
+        </div>
       </div>
-    </nav>
-    <div id="map"></div>
+    </div>
+    <div id="graphic">
+      <div class="container">
+        <div id="div1" class="row">
+          <h3 class="mt-3 mx-3">
+            On <strong>March 31,1908</strong>, the day after the City of Houston
+            passed an ordinance establishing
+            <strong>The Reservation</strong>,the Houston Chronicle wrote:
+          </h3>
+          <blockquote class="blockquote">
+            <p class="mb-0 text-lead">
+              <em>
+                "The spot allotted to the fallen women is barren of houses with
+                the exception of a few scattered negro huts , and one of the
+                first factors to be reckoned with is the construction of abodes
+                in which the women may reside."
+              </em>
+            </p>
+          </blockquote>
+        </div>
+        <div id="div2">
+          <h2>
+            But that was not the case at all
+          </h2>
+          <p>
+            There was a poplulation living on that land for 30+ years at that
+            point
+          </p>
+        </div>
+        <div id="div4">
+          <h2>
+            <strong
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis eaque suscipit aspernatur ipsam, natus hic alias cum
+              sapiente? Soluta saepe quisquam temporibus, aliquam aperiam
+              pariatur possimus asperiores eum vitae eos.</strong
+            >
+          </h2>
+        </div>
+        <div id="div6">
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            tempora sapiente esse animi! Ea, nihil. Dolor harum, quod provident
+            exercitationem explicabo possimus unde dolore quidem, quo ex,
+            tenetur ad veritatis.
+          </h2>
+        </div>
+      </div>
 
+      <!-- svg -->
+      <div class="fixed"><svg id="viz" width="100%" height="100%"></svg></div>
+    </div>
+    <!-- /graphic -->
     <!-- JS -->
     <!-- Leaflet heatmap plugin-->
     <script type="text/javascript" src="static/js/config.js"></script>
-    <script type="text/javascript" src="static/js/main.js"></script>
+    <script type="text/javascript" src="static/js/logic.js"></script>
     <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
   </body>
 </html>
