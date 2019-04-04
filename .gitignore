@@ -2,6 +2,10 @@
 VSCodeWS.code-workspace
 .vscode
 
+# Local Backup
+static-backup
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
