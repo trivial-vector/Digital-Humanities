@@ -15,7 +15,7 @@ L.tileLayer(
 ).addTo(myMap);
 
 d3.csv(
-  "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/1908.csv"
+  "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/CSV/1915.csv"
 ).then(function(response) {
   var heatArray = [];
   for (var i = 0; i < response.length; i++) {
