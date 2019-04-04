@@ -1,45 +1,33 @@
 from config import APP_KEY
 from flask import Flask, render_template, request, redirect, url_for 
 from flask.json import jsonify
-import sqlite3 as sql
 
-from pprint import pprint
 import pandas as pd
 
-# import sqlalchemy
-# from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func, inspect
-from sqlalchemy import inspect
-
 import pymongo
+from bson.json_util import dumps
 
 # Retrieve info from this 
-engine = create_engine("sqlite:///Resources/digitalhumanity.db", connect_args={'check_same_thread': False})
-session = Session(engine)
+conn = 'mongodb://localhost:27017'
+client = pymongo.MongoClient(conn)
 
 app = Flask(__name__) # the name of the file & the object (double usage)
 
 # List all routes that are available.
-@app.route("/")
-def home():
-    print("In of Home section.")
-
+# Route for heat map.
+@app.route("/api/maps/<year>")
+def heat_maps(year):
+    print("In of heat maps section.")
+    print('year', year)
     ## - Retrieve from DB
-    print(engine)
-    inspector = inspect(engine)
-    print(inspector.get_table_names())
-
-    columns = inspector.get_columns('censuses')
-    for c in columns:
-        print(c)
-    # all_data = session.query(Censuses).order_by(Censuses.census_year.desc())
+    ## - Retrieve from DB
+    db_DH = client.digitalHumanity_db
+    collection_string = "censuses_" + year
+    censuses_year_collection = db_DH[collection_string]
+    all_data = dumps(censuses_year_collection.find({"Latitude":{"$ne":None},"Longitude":{"$ne":None}},
+    {"_id":0,"Street Address":1,"Latitude":1, "Longitude":1, "Race":1}))
     
-    # p_dict = dict(all_data)
-    # print(f"Results for Census Data - {p_dict}")
-    # print("Out of Home section.")
-    return jsonify("Hello World") 
-
+    return all_data
 
 if __name__ == "__main__":
     app.run(debug=True)
