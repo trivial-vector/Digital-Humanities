@@ -1,16 +1,16 @@
-let heat = () => {
+let map = () => {
   let myMap = L.map("map", {
-    center: [29.759412994217334, -95.37902055828173],
+    center: [29.7597, -95.378],
     zoom: 17
   });
 
   L.tileLayer(
-    "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}",
+    "https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
     {
-      attribution:
-        "Map data &copy; <a href='https://www.openstreetmap.org/'>OpenStreetMap</a> contributors, <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a>, Imagery © <a href='https://www.mapbox.com/'>Mapbox</a>",
+      attribution: "",
       maxZoom: 18,
-      id: "mapbox.streets",
+      id: "dark-v10",
+      username: "Wired361",
       accessToken: API_KEY
     }
   ).addTo(myMap);
@@ -26,8 +26,8 @@ let heat = () => {
       }
 
       L.heatLayer(heatArray, {
-        radius: 17,
-        blur: 35
+        radius: 30,
+        blur: 50
       }).addTo(myMap);
     }
   );
@@ -44,7 +44,7 @@ svg.attr("width", 500).attr("height", 1000);
 
 //set up grid spacing
 let spacing = 40;
-let rows = 10;
+let rows = 15;
 let column = 10;
 let randnum = (min, max) => Math.round(Math.random() * (max - min) + min);
 
@@ -111,8 +111,8 @@ let grid2 = () => {
     .attr("height", 20)
     .attr("rx", "50%")
     .attr("ry", "50%")
-    .attr("x", (d, i) => (i % column) * spacing)
-    .attr("y", (d, i) => (Math.floor(i / 10) % rows) * spacing)
+    //.attr("x", (d, i) => (i % column) * spacing)
+    //.attr("y", (d, i) => (Math.floor(i / 10) % rows) * spacing)
     .attr("fill", (d, i) =>
       d["race"] == "Black" ? "var(--prussian-blue)" : "var(--outer-space)"
     );
@@ -222,17 +222,18 @@ function scroll(n, offset, func1, func2) {
 let func = () => {
   rects
     .transition()
-    .delay((d, i) => 10 * i)
-    .duration(600)
+    .delay(100)
+    .duration(100)
     .attr("opacity", 0);
 };
 
 //triger these functions on page scroll
-new scroll("home", "75%", heat, func);
-new scroll("map", "25%", func, grid);
-new scroll("div1", "25%", grid, func);
+//new scroll("home", "75%", map, func);
+new scroll("map", "100%", func, map);
+new scroll("div1", "10%", grid, func);
 new scroll("div2", "25%", grid2, grid);
-new scroll("div4", "25%", divide, grid2);
+new scroll("div4", "25%", divide, grid);
 new scroll("div6", "25%", barChart, divide);
 
 //start grid on page load
+map();

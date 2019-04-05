@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
 :root {
   --open: "Open Sans", sans-serif;
   --prussian-blue: #003049;
@@ -73,7 +72,7 @@ strong {
 }
 #map {
   width: 100%;
-  height: 800px;
+  height: 100%;
 }
 .container {
   height: 100%;
