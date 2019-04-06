@@ -1,0 +1,851 @@
+﻿Line #,House No,Street Name,LastName,GivenName,Relation (4),Color or Race (5),Sex (6),Age at last birthday (8),Occupation (19),Own or Rent (25),Owned free or mortgage (26),House or Farm (27),My Notes,File Name
+1,841,Arthur Street,Koch,Katy,Head,W,F,27,none,Rent,,House,,1910 census ED 70 page 1
+2,841,Arthur Street,Rehr,Margaret,Boarder,W,F,23,none,,,,last name hard to read,1910 census ED 70 page 1
+3,841,Arthur Street,Parker,Hazel,,W,F,15,none,,,,,1910 census ED 70 page 1
+4,837,Arthur Street,Garza,Rosa,Head,Ot,F,28,none,Rent,,House,,1910 census ED 70 page 1
+5,837,Arthur Street,Delgar,Francisco,Boarder,Ot,F,25,none,,,,last name hard to read,1910 census ED 70 page 1
+6,837,Arthur Street,Concha,Sarga,Boarder,Ot,F,20,none,,,,both names hard to read,1910 census ED 70 page 1
+7,837,Arthur Street,Duque,Sarah,Boarder,Ot,F,23,none,,,,,1910 census ED 70 page 1
+8,907,Hobson Street,Wise ,Jennie,Head,W,F,23,none,Rent,,House,,1910 census ED 70 page 1
+9,912,Hobson Street,Howard,Ada,Head,Mu,F,28,none,Rent,,House,,1910 census ED 70 page 1
+10,912,Hobson Street,Janis,Eauma,Boarder,W,F,23,none,,,,first name hard to read,1910 census ED 70 page 1
+11,830,Arthur Street,King ,Josie,Head,B,F,33,none,Rent,,House,,1910 census ED 70 page 1
+12,830,Arthur Street,Nelson,Eunise,Boarder,Mu,F,22,none,,,,last name hard to read,1910 census ED 70 page 1
+13,830,Arthur Street,Rishards,Maud,Boarder,Mu,F,28,none,,,,last name hard to read,1910 census ED 70 page 1
+14,830,Arthur Street,Watson,Frannie,Boarder,Mu,F,22,none,,,,,1910 census ED 70 page 1
+15,830,Arthur Street,Keys,Louisa,Boarder,Mu,F,25,none,,,,,1910 census ED 70 page 1
+16,830,Arthur Street,McCormish,Estella,Boarder,Mu,F,21,none,,,,,1910 census ED 70 page 1
+17,834,Arthur Street,Jefferson,Scorgia,Head,B,F,28,none,Rent,,House,first name hard to read,1910 census ED 70 page 1
+18,834,Arthur Street,Anderson,Mary,Boarder,B,F,26,none,,,,,1910 census ED 70 page 1
+19,834,Arthur Street,Johnson,Amanda,Boarder,B,F,27,none,,,,,1910 census ED 70 page 1
+20,836,Arthur Street,Moscowitz,Bessie,Head,W,F,26,none,Rent,,House,,1910 census ED 70 page 1
+21,836,Arthur Street,Goldbung,Beckie,Boarder,W,F,33,none,,,,last name hard to read,1910 census ED 70 page 1
+22,838,Arthur Street,Bloch,Tillie,Head,W,F,35,none,Rent,,House,,1910 census ED 70 page 1
+23,838,Arthur Street,Hiberman,Rosie,Boarder,W,F,22,none,,,,,1910 census ED 70 page 1
+24,840,Arthur Street,Swartz,Mary,Head,W,F,22,none,Rent,,House,,1910 census ED 70 page 1
+25,840,Arthur Street,Huestou,Lillie,Boarder,W,F,27,none,,,,last name hard to read,1910 census ED 70 page 1
+26,840,Arthur Street,Curts,Annie,Boarder,W,F,28,none,,,,,1910 census ED 70 page 1
+27,842,Arthur Street,Cooper,Rosie,Head,W,F,30,none,Rent ,,House,,1910 census ED 70 page 1
+28,842,Arthur Street,Smith,Mary,Boarder,W,F,20,none,,,,,1910 census ED 70 page 1
+29,842,Arthur Street,Battle,Fraunie,Boarder,W,F,20,none,,,,,1910 census ED 70 page 1
+30,844,Arthur Street,Johnson,Eunise,Head,B,F,20,none,Rent,,House,,1910 census ED 70 page 1
+31,844,Arthur Street,Doyle,Eliza,Boarder,B,F,18,none,,,,,1910 census ED 70 page 1
+32,844,Arthur Street,Foster,Dora,Boarder,B,F,26,none,,,,,1910 census ED 70 page 1
+33,844,Arthur Street,Anderson,Aydil,Boarder,B,F,23,none,,,,first name hard to read,1910 census ED 70 page 1
+34,846,Arthur Street,Hughes,Hattie,Head,B,F,28,none,Rent,,House,,1910 census ED 70 page 1
+35,846,Arthur Street,Dixon,Burtie,Boarder,B,F,23,none,,,,,1910 census ED 70 page 1
+36,846,Arthur Street,Ball,Hillia,Boarder,B,F,21,none,,,,first name hard to read,1910 census ED 70 page 1
+37,846,Arthur Street,Janus,Julia,Boarder,B,F,28,none,,,,,1910 census ED 70 page 1
+38,848,Arthur Street,Wallase,Mable,Head,B,F,27,none,Rent ,,House,,1910 census ED 70 page 1
+39,848,Arthur Street,Wallase,Bert,Sou,B,M,1,none,,,,,1910 census ED 70 page 1
+40,848,Arthur Street,Smith,Myrtle,Boarder,W,F,18,none,,,,,1910 census ED 70 page 1
+41,850,Arthur Street,Thomas,Jennie,Head,W,F,32,none,Rent,,House,Street name cut off,1910 census ED 70 page 1
+42,850,Arthur Street,Mitchell,Anna B.,Boarder,W,F,18,none,,,,Street name cut off; age hard to read,1910 census ED 70 page 1
+43,850,Arthur Street,Nichals,Bertie,Boarder,W,F,22,none,,,,Street name cut off,1910 census ED 70 page 1
+44,850,Arthur Street,DeCohen,Tally,Boarder,Mu,F,15,none,,,,Street name cut off,1910 census ED 70 page 1
+45,852,Arthur Street,Davila,Natalia ,Head,W,F,24,none,Rent,,House,Street number cut off,1910 census ED 70 page 1
+46,852,Arthur Street,Callaghan,Stella,Boarder,W,F,22,none,,,,,1910 census ED 70 page 1
+47,852,Arthur Street,Goday,Carrie,Boarder,W,F,22,none,,,,,1910 census ED 70 page 1
+48,852,Arthur Street,Trevius,Clotilda,Boarder,W,F,20,none,,,,,1910 census ED 70 page 1
+49,852,Arthur Street,Suerra,Martera,Boarder,W,F,32,none,,,,,1910 census ED 70 page 1
+50,852,Arthur Street,Suerra,Auglus,Boarder,W,F,26,none,,,,,1910 census ED 70 page 1
+51,1214,Howard Street,Finner,Stephen,Head,B,M,42,Driver at Bakery,Owned,,House,,1910 census ED 70 page 10
+52,1214,Howard Street,Finner,Carrie,Wife,B,F,34,none,,,,,1910 census ED 70 page 10
+53,1218,Howard Street,Green,Julia,Head,B,F,65,Laundress at home,Owned,,House,,1910 census ED 70 page 10
+54,1218,Howard Street,Fine,Mary,Daughter,B,F,43,Laundress at home,,,,,1910 census ED 70 page 10
+55,1218,Howard Street,Fine,Mores,Grandson,B,M,21,Laborer at Brick Yard,,,,,1910 census ED 70 page 10
+56,1302,Howard Street,Robinson,Benjamin,Head,B,M,24,Driver at ?,Rent,,House,Couldn't read location of job,1910 census ED 70 page 10
+57,1302,Howard Street,Robinson,Frannie,Wife,B,F,23,none,,,,,1910 census ED 70 page 10
+58,1304,Howard Street,Davis,Lila,Head,B,F,31,Laundress at home,Rent ,,House,,1910 census ED 70 page 10
+59,1304,Howard Street,Campbell,Virginia,Boarder,B,F,25,Cook at ?Parent's House,,,,Couldn't read location of job,1910 census ED 70 page 10
+60,1304,Howard Street,William,Cora,Boarder,B,F,12,none,,,,,1910 census ED 70 page 10
+61,1306,Howard Street,Wallace ,Henry,Head,B,M,38,Yardman at Parent's House,,,,,1910 census ED 70 page 10
+62,1306,Howard Street,Wallace ,Eliza,Wife,B,F,36,none,,,,,1910 census ED 70 page 10
+63,1306,Howard Street,Wallace,Annie,Daughter,B,F,16,none,,,,,1910 census ED 70 page 10
+64,1306,Howard Street,Wallace,Minnie,Daughter,B,F,15,none,Rent,,House,,1910 census ED 70 page 10
+65,1306,Howard Street,Wallace,Waller,Son,B,M,19,Cook at Restaurant ,,,,First name,1910 census ED 70 page 10
+66,1306,Howard Street,Wallace,Henry,Son,B,M,13,none ,,,,,1910 census ED 70 page 10
+67,1306,Howard Street,Wallace,Earnest,Son,B,M,10,none,,,,,1910 census ED 70 page 10
+68,1306,Howard Street,Wallace,Corine,Daughter,B,F,2,none,,,,First name,1910 census ED 70 page 10
+69,1308,Howard Street,Springfield,Louise,Head,B,F,30,Laundress at Laundry,Rent ,,House,,1910 census ED 70 page 10
+70,1308,Howard Street,Springfield,Willie,Brother,B,M,27,Laborer at City,,,,,1910 census ED 70 page 10
+71,1310,Howard Street,Anderson,James,Head,B,M,58,Sampler at Cotton,House,,Rent,,1910 census ED 70 page 10
+72,1310,Howard Street,Anderson,Ida,Wife,B,F,38,none,,,,,1910 census ED 70 page 10
+73,1312,Howard Street,Davis,Georgia,Head,B,M,33,Cook at ?,?,,House,different markings ,1910 census ED 70 page 10
+74,1312,Howard Street,Davis,Ada,Wife?,B,F,15,none ,,,,erasure markings,1910 census ED 70 page 10
+75,1312,Howard Street,Davis,Lilie,Daughter?,B,F,13,none,,,,erasure markings,1910 census ED 70 page 10
+76,1314,Howard Street,Warren,Averie,Head,B,F,27,Teacher at school,Rent ,,House,,1910 census ED 70 page 10
+77,1316,Howard Street,Akins,John,Head,B,M,19,Porter at General,Rent ,,House,,1910 census ED 70 page 10
+78,1318,Howard Street,Kuglendale,Ida,Head,B,F,41,Laundress at home,Rent,,House,,1910 census ED 70 page 10
+79,1320,Howard Street,Edwards,Matthew,Head,B,M,58,Carpenter at Builder,Rent,,House,,1910 census ED 70 page 10
+80,1320,Howard Street,Edwards,Mollie,Wife,B,F,38,none,,,,,1910 census ED 70 page 10
+81,1410,Howard Street,Collins,John,Head ,B,M,40,Grave digger at Cemetery,Rent,,House,,1910 census ED 70 page 10
+82,1410,Howard Street,Collins,Cornelia,Wife,B,F,38,none,,,,,1910 census ED 70 page 10
+83,1412,Howard Street,Carter,John,Head,B,M,40,Barber at shop,Rent,,House,,1910 census ED 70 page 10
+84,803,Timpson Street,Davis,Nina,Head,B,F,60,Laundress at Laundry,Rent,,House,,1910 census ED 70 page 10
+85,803,Timpson Street,Sevau,Lizzie,Daughter,B,F,32,Laundress at Laundry,,,,,1910 census ED 70 page 10
+86,803,Timpson Street,Sevau,Robert,Grandson,B,M,18,Laborer at Brick Yard,,,,,1910 census ED 70 page 10
+87,801,Timpson Street,Smith,Katy,Head,B,F,52,Laundress at Laundry,Owned,,House,,1910 census ED 70 page 10
+88,720,Timpson Street,McCloud,Mollie,Head,W,F,42,?,Owned,,House,,1910 census ED 70 page 10
+89,720,Timpson Street,McCloud,Hallie,Daughter,W,F,21,Librarian at Library,,,,,1910 census ED 70 page 10
+90,720,Timpson Street,McCloud,Willie,Daughter,W,F,17,Clerk at Meat Company,,,,,1910 census ED 70 page 10
+91,720,Timpson Street,McCloud,Alonzo,Son,W,M,15,Apprentice at Carriage Shop,,,,,1910 census ED 70 page 10
+92,720,Timpson Street,McCloud,Albers,Son,W,M,13,none,,,,,1910 census ED 70 page 10
+93,1315,Chambers Street,Harris,Boid,Head,B,M,28,Laborer at Concrete Company,Rent,,House,,1910 census ED 70 page 10
+94,1315,Chambers Street,Harris,Dalla,Wife,B,F,25,Laundress at home,,,,,1910 census ED 70 page 10
+95,1315,Chambers Street,McCrea,Sara,Stepdaughter,B,F,17,Laundress at home,,,,,1910 census ED 70 page 10
+96,1313,Chambers Street,Sheppard,Arthur,Head,B,M,38,Laborer at Gas company,Rent,,House,,1910 census ED 70 page 10
+97,1313,Chambers Street,Sheppard,Marry,Wife,B,F,21,none,,,,,1910 census ED 70 page 10
+98,1313,Chambers Street,Sheppard,George,Son ,B,M,?,none,,,,age,1910 census ED 70 page 10
+99,1311,Chambers Street,White,Washington,Head,B,M,42,?,Rent,,House,occupation,1910 census ED 70 page 10
+100,1311,Chambers Street,White,Mattie,Wife,B,F,38,none,,,,,1910 census ED 70 page 10
+1,1311,Chambers Street,White,James ,Son,B,M,16,Elevator Boy at ?,,,,location,1910 census ED 70 page 11
+2,1311,Chambers Street,White,George,Son ,B,M,15,none,,,,,1910 census ED 70 page 11
+3,1311,Chambers Street,White,Joseph,Son,B,M,10,none,,,,,1910 census ED 70 page 11
+4,1311,Chambers Street,White,Annie,Daughter,B,F,4,none,,,,,1910 census ED 70 page 11
+5,1309,Chambers Street,Woods,Davis,Head,B,M,29,Laborer at ?,Rent,,House,location,1910 census ED 70 page 11
+6,1309,Chambers Street,Woods,Carrie,Wife,B,F,30,none,,,,,1910 census ED 70 page 11
+7,1309,Chambers Street,Jackson,Haley,Sister in Law?,B,F,33,Cook at Private home,,,,relation,1910 census ED 70 page 11
+8,1309,Chambers Street,Johnson,Jessie,Neice,B,F,2,none,,,,,1910 census ED 70 page 11
+9,1309,Chambers Street,Johnson,Easie,Neice,B,F,7 months,none,,,,,1910 census ED 70 page 11
+10,1307,Chambers Street,Gibbons,Matilda,Head,B,F,33,Cook at Private home,Rent,,House,,1910 census ED 70 page 11
+11,1310,Chambers Street,Pallin,Lewis,Head,B,M,39,Trucker at ?,Rent,,House,location,1910 census ED 70 page 11
+12,1310,Chambers Street,Pallin,Annie,Wife,B,F,40,none,,,,,1910 census ED 70 page 11
+13,1304,Chambers Street,Robinson,Celiste,Head,B,F,18,Cook at Private home,Rent,,House,,1910 census ED 70 page 11
+14,1304,Chambers Street,Robinson,Alivia,Daughter,B,F,1,none,,,,,1910 census ED 70 page 11
+15,1304,Chambers Street,Robinson,Estella,Sister,B,F,28,Laundress at home,,,,,1910 census ED 70 page 11
+16,1304,Chambers Street,Robinson,Jona,Sister,B,F,15,Maid at Private Home,,,,,1910 census ED 70 page 11
+17,1304,Chambers Street,Robinson,Binnie,Sister,B,F,12,none,,,,,1910 census ED 70 page 11
+18,1304,Chambers Street,Robinson,Harte,Sister,B,F,24,Cook at Private home,,,,,1910 census ED 70 page 11
+19,1304,Chambers Street,Robinson,Sharpe,Brother,B,M,17,Driver at ?,,,,location,1910 census ED 70 page 11
+20,1305,Chambers Street,Kuhendall,Mary,Head,B,F,42,Laundress at home,Rent,,House,,1910 census ED 70 page 11
+21,1305,Chambers Street,Kuhendall,Carrie,Sister,B,F,42,Laundress at home ,,,,,1910 census ED 70 page 11
+22,1305,Chambers Street,Trois,Louis,Nephew,B,M,10,none,,,,,1910 census ED 70 page 11
+23,812,Lamb Street,Harris ,Adam,Head,B,M,35,Driver at ?,Rent,,House,location,1910 census ED 70 page 11
+24,812,Lamb Street,Harris,Rebecca,Wife,B,F,26,none,,,,,1910 census ED 70 page 11
+25,812,Lamb Street,Harris,Alise,Daughter,B,F,5,none,,,,,1910 census ED 70 page 11
+26,812,Lamb Street,Harris,Sylvester,Son,B,M,2,none,,,,,1910 census ED 70 page 11
+27,812,Lamb Street,Samuel,Alise,Sister in Law,B,F,20,Dishwasher at YMCA,,,,,1910 census ED 70 page 11
+28,814,Lamb Street,Parlor,Vina,Head,B,F,32,Laundress at home,Rent,,House,,1910 census ED 70 page 11
+29,814,Lamb Street,Samuel,George,Boarder,B,M,30,Trucker at Rise Mill,,,,,1910 census ED 70 page 11
+30,814,Lamb Street,Fletcher,Eveanna,Boarder,B,F,16,Laundress at home,,,,,1910 census ED 70 page 11
+31,816,Lamb Street,Baker,John W.,Head,B,M,47,Laborer at ? Company,Rent,,House,,1910 census ED 70 page 11
+32,816,Lamb Street,Beuster,Clemmon,Boarder?,B,M,40,Bricklayer at Buildings,,,,strange marks,1910 census ED 70 page 11
+33,816,Lamb Street,Beuster,Eva,Boarder?,B,F,35,none,,,,strange marks,1910 census ED 70 page 11
+34,816,Lamb Street,Stuart,Elijah,Boarder?,B,M,28,Laborer at funeral,,,,strange marks,1910 census ED 70 page 11
+35,816,Lamb Street,Stuart,Lizzie,Boarder?,B,F,27,none,,,,strange marks,1910 census ED 70 page 11
+36,816,Lamb Street,Stuart,Ninnie,Boarder,B,F,3,none ,,,,,1910 census ED 70 page 11
+37,1201,Howard Street,Moore,James,Head,B,M,50,Carpenter at Buildings,Owned,,House,,1910 census ED 70 page 11
+38,1201,Howard Street,Moore,Millie,Wife,B,F,40,none,,,,,1910 census ED 70 page 11
+39,1201,Howard Street,Anthony,Mose,Brother in Law,B,M,40,? At city,,,,occupation,1910 census ED 70 page 11
+40,1201,Howard Street,Moare,Mallis,Mother in Law,B,F,69,none,,,,,1910 census ED 70 page 11
+41,1207,Howard Street,Walker,Susie,Head ,B,F,55,Laundress at home,Rent ,,House,,1910 census ED 70 page 11
+42,1207,Howard Street,Walker,Julia,Daughter ,B,F,25,Laundress at home,,,,,1910 census ED 70 page 11
+43,1207,Howard Street,Walker,Lunation,Son,B,M,22,Laborer at ? Company,,,,,1910 census ED 70 page 11
+44,1209,Howard Street,Smith,Fannie,Head,B,M,34,Laundress at home,Rent,,House,,1910 census ED 70 page 11
+45,1209,Howard Street,Smith,Florence,Daughter,B,F,17,Laundress at home,,,,,1910 census ED 70 page 11
+46,1209,Howard Street,Smith,Alberta,Daughter,B,F,13,none,,,,,1910 census ED 70 page 11
+47,1209,Howard Street,Smith,Lowry,Son,B,M,8,none,,,,,1910 census ED 70 page 11
+48,1209,Howard Street,Smith,Clifford,Son,B,M,3,none,,,,,1910 census ED 70 page 11
+49,1209,Howard Street,Chessborough,Jana,Father,B,M,57,Janitor at school,,,,,1910 census ED 70 page 11
+50,1209,Howard Street,Jones,James,Boarder,B,M,30,?,,,,occupation and location,1910 census ED 70 page 11
+51,1211,Howard Street,Roach,Bessie,Head,B,F,64,Dressmaker at Home,Rent,,House,,1910 census ED 70 page 12
+52,1211,Howard Street,Roach,Mary,Daughter,B,F,32,Dressmaker at Home,,,,,1910 census ED 70 page 12
+53,1211,Howard Street,Roach,Patrick,Son,B,M,29,Blacksmith at shop,,,,,1910 census ED 70 page 12
+54,1211,Howard Street,Smith,Laura,Granddaughter,B,F,19,Dressmaker at Home,,,,,1910 census ED 70 page 12
+55,1215,Howard Street,McMcCrea,Mima,Head,B,F,56,Nurse at Private Home,Rent,,House,,1910 census ED 70 page 12
+56,1215,Howard Street,McMcCrea,Willie,Son,B,M,26,Driver at Transfer Company,,,,,1910 census ED 70 page 12
+57,1311,Howard Street,Salter,John,Head,B,M,45,Hide Haudler at Leather Company,Owned,,House,,1910 census ED 70 page 12
+58,1311,Howard Street,Richardson,Hattie,Mother,B,F,65,none,,,,,1910 census ED 70 page 12
+59,1311,Howard Street,Hiks,Martha,Sewart?,B,F,31,Housekeeper at Private House,,,,,1910 census ED 70 page 12
+60,1411,Howard Street,Tardt,Josper,Head,W,M,45,Vegetable at Land,Rent,,House,,1910 census ED 70 page 12
+61,1411,Howard Street,Tardt,Nicholas,Son,W,M,11,none,,,,,1910 census ED 70 page 12
+62,1411,Howard Street,Tardt,Joseph,Son,W,M,10,none,,,,,1910 census ED 70 page 12
+63,1411,Howard Street,Tardt,Kelly,Son,W,M,8,none,,,,,1910 census ED 70 page 12
+64,1411,Howard Street,Nat,Tardo,Cousin,W,M,39,Laborer at City,,,,,1910 census ED 70 page 12
+65,1413,Howard Street,Giveirs,Williams,Head,B,M,38,Express at Transfer Company,Owned,,House,,1910 census ED 70 page 12
+66,1413,Howard Street,Giveirs,Amanda,Wife,B,F,35,none ,,,,,1910 census ED 70 page 12
+67,1413,Howard Street,Giveirs,Williams,Son,B,M,15,none ,,,,,1910 census ED 70 page 12
+68,1413,Howard Street,Giveirs,Nelson,Son,B,M,13,none ,,,,,1910 census ED 70 page 12
+69,1413,Howard Street,Giveirs,Heslie,Daughter,B,F,12,none ,,,,,1910 census ED 70 page 12
+70,1413,Howard Street,Giveirs,Fielder,Son,B,M,10,none ,,,,,1910 census ED 70 page 12
+71,1413,Howard Street,Giveirs,Walker,Son,B,M,7,none ,,,,,1910 census ED 70 page 12
+72,903,Timpson Street,Slydell,Nathan,Head,B,M,35,Laborer at Rail Road,Rent,,House,,1910 census ED 70 page 12
+73,903,Timpson Street,Slydell,Mathilda,Wife,B,F,34,none,,,,,1910 census ED 70 page 12
+74,903,Timpson Street,Brady,Josephine,Daughter,B,F,20,none,,,,,1910 census ED 70 page 12
+75,903,Timpson Street,Brady,Lucille,Boarder,B,F,27,Maid at Private House,,,,,1910 census ED 70 page 12
+76,909,Timpson Street,Jones,Amelia,Head,B,F,24,Housekeeper at Private House,Rent,,House,,1910 census ED 70 page 12
+77,909,Timpson Street,Clark,Clifton,Brother,B,M,18,Porter at Barber Shop,,,,,1910 census ED 70 page 12
+78,909,Timpson Street,Taylor,Williams,Cousin,B,M,19,Trucker at Rise Mill,,,,,1910 census ED 70 page 12
+79,909,Timpson Street,Johnson,Oliver,Boarder,B,M,20,Porter at Salon,,,,,1910 census ED 70 page 12
+80,911,Timpson Street,Martin ,Liltur,Head,B,F,24,Keeper at Private House,Rent,,House,,1910 census ED 70 page 12
+81,911,Timpson Street,Miller,Franny,Boarder,B,F,25,Laundress at home,,,,,1910 census ED 70 page 12
+82,911,Timpson Street,Lawson ,Amanda,Boarder,B,F,20,Laundress at home,,,,,1910 census ED 70 page 12
+83,913,Timpson Street,Wright,Joesphine,Head,B,F,23,Laundress at home,Rent,,House,,1910 census ED 70 page 12
+84,913,Timpson Street,Leonard,Carrie,Cousin,B,F,16,none,,,,,1910 census ED 70 page 12
+85,913,Timpson Street,Matthews,Lulu,Cousin,B,F,16,none,,,,,1910 census ED 70 page 12
+86,913,Timpson Street,Bailey,Walter,Cousin,B,M,13,none,,,,,1910 census ED 70 page 12
+87,913,Timpson Street,Matthews,Dannie,Cousin,B,M,10,none,,,,,1910 census ED 70 page 12
+88,913,Timpson Street,Leonard,Eugene,Cousin,B,M,7,none,,,,,1910 census ED 70 page 12
+89,914,Timpson Street,Johnson,Tillie,Head,B,F,31,Dressmaker at Home,Rent,,House,,1910 census ED 70 page 12
+90,914,Timpson Street,Johnson,Ethel,Daughter,B,F,10,none,,,,,1910 census ED 70 page 12
+91,914,Timpson Street,Wright,Julia,Boarder,B,F,70,?,,,,,1910 census ED 70 page 12
+92,1106,San Felipe Road,Fox,Robert,Head,B,M,28,Waiter at Café,Rent,,House,,1910 census ED 70 page 12
+93,1106,San Felipe Road,Fox,Anna,Wife,B,F,25,none,,,,,1910 census ED 70 page 12
+94,1106,San Felipe Road,Fox,Jessie,Daughter,B,F,1,none,,,,,1910 census ED 70 page 12
+95,1108,San Felipe Road,Burch,George,Head,B,M,50,Laborer at Brick Yard,Rent,,House,,1910 census ED 70 page 12
+96,1108,San Felipe Road,Burch,Rebecca,Wife,B,F,49,none,,,,,1910 census ED 70 page 12
+97,1108,San Felipe Road,Masiey,Ellas,Boarder,B,F,26,Cook at Private home,,,,,1910 census ED 70 page 12
+98,1108,San Felipe Road,Wesley,John,Boarder,B,M,20,Laborer at Rail Road,,,,,1910 census ED 70 page 12
+99,1108,San Felipe Road,Edwards,Edward,Boarder,B,M,22,Laborer at ?,,,,,1910 census ED 70 page 12
+100,1108,San Felipe Road,Smith,Frank,Boarder,B,M,19,Laborer at several ,,,,,1910 census ED 70 page 12
+1,1108,San Felipe Road,Starks,Melissa,Head,B,F,40,Laundress at home,Rent,,House,,1910 census ED 70 page 13
+2,1108,San Felipe Road,Starks,Lewis,Son,B,M,23,Farming at Farm,,,,,1910 census ED 70 page 13
+3,1108,San Felipe Road,Newton,Markis,Boarder,B,M,32,Janitor at armory,,,,,1910 census ED 70 page 13
+4,1108,San Felipe Road,Newton,James,Boarder,B,M,22,Laborer at Travis Company,,,,,1910 census ED 70 page 13
+5,1108,San Felipe Road,Newton,Bessie,Boarder,B,F,20,none,,,,,1910 census ED 70 page 13
+6,1108,San Felipe Road,Newton,Benny,Boarder,B,M,5 months,none,,,,,1910 census ED 70 page 13
+7,1108,San Felipe Road,Thompson,Ruth,Boarder,B,F,6,none,,,,,1910 census ED 70 page 13
+8,1110,San Felipe Road,Chapelle,Thomas,Head,B,M,50,Farming at Farm,Rent ,,House,,1910 census ED 70 page 13
+9,1110,San Felipe Road,Chapelle,Lizzie,Wife,B,F,50,none,,,,,1910 census ED 70 page 13
+10,1110,San Felipe Road,Chapelle,Mallie,Daughter,B,F,15,none,,,,,1910 census ED 70 page 13
+11,1110,San Felipe Road,Waller,Susie,Daughter,B,F,20,Maid at Private House,,,,,1910 census ED 70 page 13
+12,1112,San Felipe Road,Binny,Molly,Head,B,F,30,Dressmaker at Home,Rent ,,House,,1910 census ED 70 page 13
+13,1112,San Felipe Road,Jackson,Maurie,Boarder,B,F,40,Porter at several,,,,,1910 census ED 70 page 13
+14,1114,San Felipe Road,Gillian,James,Head,B,M,36,Laborer at several,Rent ,,House,,1910 census ED 70 page 13
+15,1114,San Felipe Road,Gillian,Minnie,Wife,B,F,34,none,,,,,1910 census ED 70 page 13
+16,1114,San Felipe Road,Gillian,Thomas,Brother,B,M,30,Laborer at several,,,,,1910 census ED 70 page 13
+17,1116,San Felipe Road,Jones,Willie,Head,B,M,30,Porter at hotel,Rent,,House,,1910 census ED 70 page 13
+18,1116,San Felipe Road,Jones,Etheal,Wife,B,F,28,none,,,,,1910 census ED 70 page 13
+19,913,Lyons Street,Ward,Lee,Head,B,M,40,Laborer at Brick Yard,Rent,,House,,1910 census ED 70 page 13
+20,913,Lyons Street,Ward,Minnie,Wife,B,F,38,none,,,,,1910 census ED 70 page 13
+21,913,Lyons Street,Harris,Rachel,Boarder,B,F,27,Cook at Private home,,,,,1910 census ED 70 page 13
+22,913,Lyons Street,Scott,Robert ,Boarder,B,M,20,Yard man at priuvate house,,,,,1910 census ED 70 page 13
+23,911,Lyons Street,Laws,Charles,Head,B,M,29,Laborer at Packing Company,Rent,,House,,1910 census ED 70 page 13
+24,911,Lyons Street,Laws,Getuira,Wife,B,F,27,Dressmaker at Home,,,,,1910 census ED 70 page 13
+25,909,Lyons Street,Barton,Lusiuda,Head,B,F,70,Own ?,Rent,,House,,1910 census ED 70 page 13
+26,909,Lyons Street,Hillis,Jack,Son in law,B,M,50,Caterer at club,,,,,1910 census ED 70 page 13
+27,909,Lyons Street,Hillis,Martha,Daughter,B,F,54,Laundress at home,,,,,1910 census ED 70 page 13
+28,909,Lyons Street,Hillis,Roland,Grandson,B,M,16,none,,,,,1910 census ED 70 page 13
+29,907,Lyons Street,Robinson,Edward,Head,B,M,38,Laborer at building,Rent,,House,,1910 census ED 70 page 13
+30,907,Lyons Street,Robinson,Rachel,Wife,B,F,36,none,,,,,1910 census ED 70 page 13
+31,907,Lyons Street,Robinson,Edna,Child,B,F,3,none,,,,,1910 census ED 70 page 13
+32,905,Lyons Street,Jones,Lizzie,Head,B,M,44,Cook at Private home,Rent,,House,,1910 census ED 70 page 13
+33,905,Lyons Street,Jones,Rosalie,Daughter,B,F,23,Laundress at home,,,,,1910 census ED 70 page 13
+34,910,Lyons Street,Suives,Edward,Head,B,M,33,Laborer at Brick Yard,Rent,,House,,1910 census ED 70 page 13
+35,910,Lyons Street,Suives,Agnes,Wife,B,F,29,none,,,,,1910 census ED 70 page 13
+36,910,Lyons Street,Suives,Mattie,Daughter,B,F,10,none,,,,,1910 census ED 70 page 13
+37,910,Lyons Street,Suives,Hattie,Daughter,B,F,6,none,,,,,1910 census ED 70 page 13
+38,912,Lyons Street,Williams,Georgia,Head,B,F,29,Dressmaker at Home,,,,,1910 census ED 70 page 13
+39,1202,San Felipe Road,Cash,Luke,Head,W,M,62,Storekeeper at General Store,Owned,Free,House,,1910 census ED 70 page 13
+40,1202,San Felipe Road,Cash,Mary,Wife,W,F,50,none,,,,,1910 census ED 70 page 13
+41,1202,San Felipe Road,Cash,Luke J.,Son,W,M,13,none,,,,,1910 census ED 70 page 13
+42,1202,San Felipe Road,Cash,Charles,Son,W,M,24,Clerk at General Store,,,,,1910 census ED 70 page 13
+43,1202,San Felipe Road,Cash,Frauk,Son,W,M,22,Clerk at General Store,,,,,1910 census ED 70 page 13
+44,1202,San Felipe Road,Cash,Joseph,Son,W,M,20,Clerk at General Store,,,,,1910 census ED 70 page 13
+45,1202,San Felipe Road,Cash,John,Son,W,M,17,none,,,,,1910 census ED 70 page 13
+46,1202,San Felipe Road,Cash,Lee,Son,W,M,11,none,,,,,1910 census ED 70 page 13
+47,1202,San Felipe Road,Cash,Saw,Son,W,M,10,none,,,,,1910 census ED 70 page 13
+48,1202,San Felipe Road,Cortiniana,Christopher,Nephew,W,M,7,none,,,,,1910 census ED 70 page 13
+49,1202,San Felipe Road,Friedelle,Mary,Niece,W,F,17,none,,,,,1910 census ED 70 page 13
+50,1204,San Felipe Road,Chappell,John,Head,B,M,36,Laborer at Brick Yard,Rent,,House,,1910 census ED 70 page 13
+51,1204,San Felipe Road,Chappell,Deliu,Wife ,B,F,39,none,,,,,1910 census ED 70 page 14
+52,1204,San Felipe Road,Montgomery,Samuel,Boarder,B,M,28,Laborer at Rail Road,,,,,1910 census ED 70 page 14
+53,1206,San Felipe Road,Robinson,Lorenzo,Head,B,M,50,Laborer at Rail Road,Rent,,House,,1910 census ED 70 page 14
+54,1206,San Felipe Road,Robinson,Mattie,Wife,B,F,44,none,,,,,1910 census ED 70 page 14
+55,1206,San Felipe Road,Robinson,Flannard,Son,B,M,18,Caddie at Golf Field,,,,,1910 census ED 70 page 14
+56,1206,San Felipe Road,Robinson,Joseph L.,Son,B,M,16,Caddie at Golf Field,,,,,1910 census ED 70 page 14
+57,1210,San Felipe Road,Jones,Leau,Head,B,F,39,Laundress at home,Rent,,House,,1910 census ED 70 page 14
+58,1210,San Felipe Road,Jones,Carrie,Daughter,B,F,20,Laundress at home,,,,,1910 census ED 70 page 14
+59,1210,San Felipe Road,Jones,Charlie,Brother,B,M,29,Waiter at Hotel,,,,,1910 census ED 70 page 14
+60,1212,San Felipe Road,Washington,Lillie,Head,B,M,30,Laborer at street,Rent,,House,,1910 census ED 70 page 14
+61,1212,San Felipe Road,Washington,Tillie,Wife,B,F,28,none,,,,,1910 census ED 70 page 14
+62,1214,San Felipe Road,Shelby,Suzzy,Head,B,F,30,Dressmaker at Home,Rent,,House,,1910 census ED 70 page 14
+63,1216,San Felipe Road,Hick,Charles,Head,B,M,50,Salesman at Charcoal,Rent,,House,,1910 census ED 70 page 14
+64,1216,San Felipe Road,Hick,Annie,Wife ,B,F,40,none,,,,,1910 census ED 70 page 14
+65,1216,San Felipe Road,Hick,Betram,Son,B,M,16,none,,,,,1910 census ED 70 page 14
+66,1216,San Felipe Road,Hick,Willie,Son,B,M,12,none,,,,,1910 census ED 70 page 14
+67,1216,San Felipe Road,Hick,Albino,Daughter,B,F,14,none,,,,,1910 census ED 70 page 14
+68,1218,San Felipe Road,Lobler,Emma,Head,B,F,44,Laundress at home,Rent,,House,,1910 census ED 70 page 14
+69,1218,San Felipe Road,Lobler,Beaujames,Son,B,M,24,Porter at Private home,,,,,1910 census ED 70 page 14
+70,1220,San Felipe Road,Hudson,Jane,Head,B,F,50,Laundress at home,Rent,,House,,1910 census ED 70 page 14
+71,1220,San Felipe Road,Hudson,Ben,Son,B,M,12,none,,,,,1910 census ED 70 page 14
+72,1220,San Felipe Road,Jackson,William,Boarder,B,M,50,Laborer at several,,,,,1910 census ED 70 page 14
+73,1220,San Felipe Road,Jackson,Lize,Boarder,B,F,13,none,,,,,1910 census ED 70 page 14
+74,1220,San Felipe Road,Jackson,Allen,Boarder,B,M,11,none,,,,,1910 census ED 70 page 14
+75,1220,San Felipe Road,Jackson,Thomas,Boarder,B,M,10,none,,,,,1910 census ED 70 page 14
+76,1302,San Felipe Road,Plazzo,Samuel,Head,W,M,25,Merchant at Grocery,Rent,,House,,1910 census ED 70 page 14
+77,1302,San Felipe Road,Plazzo,Carrie,Wife,W,F,24,none,,,,,1910 census ED 70 page 14
+78,1302,San Felipe Road,Plazzo,Neta,Daughter,W,F,2,none,,,,,1910 census ED 70 page 14
+79,1302,San Felipe Road,Plazzo,Lusy,Daughter,W,F,1,none,,,,,1910 census ED 70 page 14
+80,1302,San Felipe Road,Plazzo,Mary,Daughter,W,F,3 months,none,,,,,1910 census ED 70 page 14
+81,1302,San Felipe Road,Pretelrand,Samuel,Head,W,M,34,Undertaker at Shop,Rent,,House,,1910 census ED 70 page 14
+82,1302,San Felipe Road,Pretelrand,Versie,Wife,W,F,37,none,,,,,1910 census ED 70 page 14
+83,1302,San Felipe Road,Pretelrand,Laura,Daughter,W,F,16,none,,,,,1910 census ED 70 page 14
+84,1302,San Felipe Road,Pretelrand,Stonewall,Son,W,M,15,none,,,,,1910 census ED 70 page 14
+85,1302,San Felipe Road,Pretelrand,Lancelot,Son,W,M,14,none,,,,,1910 census ED 70 page 14
+86,1302,San Felipe Road,Moins,Charles,Cousin,W,M,21,Barber at shop,,,,,1910 census ED 70 page 14
+87,1306,San Felipe Road,Johnson,Lusy,Head,B,F,37,Laundress at Private home,Rent,,House,,1910 census ED 70 page 14
+88,1306,San Felipe Road,Matihill,Hesler,Niece,B,F,11,none,,,,,1910 census ED 70 page 14
+89,1306,San Felipe Road,Hood,Daniel,Boarder,B,M,31,Laborer at Rail Road,,,,,1910 census ED 70 page 14
+90,1308,San Felipe Road,Johnson,James,Head,B,M,27,Farming at Farm,Rent,,House,,1910 census ED 70 page 14
+91,1308,San Felipe Road,Johnson,Louise,Wife,B,F,21,none,,,,,1910 census ED 70 page 14
+92,1308,San Felipe Road,Thomas,Posey,Father in law,B,M,40,Laborer at Rail Road,,,,,1910 census ED 70 page 14
+93,1308,San Felipe Road,Thomas,Mary,Mother in law,B,F,35,none,,,,,1910 census ED 70 page 14
+94,1308,San Felipe Road,Thomas,Willie,Son in law,B,M,19,Farming at Farm,,,,,1910 census ED 70 page 14
+95,1310,San Felipe Road,Gliser,Ella,Head ,B,F,38,Laborer at several,Rent,,House,,1910 census ED 70 page 14
+96,1310,San Felipe Road,Gliser,Alvin,Daughter,B,F,15,none,,,,,1910 census ED 70 page 14
+97,1310,San Felipe Road,Gliser,Alina,Daughter,B,F,15,none,,,,,1910 census ED 70 page 14
+98,1310,San Felipe Road,Smith,James,Boarder,B,M,22,Porter at Salon,,,,,1910 census ED 70 page 14
+99,1310,San Felipe Road,Robinson,Teddie,Boarder,B,M,27,Yard man at private house,,,,,1910 census ED 70 page 14
+100,1310,San Felipe Road,Foster,Frank,Boarder,B,M,26,Laborer at several ,,,,,1910 census ED 70 page 14
+1,1312,San Felipe Road,,,,,,,laborer at city ,,,,,1910 census ED 70 page 15
+2,1312,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+3,1312,San Felipe Road,,,,,,,cook at private house,,,,,1910 census ED 70 page 15
+4,1312,San Felipe Road,,,,,,,cook at private house,,,,,1910 census ED 70 page 15
+5,1312,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+6,1312,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+7,1312,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+8,1314,San Felipe Road,,,,,,,Electrician at telephone co.,,,,,1910 census ED 70 page 15
+9,1314,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+10,1314,San Felipe Road,,,,,,,electrician at telephone co.,,,,,1910 census ED 70 page 15
+11,1314,San Felipe Road,,,,,,,porter at furniture,,,,,1910 census ED 70 page 15
+12,1314,San Felipe Road,,,,,,,porter at furniture,,,,,1910 census ED 70 page 15
+13,1314,San Felipe Road,,,,,,,driver at wagon,,,,,1910 census ED 70 page 15
+14,1316,San Felipe Road,,,,,,,salesman at produce,,,,,1910 census ED 70 page 15
+15,1316,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+16,1316,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+17,1318,San Felipe Road,,,,,,,blacksmith at shop,,,,,1910 census ED 70 page 15
+18,1318,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+19,1402,San Felipe Road,,,,,,,Merchant at Grocery,,,,,1910 census ED 70 page 15
+20,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+21,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+22,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+23,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+24,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+25,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+26,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+27,1402,San Felipe Road,,,,,,,merchant at Groceries,,,,,1910 census ED 70 page 15
+28,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+29,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+30,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+31,1402,San Felipe Road,,,,,,,salesman at macaroni,,,,,1910 census ED 70 page 15
+32,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+33,1402,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+34,1402,San Felipe Road,,,,,,,butcher at shop,,,,,1910 census ED 70 page 15
+35,1404,San Felipe Road,,,,,,,clerk at store,,,,,1910 census ED 70 page 15
+36,1404,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+37,1404,San Felipe Road,,,,,,,barber at shop,,,,,1910 census ED 70 page 15
+38,1404,San Felipe Road,,,,,,,janitor at ?,,,,,1910 census ED 70 page 15
+39,1404,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+40,1410,San Felipe Road,,,,,,,barber at shop,,,,,1910 census ED 70 page 15
+41,1410,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+42,1410,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+43,1410,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+44,1410,San Felipe Road,,,,,,,laundress at private house,,,,,1910 census ED 70 page 15
+45,1414,San Felipe Road,,,,,,,driver at dirt wagon,,,,,1910 census ED 70 page 15
+46,1414,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+47,1414,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+48,1414,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+49,1414,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+50,1414,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 15
+51,1416,San Felipe Road,,,,,,,dressmaker at house,,,,,1910 census ED 70 page 16
+52,1418,San Felipe Road,,,,,,,driver at paint shop,,,,,1910 census ED 70 page 16
+53,1418,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+54,1420,San Felipe Road,,,,,,,laundress at laundry,,,,,1910 census ED 70 page 16
+55,1420,San Felipe Road,,,,,,,housekeeper at private house,,,,,1910 census ED 70 page 16
+56,1420,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+57,1420,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+58,1420,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+59,1420,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+60,912,Bailey Street,,,,,,,laundress at house,,,,,1910 census ED 70 page 16
+61,912,Bailey Street,,,,,,,laborer at building,,,,,1910 census ED 70 page 16
+62,912,Bailey Street,,,,,,,laundress at home,,,,,1910 census ED 70 page 16
+63,910,Bailey Street,,,,,,,laborer at general,,,,,1910 census ED 70 page 16
+64,910,Bailey Street,,,,,,,none,,,,,1910 census ED 70 page 16
+65,910,Bailey Street,,,,,,,none,,,,,1910 census ED 70 page 16
+66,908,Bailey Street,,,,,,,carpenter at buildings,,,,,1910 census ED 70 page 16
+67,908,Bailey Street,,,,,,,none,,,,,1910 census ED 70 page 16
+68,908,Bailey Street,,,,,,,none,,,,,1910 census ED 70 page 16
+69,908,Bailey Street,,,,,,,driver at dirtwagon,,,,,1910 census ED 70 page 16
+70,906,Bailey Street,,,,,,,plumber at city,,,,,1910 census ED 70 page 16
+71,906,Bailey Street,,,,,,,maid at private house,,,,,1910 census ED 70 page 16
+72,906,Bailey Street,,,,,,,cook at private house,,,,,1910 census ED 70 page 16
+73,908,Bailey Street,,,,,,,well digger at wells,,,,,1910 census ED 70 page 16
+74,908,Bailey Street,,,,,,,none,,,,,1910 census ED 70 page 16
+75,902,Bailey Street,,,,,,,laborer at general,,,,,1910 census ED 70 page 16
+76,902,Bailey Street,,,,,,,none,,,,,1910 census ED 70 page 16
+77,1600,San Felipe Road,,,,,,,wiper at engines,,,,,1910 census ED 70 page 16
+78,1600,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+79,1802,San Felipe Road,,,,,,,own ?,,,,,1910 census ED 70 page 16
+80,1802,San Felipe Road,,,,,,,clerk at rail road,,,,,1910 census ED 70 page 16
+81,1802,San Felipe Road,,,,,,,clerk at rail road,,,,,1910 census ED 70 page 16
+82,1802,San Felipe Road,,,,,,,stenographer at law,,,,,1910 census ED 70 page 16
+83,1802,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+84,1802,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+85,1806,San Felipe Road,,,,,,,comm ?,,,,,1910 census ED 70 page 16
+86,1806,San Felipe Road,,,,,,,packer at packing co,,,,,1910 census ED 70 page 16
+87,1806,San Felipe Road,,,,,,,canner at parbing co,,,,,1910 census ED 70 page 16
+88,1800,San Felipe Road,,,,,,,carpenter at buildings,,,,,1910 census ED 70 page 16
+89,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+90,1800,San Felipe Road,,,,,,,carpenter at several,,,,,1910 census ED 70 page 16
+91,1800,San Felipe Road,,,,,,,painter at houses,,,,,1910 census ED 70 page 16
+92,1800,San Felipe Road,,,,,,,carpenter at houses,,,,,1910 census ED 70 page 16
+93,1800,San Felipe Road,,,,,,,laborer at brickyard,,,,,1910 census ED 70 page 16
+94,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+95,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+96,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+97,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+98,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+99,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+100,1800,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 16
+1,208,Busse Addition,,,,,,,retired,,,,,1910 census ED 70 page 17
+2,208,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+3,208,Busse Addition,,,,,,,dressmaking at home,,,,,1910 census ED 70 page 17
+4,208,Busse Addition,,,,,,,labelar at bottler,,,,,1910 census ED 70 page 17
+5,208,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+6,208,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+7,209,Busse Addition,,,,,,,laborer at sewer,,,,,1910 census ED 70 page 17
+8,209,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+9,209,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+10,209,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+11,209,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+12,209,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+13,209,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+14,210,Busse Addition,,,,,,,laborer at brickyard,,,,,1910 census ED 70 page 17
+15,210,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+16,210,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+17,210,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+18,210,Busse Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+19,211,Pullman Addition,,,,,,,porter at general,,,,,1910 census ED 70 page 17
+20,211,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+21,211,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+22,211,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+23,211,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+24,211,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+25,212,Pullman Addition,,,,,,,driver at brick wagon,,,,,1910 census ED 70 page 17
+26,212,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+27,212,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+28,212,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+29,213,Pullman Addition,,,,,,,laborer at brickyard,,,,,1910 census ED 70 page 17
+30,213,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+31,213,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+32,213,Pullman Addition,,,,,,,none,,,,,1910 census ED 70 page 17
+33,214,San Felipe Road,,,,,,,? at cemetery,,,,,1910 census ED 70 page 17
+34,214,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 17
+35,214,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 17
+36,214,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 17
+37,214,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 17
+38,214,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 17
+39,214,San Felipe Road,,,,,,,none,,,,,1910 census ED 70 page 17
+40,,,,,,,,,,,,,,1910 census ED 70 page 17
+41,,,,,,,,,,,,,,1910 census ED 70 page 17
+42,,,,,,,,,,,,,,1910 census ED 70 page 17
+43,,,,,,,,,,,,,,1910 census ED 70 page 17
+44,,,,,,,,,,,,,,1910 census ED 70 page 17
+45,,,,,,,,,,,,,,1910 census ED 70 page 17
+46,,,,,,,,,,,,,,1910 census ED 70 page 17
+47,,,,,,,,,,,,,,1910 census ED 70 page 17
+48,,,,,,,,,,,,,,1910 census ED 70 page 17
+49,,,,,,,,,,,,,,1910 census ED 70 page 17
+50,,,,,,,,,,,,,,1910 census ED 70 page 17
+1,,822,,,,,,,none,,,,,1910 census ED 70 page 2
+2,,822,,,,,,,none,,,,,1910 census ED 70 page 2
+3,,820,,,,,,,none,,,,,1910 census ED 70 page 2
+4,,820,,,,,,,none,,,,,1910 census ED 70 page 2
+5,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+6,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+7,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+8,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+9,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+10,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+11,,818,,,,,,,none,,,,,1910 census ED 70 page 2
+12,,816,,,,,,,none,,,,,1910 census ED 70 page 2
+13,,816,,,,,,,none,,,,,1910 census ED 70 page 2
+14,,814,,,,,,,none,,,,,1910 census ED 70 page 2
+15,,814,,,,,,,none,,,,,1910 census ED 70 page 2
+16,,812,,,,,,,none,,,,,1910 census ED 70 page 2
+17,,812,,,,,,,none,,,,,1910 census ED 70 page 2
+18,,812,,,,,,,none,,,,,1910 census ED 70 page 2
+19,,812,,,,,,,none,,,,,1910 census ED 70 page 2
+20,,812,,,,,,,none,,,,,1910 census ED 70 page 2
+21,,812,,,,,,,none,,,,,1910 census ED 70 page 2
+22,,812,,,,,,,musician at piano,,,,,1910 census ED 70 page 2
+23,,810,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+24,,810,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+25,,810,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+26,,808,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+27,,808,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+28,,808,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+29,,808,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+30,,808,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+31,,808,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+32,,804,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+33,,804,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+34,,804,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+35,,804,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+36,,804,Crosby Street,,,,,,none,,,,,1910 census ED 70 page 2
+37,,800,Hardcastle Street,,,,,,paster at church,,,,,1910 census ED 70 page 2
+38,,800,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+39,,800,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+40,,810,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+41,,810,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+42,,810,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+43,,810,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+44,,810,Hardcastle Street,,,,,,none,,,,,1910 census ED 70 page 2
+45,,847,Arthur Street,,,,,,none,,,,,1910 census ED 70 page 2
+46,,847,Arthur Street,,,,,,none,,,,,1910 census ED 70 page 2
+47,,845,Arthur Street,,,,,,none,,,,,1910 census ED 70 page 2
+48,,842,Arthur Street,,,,,,none,,,,,1910 census ED 70 page 2
+49,,842,Arthur Street,,,,,,none,,,,,1910 census ED 70 page 2
+50,,842,Arthur Street,,,,,,none,,,,,1910 census ED 70 page 2
+1,818,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+2,818,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+3,818,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+4,818,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+5,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+6,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+7,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+8,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+9,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+10,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+11,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+12,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+13,820,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+14,820,Hardcastle Street,,,,,,,musician at piano,,,,,1910 census ED 70 page 3
+15,822,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+16,822,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+17,822,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+18,822,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+19,822,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+20,821,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+21,821,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+22,821,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+23,821,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+24,821,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+25,821,Hardcastle Street,,,,,,,cook ,,,,,1910 census ED 70 page 3
+26,821,Hardcastle Street,,,,,,,porter,,,,,1910 census ED 70 page 3
+27,819,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+28,819,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+29,819,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+30,819,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+31,819,Hardcastle Street,,,,,,,musician at piano,,,,,1910 census ED 70 page 3
+32,819,Hardcastle Street,,,,,,,musician at piano,,,,,1910 census ED 70 page 3
+33,819,Hardcastle Street,,,,,,,porter ,,,,,1910 census ED 70 page 3
+34,819,Hardcastle Street,,,,,,,cook ,,,,,1910 census ED 70 page 3
+35,817,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+36,817,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+37,817,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+38,815,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+39,815,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+40,815,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+41,815,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+42,815,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+43,815,Hardcastle Street,,,,,,,none,,,,,1910 census ED 70 page 3
+44,825,Chamber Street,,,,,,,none,,,,,1910 census ED 70 page 3
+45,825,Chamber Street,,,,,,,none,,,,,1910 census ED 70 page 3
+46,825,Chamber Street,,,,,,,none,,,,,1910 census ED 70 page 3
+47,825,Chamber Street,,,,,,,none,,,,,1910 census ED 70 page 3
+48,825,Chamber Street,,,,,,,none,,,,,1910 census ED 70 page 3
+49,825,Chamber Street,,,,,,,none,,,,,1910 census ED 70 page 3
+50,825,Chamber Street,,,,,,,musician at piano,,,,,1910 census ED 70 page 3
+51,711,,,,,,,,none,,,,,1910 census ED 70 page 4
+52,711,,,,,,,,none,,,,,1910 census ED 70 page 4
+53,711,,,,,,,,none,,,,,1910 census ED 70 page 4
+54,812,,,,,,,,none,,,,,1910 census ED 70 page 4
+55,812,,,,,,,,none,,,,,1910 census ED 70 page 4
+56,812,,,,,,,,none,,,,,1910 census ED 70 page 4
+57,812,,,,,,,,none,,,,,1910 census ED 70 page 4
+58,802,,,,,,,,none,,,,,1910 census ED 70 page 4
+59,802,,,,,,,,none,,,,,1910 census ED 70 page 4
+60,802,,,,,,,,none,,,,,1910 census ED 70 page 4
+61,802,,,,,,,,none,,,,,1910 census ED 70 page 4
+62,802,,,,,,,,none,,,,,1910 census ED 70 page 4
+63,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+64,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+65,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+66,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+67,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+68,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+69,706,,,,,,,,none,,,,,1910 census ED 70 page 4
+70,702,,,,,,,,none,,,,,1910 census ED 70 page 4
+71,702,,,,,,,,none,,,,,1910 census ED 70 page 4
+72,702,,,,,,,,none,,,,,1910 census ED 70 page 4
+73,1116,,,,,,,,musician at piano,,,,,1910 census ED 70 page 4
+74,1116,,,,,,,,none,,,,,1910 census ED 70 page 4
+75,1116,,,,,,,,none,,,,,1910 census ED 70 page 4
+76,1116,,,,,,,,none,,,,,1910 census ED 70 page 4
+77,1117,,,,,,,,none,,,,,1910 census ED 70 page 4
+78,1117,,,,,,,,none,,,,,1910 census ED 70 page 4
+79,1117,,,,,,,,none,,,,,1910 census ED 70 page 4
+80,1117,,,,,,,,none,,,,,1910 census ED 70 page 4
+81,609,,,,,,,,none,,,,,1910 census ED 70 page 4
+82,609,,,,,,,,none,,,,,1910 census ED 70 page 4
+83,609,,,,,,,,laborer at rail road,,,,,1910 census ED 70 page 4
+84,609,,,,,,,,none,,,,,1910 census ED 70 page 4
+85,609,,,,,,,,none,,,,,1910 census ED 70 page 4
+86,609,,,,,,,,none,,,,,1910 census ED 70 page 4
+87,700,,,,,,,,none,,,,,1910 census ED 70 page 4
+88,701,,,,,,,,laundress at home,,,,,1910 census ED 70 page 4
+89,701,,,,,,,,none,,,,,1910 census ED 70 page 4
+90,704,,,,,,,,chauffer at automobile ,,,,,1910 census ED 70 page 4
+91,704,,,,,,,,none,,,,,1910 census ED 70 page 4
+92,712,,,,,,,,laborer at rail road,,,,,1910 census ED 70 page 4
+93,712,,,,,,,,none,,,,,1910 census ED 70 page 4
+94,714,,,,,,,,dressmaker at home,,,,,1910 census ED 70 page 4
+95,714,,,,,,,,none,,,,,1910 census ED 70 page 4
+96,714,,,,,,,,none,,,,,1910 census ED 70 page 4
+97,713,,,,,,,,none,,,,,1910 census ED 70 page 4
+98,713,,,,,,,,none,,,,,1910 census ED 70 page 4
+99,713,,,,,,,,none,,,,,1910 census ED 70 page 4
+100,713,,,,,,,,none,,,,,1910 census ED 70 page 4
+1,,,,,,,,,,,,,,1910 census ED 70 page 5
+2,,,,,,,,,,,,,,1910 census ED 70 page 5
+3,,,,,,,,,,,,,,1910 census ED 70 page 5
+4,,,,,,,,,,,,,,1910 census ED 70 page 5
+5,,,,,,,,,,,,,,1910 census ED 70 page 5
+6,,,,,,,,,,,,,,1910 census ED 70 page 5
+7,,,,,,,,,,,,,,1910 census ED 70 page 5
+8,,,,,,,,,,,,,,1910 census ED 70 page 5
+9,,,,,,,,,,,,,,1910 census ED 70 page 5
+10,,,,,,,,,,,,,,1910 census ED 70 page 5
+11,,,,,,,,,,,,,,1910 census ED 70 page 5
+12,,,,,,,,,,,,,,1910 census ED 70 page 5
+13,,,,,,,,,,,,,,1910 census ED 70 page 5
+14,,,,,,,,,,,,,,1910 census ED 70 page 5
+15,,,,,,,,,,,,,,1910 census ED 70 page 5
+16,,,,,,,,,,,,,,1910 census ED 70 page 5
+17,,,,,,,,,,,,,,1910 census ED 70 page 5
+18,,,,,,,,,,,,,,1910 census ED 70 page 5
+19,,,,,,,,,,,,,,1910 census ED 70 page 5
+20,,,,,,,,,,,,,,1910 census ED 70 page 5
+21,,,,,,,,,,,,,,1910 census ED 70 page 5
+22,,,,,,,,,,,,,,1910 census ED 70 page 5
+23,,,,,,,,,,,,,,1910 census ED 70 page 5
+24,,,,,,,,,,,,,,1910 census ED 70 page 5
+25,,,,,,,,,,,,,,1910 census ED 70 page 5
+26,,,,,,,,,,,,,,1910 census ED 70 page 5
+27,,,,,,,,,,,,,,1910 census ED 70 page 5
+28,,,,,,,,,,,,,,1910 census ED 70 page 5
+29,,,,,,,,,,,,,,1910 census ED 70 page 5
+30,,,,,,,,,,,,,,1910 census ED 70 page 5
+31,,,,,,,,,,,,,,1910 census ED 70 page 5
+32,,,,,,,,,,,,,,1910 census ED 70 page 5
+33,,,,,,,,,,,,,,1910 census ED 70 page 5
+34,,,,,,,,,,,,,,1910 census ED 70 page 5
+35,,,,,,,,,,,,,,1910 census ED 70 page 5
+36,,,,,,,,,,,,,,1910 census ED 70 page 5
+37,,,,,,,,,,,,,,1910 census ED 70 page 5
+38,,,,,,,,,,,,,,1910 census ED 70 page 5
+39,,,,,,,,,,,,,,1910 census ED 70 page 5
+40,,,,,,,,,,,,,,1910 census ED 70 page 5
+41,,,,,,,,,,,,,,1910 census ED 70 page 5
+42,,,,,,,,,,,,,,1910 census ED 70 page 5
+43,,,,,,,,,,,,,,1910 census ED 70 page 5
+44,,,,,,,,,,,,,,1910 census ED 70 page 5
+45,,,,,,,,,,,,,,1910 census ED 70 page 5
+46,,,,,,,,,,,,,,1910 census ED 70 page 5
+47,,,,,,,,,,,,,,1910 census ED 70 page 5
+48,,,,,,,,,,,,,,1910 census ED 70 page 5
+49,,,,,,,,,,,,,,1910 census ED 70 page 5
+50,,,,,,,,,,,,,,1910 census ED 70 page 5
+51,,,,,,,,,,,,,,1910 census ED 70 page 6
+52,,,,,,,,,,,,,,1910 census ED 70 page 6
+53,,,,,,,,,,,,,,1910 census ED 70 page 6
+54,,,,,,,,,,,,,,1910 census ED 70 page 6
+55,,,,,,,,,,,,,,1910 census ED 70 page 6
+56,,,,,,,,,,,,,,1910 census ED 70 page 6
+57,,,,,,,,,,,,,,1910 census ED 70 page 6
+58,,,,,,,,,,,,,,1910 census ED 70 page 6
+59,,,,,,,,,,,,,,1910 census ED 70 page 6
+60,,,,,,,,,,,,,,1910 census ED 70 page 6
+61,,,,,,,,,,,,,,1910 census ED 70 page 6
+62,,,,,,,,,,,,,,1910 census ED 70 page 6
+63,,,,,,,,,,,,,,1910 census ED 70 page 6
+64,,,,,,,,,,,,,,1910 census ED 70 page 6
+65,,,,,,,,,,,,,,1910 census ED 70 page 6
+66,,,,,,,,,,,,,,1910 census ED 70 page 6
+67,,,,,,,,,,,,,,1910 census ED 70 page 6
+68,,,,,,,,,,,,,,1910 census ED 70 page 6
+69,,,,,,,,,,,,,,1910 census ED 70 page 6
+70,,,,,,,,,,,,,,1910 census ED 70 page 6
+71,,,,,,,,,,,,,,1910 census ED 70 page 6
+72,,,,,,,,,,,,,,1910 census ED 70 page 6
+73,,,,,,,,,,,,,,1910 census ED 70 page 6
+74,,,,,,,,,,,,,,1910 census ED 70 page 6
+75,,,,,,,,,,,,,,1910 census ED 70 page 6
+76,,,,,,,,,,,,,,1910 census ED 70 page 6
+77,,,,,,,,,,,,,,1910 census ED 70 page 6
+78,,,,,,,,,,,,,,1910 census ED 70 page 6
+79,,,,,,,,,,,,,,1910 census ED 70 page 6
+80,,,,,,,,,,,,,,1910 census ED 70 page 6
+81,,,,,,,,,,,,,,1910 census ED 70 page 6
+82,,,,,,,,,,,,,,1910 census ED 70 page 6
+83,,,,,,,,,,,,,,1910 census ED 70 page 6
+84,,,,,,,,,,,,,,1910 census ED 70 page 6
+85,,,,,,,,,,,,,,1910 census ED 70 page 6
+86,,,,,,,,,,,,,,1910 census ED 70 page 6
+87,,,,,,,,,,,,,,1910 census ED 70 page 6
+88,,,,,,,,,,,,,,1910 census ED 70 page 6
+89,,,,,,,,,,,,,,1910 census ED 70 page 6
+90,,,,,,,,,,,,,,1910 census ED 70 page 6
+91,,,,,,,,,,,,,,1910 census ED 70 page 6
+92,,,,,,,,,,,,,,1910 census ED 70 page 6
+93,,,,,,,,,,,,,,1910 census ED 70 page 6
+94,,,,,,,,,,,,,,1910 census ED 70 page 6
+95,,,,,,,,,,,,,,1910 census ED 70 page 6
+96,,,,,,,,,,,,,,1910 census ED 70 page 6
+97,,,,,,,,,,,,,,1910 census ED 70 page 6
+98,,,,,,,,,,,,,,1910 census ED 70 page 6
+99,,,,,,,,,,,,,,1910 census ED 70 page 6
+100,,,,,,,,,,,,,,1910 census ED 70 page 6
+1,,,,,,,,,,,,,,1910 census ED 70 page 7
+2,,,,,,,,,,,,,,1910 census ED 70 page 7
+3,,,,,,,,,,,,,,1910 census ED 70 page 7
+4,,,,,,,,,,,,,,1910 census ED 70 page 7
+5,,,,,,,,,,,,,,1910 census ED 70 page 7
+6,,,,,,,,,,,,,,1910 census ED 70 page 7
+7,,,,,,,,,,,,,,1910 census ED 70 page 7
+8,,,,,,,,,,,,,,1910 census ED 70 page 7
+9,,,,,,,,,,,,,,1910 census ED 70 page 7
+10,,,,,,,,,,,,,,1910 census ED 70 page 7
+11,,,,,,,,,,,,,,1910 census ED 70 page 7
+12,,,,,,,,,,,,,,1910 census ED 70 page 7
+13,,,,,,,,,,,,,,1910 census ED 70 page 7
+14,,,,,,,,,,,,,,1910 census ED 70 page 7
+15,,,,,,,,,,,,,,1910 census ED 70 page 7
+16,,,,,,,,,,,,,,1910 census ED 70 page 7
+17,,,,,,,,,,,,,,1910 census ED 70 page 7
+18,,,,,,,,,,,,,,1910 census ED 70 page 7
+19,,,,,,,,,,,,,,1910 census ED 70 page 7
+20,,,,,,,,,,,,,,1910 census ED 70 page 7
+21,,,,,,,,,,,,,,1910 census ED 70 page 7
+22,,,,,,,,,,,,,,1910 census ED 70 page 7
+23,,,,,,,,,,,,,,1910 census ED 70 page 7
+24,,,,,,,,,,,,,,1910 census ED 70 page 7
+25,,,,,,,,,,,,,,1910 census ED 70 page 7
+26,,,,,,,,,,,,,,1910 census ED 70 page 7
+27,,,,,,,,,,,,,,1910 census ED 70 page 7
+28,,,,,,,,,,,,,,1910 census ED 70 page 7
+29,,,,,,,,,,,,,,1910 census ED 70 page 7
+30,,,,,,,,,,,,,,1910 census ED 70 page 7
+31,,,,,,,,,,,,,,1910 census ED 70 page 7
+32,,,,,,,,,,,,,,1910 census ED 70 page 7
+33,,,,,,,,,,,,,,1910 census ED 70 page 7
+34,,,,,,,,,,,,,,1910 census ED 70 page 7
+35,,,,,,,,,,,,,,1910 census ED 70 page 7
+36,,,,,,,,,,,,,,1910 census ED 70 page 7
+37,,,,,,,,,,,,,,1910 census ED 70 page 7
+38,,,,,,,,,,,,,,1910 census ED 70 page 7
+39,,,,,,,,,,,,,,1910 census ED 70 page 7
+40,,,,,,,,,,,,,,1910 census ED 70 page 7
+41,,,,,,,,,,,,,,1910 census ED 70 page 7
+42,,,,,,,,,,,,,,1910 census ED 70 page 7
+43,,,,,,,,,,,,,,1910 census ED 70 page 7
+44,,,,,,,,,,,,,,1910 census ED 70 page 7
+45,,,,,,,,,,,,,,1910 census ED 70 page 7
+46,,,,,,,,,,,,,,1910 census ED 70 page 7
+47,,,,,,,,,,,,,,1910 census ED 70 page 7
+48,,,,,,,,,,,,,,1910 census ED 70 page 7
+49,,,,,,,,,,,,,,1910 census ED 70 page 7
+50,,,,,,,,,,,,,,1910 census ED 70 page 7
+51,,,,,,,,,,,,,,1910 census ED 70 page 8
+52,,,,,,,,,,,,,,1910 census ED 70 page 8
+53,,,,,,,,,,,,,,1910 census ED 70 page 8
+54,,,,,,,,,,,,,,1910 census ED 70 page 8
+55,,,,,,,,,,,,,,1910 census ED 70 page 8
+56,,,,,,,,,,,,,,1910 census ED 70 page 8
+57,,,,,,,,,,,,,,1910 census ED 70 page 8
+58,,,,,,,,,,,,,,1910 census ED 70 page 8
+59,,,,,,,,,,,,,,1910 census ED 70 page 8
+60,,,,,,,,,,,,,,1910 census ED 70 page 8
+61,,,,,,,,,,,,,,1910 census ED 70 page 8
+62,,,,,,,,,,,,,,1910 census ED 70 page 8
+63,,,,,,,,,,,,,,1910 census ED 70 page 8
+64,,,,,,,,,,,,,,1910 census ED 70 page 8
+65,,,,,,,,,,,,,,1910 census ED 70 page 8
+66,,,,,,,,,,,,,,1910 census ED 70 page 8
+67,,,,,,,,,,,,,,1910 census ED 70 page 8
+68,,,,,,,,,,,,,,1910 census ED 70 page 8
+69,,,,,,,,,,,,,,1910 census ED 70 page 8
+70,,,,,,,,,,,,,,1910 census ED 70 page 8
+71,,,,,,,,,,,,,,1910 census ED 70 page 8
+72,,,,,,,,,,,,,,1910 census ED 70 page 8
+73,,,,,,,,,,,,,,1910 census ED 70 page 8
+74,,,,,,,,,,,,,,1910 census ED 70 page 8
+75,,,,,,,,,,,,,,1910 census ED 70 page 8
+76,,,,,,,,,,,,,,1910 census ED 70 page 8
+77,,,,,,,,,,,,,,1910 census ED 70 page 8
+78,,,,,,,,,,,,,,1910 census ED 70 page 8
+79,,,,,,,,,,,,,,1910 census ED 70 page 8
+80,,,,,,,,,,,,,,1910 census ED 70 page 8
+81,,,,,,,,,,,,,,1910 census ED 70 page 8
+82,,,,,,,,,,,,,,1910 census ED 70 page 8
+83,,,,,,,,,,,,,,1910 census ED 70 page 8
+84,,,,,,,,,,,,,,1910 census ED 70 page 8
+85,,,,,,,,,,,,,,1910 census ED 70 page 8
+86,,,,,,,,,,,,,,1910 census ED 70 page 8
+87,,,,,,,,,,,,,,1910 census ED 70 page 8
+88,,,,,,,,,,,,,,1910 census ED 70 page 8
+89,,,,,,,,,,,,,,1910 census ED 70 page 8
+90,,,,,,,,,,,,,,1910 census ED 70 page 8
+91,,,,,,,,,,,,,,1910 census ED 70 page 8
+92,,,,,,,,,,,,,,1910 census ED 70 page 8
+93,,,,,,,,,,,,,,1910 census ED 70 page 8
+94,,,,,,,,,,,,,,1910 census ED 70 page 8
+95,,,,,,,,,,,,,,1910 census ED 70 page 8
+96,,,,,,,,,,,,,,1910 census ED 70 page 8
+97,,,,,,,,,,,,,,1910 census ED 70 page 8
+98,,,,,,,,,,,,,,1910 census ED 70 page 8
+99,,,,,,,,,,,,,,1910 census ED 70 page 8
+100,,,,,,,,,,,,,,1910 census ED 70 page 8
+1,,,,,,,,,,,,,,1910 census ED 70 page 9
+2,,,,,,,,,,,,,,1910 census ED 70 page 9
+3,,,,,,,,,,,,,,1910 census ED 70 page 9
+4,,,,,,,,,,,,,,1910 census ED 70 page 9
+5,,,,,,,,,,,,,,1910 census ED 70 page 9
+6,,,,,,,,,,,,,,1910 census ED 70 page 9
+7,,,,,,,,,,,,,,1910 census ED 70 page 9
+8,,,,,,,,,,,,,,1910 census ED 70 page 9
+9,,,,,,,,,,,,,,1910 census ED 70 page 9
+10,,,,,,,,,,,,,,1910 census ED 70 page 9
+11,,,,,,,,,,,,,,1910 census ED 70 page 9
+12,,,,,,,,,,,,,,1910 census ED 70 page 9
+13,,,,,,,,,,,,,,1910 census ED 70 page 9
+14,,,,,,,,,,,,,,1910 census ED 70 page 9
+15,,,,,,,,,,,,,,1910 census ED 70 page 9
+16,,,,,,,,,,,,,,1910 census ED 70 page 9
+17,,,,,,,,,,,,,,1910 census ED 70 page 9
+18,,,,,,,,,,,,,,1910 census ED 70 page 9
+19,,,,,,,,,,,,,,1910 census ED 70 page 9
+20,,,,,,,,,,,,,,1910 census ED 70 page 9
+21,,,,,,,,,,,,,,1910 census ED 70 page 9
+22,,,,,,,,,,,,,,1910 census ED 70 page 9
+23,,,,,,,,,,,,,,1910 census ED 70 page 9
+24,,,,,,,,,,,,,,1910 census ED 70 page 9
+25,,,,,,,,,,,,,,1910 census ED 70 page 9
+26,,,,,,,,,,,,,,1910 census ED 70 page 9
+27,,,,,,,,,,,,,,1910 census ED 70 page 9
+28,,,,,,,,,,,,,,1910 census ED 70 page 9
+29,,,,,,,,,,,,,,1910 census ED 70 page 9
+30,,,,,,,,,,,,,,1910 census ED 70 page 9
+31,,,,,,,,,,,,,,1910 census ED 70 page 9
+32,,,,,,,,,,,,,,1910 census ED 70 page 9
+33,,,,,,,,,,,,,,1910 census ED 70 page 9
+34,,,,,,,,,,,,,,1910 census ED 70 page 9
+35,,,,,,,,,,,,,,1910 census ED 70 page 9
+36,,,,,,,,,,,,,,1910 census ED 70 page 9
+37,,,,,,,,,,,,,,1910 census ED 70 page 9
+38,,,,,,,,,,,,,,1910 census ED 70 page 9
+39,,,,,,,,,,,,,,1910 census ED 70 page 9
+40,,,,,,,,,,,,,,1910 census ED 70 page 9
+41,,,,,,,,,,,,,,1910 census ED 70 page 9
+42,,,,,,,,,,,,,,1910 census ED 70 page 9
+43,,,,,,,,,,,,,,1910 census ED 70 page 9
+44,,,,,,,,,,,,,,1910 census ED 70 page 9
+45,,,,,,,,,,,,,,1910 census ED 70 page 9
+46,,,,,,,,,,,,,,1910 census ED 70 page 9
+47,,,,,,,,,,,,,,1910 census ED 70 page 9
+48,,,,,,,,,,,,,,1910 census ED 70 page 9
+49,,,,,,,,,,,,,,1910 census ED 70 page 9
+50,,,,,,,,,,,,,,1910 census ED 70 page 9
