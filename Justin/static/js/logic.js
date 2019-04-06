@@ -1,7 +1,32 @@
+// maps, maps and more maps
+
+var heatL;
+var pplDots = [];
 let map = () => {
   let myMap = L.map("map", {
     center: [29.7597, -95.378],
-    zoom: 17
+    zoom: 17,
+    scrollWheelZoom: false,
+    zoomControl: false,
+    attributionControl: false
+  });
+
+  var pplDotsOverlay = L.d3SvgOverlay(function(sel, proj) {
+    var pplUpd = sel.selectAll("circle").data(pplDots);
+    pplUpd
+      .enter()
+      .append("circle")
+      .attr("r", 2.5)
+      .attr("cx", function(d) {
+        console.log(d);
+        return proj.latLngToLayerPoint(d.latLng).x;
+      })
+      .attr("cy", function(d) {
+        return proj.latLngToLayerPoint(d.latLng).y;
+      })
+      .attr("stroke", "black")
+      .attr("stroke-width", 1)
+      .attr("fill", "gray");
   });
 
   L.tileLayer(
@@ -9,7 +34,7 @@ let map = () => {
     {
       attribution: "",
       maxZoom: 18,
-      id: "dark-v10",
+      id: "outdoors-v11",
       username: "Wired361",
       accessToken: API_KEY
     }
@@ -21,20 +46,54 @@ let map = () => {
       var heatArray = [];
       for (var i = 0; i < response.length; i++) {
         var location = [response[i].Longitude, response[i].Latitude];
-        console.log(location);
         heatArray.push([location[0], location[1]]);
       }
 
-      L.heatLayer(heatArray, {
-        radius: 30,
-        blur: 50
-      }).addTo(myMap);
+      heatL = L.heatLayer(heatArray, {
+        radius: 25,
+        blur: 35
+      });
+      //heatL.addTo(myMap);
+      pplDots = response.map(function(d) {
+        d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+        return d;
+      });
+      pplDotsOverlay.addTo(myMap);
     }
   );
+
+  L.curve(
+    [
+      "M",
+      [29.76099, -95.37625],
+      "C",
+      [29.7608, -95.3779],
+      [29.7625, -95.3774],
+      [29.7623, -95.3794],
+      "Q",
+      [29.76215, -95.38025],
+      [29.762, -95.38027],
+      "V",
+      [29.75952],
+      "H",
+      [-95.37937],
+      "V",
+      [29.75872],
+      "H",
+      [-95.37845],
+      "V",
+      [29.75832],
+      "H",
+      [-95.37625],
+      "Z"
+    ],
+    { color: "blue", fill: true, animate: 2000 }
+  ).addTo(myMap);
 };
 
+let heatMapLayer = d3.select(".leaflet-heatmap-layer").attr("opacity", 0);
+
 // Scrollytelling
-// Start Scroll Event Listener
 
 //svg
 let svg = d3.select("svg");
@@ -48,12 +107,11 @@ let rows = 15;
 let column = 10;
 let randnum = (min, max) => Math.round(Math.random() * (max - min) + min);
 
-//Create an array of objects simulating data
+//create an array of objects simulating data
 let ourData = d3.range(25).map(i => ({
   race: i < 17 ? "Black" : "White",
   age: randnum(1, 65)
 }));
-console.log(ourData);
 
 //create group and join our data to that group
 let group1 = svg
@@ -214,7 +272,7 @@ function scroll(n, offset, func1, func2) {
           break;
       }
     },
-    //start 75% from the top of the div
+    // offset starts from the top of the div
 
     offset: offset
   });
@@ -226,10 +284,17 @@ let func = () => {
     .duration(100)
     .attr("opacity", 0);
 };
+let heatFade = () => {
+  heatMapLayer
+    .transition()
+    .delay(500)
+    .duration(250)
+    .attr("opacity", 1);
+};
 
 //triger these functions on page scroll
-//new scroll("home", "75%", map, func);
-new scroll("map", "100%", func, map);
+new scroll("home", "100%", func, func);
+new scroll("map", "100%", heatFade, func);
 new scroll("div1", "10%", grid, func);
 new scroll("div2", "25%", grid2, grid);
 new scroll("div4", "25%", divide, grid);

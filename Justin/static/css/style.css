@@ -72,8 +72,17 @@ strong {
 }
 #map {
   width: 100%;
-  height: 100%;
+  height: 850px;
 }
+#yearSlide {
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
 .container {
   height: 100%;
   max-width: 640px;
@@ -93,7 +102,7 @@ strong {
 .fixed {
   position: fixed;
   max-width: 500px;
-  height: 500px;
+  height: 800px;
   top: 50px;
 }
 .container-flex {
