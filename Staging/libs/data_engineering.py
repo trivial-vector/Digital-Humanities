@@ -8,7 +8,7 @@ import pymongo
 
 # created our own library
 import lib
-from lib import inhouse_functions as vizgjk
+from lib import utils as vizgjk
 
 # ===============================================================================================================================
 # Step 1: Initialize PyMongo to work with MongoDBs & create our OWN db to store information
