@@ -73,7 +73,7 @@ for cy in census_years:
     df = pd.read_csv(filename)
     df_new = vizgjk.create_additional_info_for_that_year(df, cy)
     for index, row in df_new.iterrows():
-        dict_censuses_col[cy].update_many({'Year': row[-1], 'Street Address': row[0], 'Census Name': row[1]}, {"$set": row.to_dict()}, upsert=True)
+        dict_censuses_col[cy].update_many({'Year': row[1], 'Street Address': row[-1], 'Census Name': row[0]}, {"$set": row.to_dict()}, upsert=True)
 
 # ===============================================================================================================================
 # Step 4: Retrieve the Latitude & Longitude info based on Street Address, Year & Full Name/ Census Name
@@ -84,12 +84,14 @@ filename_latlong = "./Resources/LatLong_Info.csv"
 df_latlong = pd.read_csv(filename_latlong)
 
 # handling inconsistency of Street address across multiple csv files.
-df_latlong["Street Address"] = df_latlong["Street Address"].str.replace("Street","St", regex=False) 
+df_latlong["Street Address"] = df_latlong["Street Address"].str.replace("Street","St") 
 
 # Step 4b: insert lat long info into MongoDB collections for different years
 for y in years:
     for row in df_latlong.iterrows():
         data = dict(row[1])
         dict_censuses_col[y].update_many({'Year': y, 'Street Address': row[1]["Street Address"]}, {"$set": data}, upsert=True)
+
+
 print("Done with Data engineering. Check your MongoCompass for 'digitalHumanity_db' database")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~")
