@@ -11,6 +11,7 @@ def create_basic_df_for_that_year(df, year, is_census):
         df["Census Race_Code"] = ""
     
     df.columns = header
+    df["Race_Color"] = ""
     df["Year"] = year
     # handling inconsistency of Street address across multiple csv files.
     df["Street Address"] = df["Street Address"].str.replace("Street","St") 
