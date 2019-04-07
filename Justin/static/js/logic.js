@@ -1,7 +1,6 @@
 // maps, maps and more maps
-
-var heatL;
 var pplDots = [];
+
 let map = () => {
   let myMap = L.map("map", {
     center: [29.7597, -95.378],
@@ -11,23 +10,32 @@ let map = () => {
     attributionControl: false
   });
 
+  // D3 overlayLayer
   var pplDotsOverlay = L.d3SvgOverlay(function(sel, proj) {
     var pplUpd = sel.selectAll("circle").data(pplDots);
     pplUpd
       .enter()
       .append("circle")
-      .attr("r", 2.5)
-      .attr("cx", function(d) {
-        console.log(d);
+      .transition()
+      .attr("r", (d, i) => 4)
+      .delay((d, i) => 4 * i)
+      .ease("elastic")
+      .transition()
+      .duration(2000)
+      .ease("elastic")
+      .attr("cx", function x(d) {
         return proj.latLngToLayerPoint(d.latLng).x;
       })
-      .attr("cy", function(d) {
+      .attr("cy", function y(d) {
         return proj.latLngToLayerPoint(d.latLng).y;
       })
       .attr("stroke", "black")
       .attr("stroke-width", 1)
-      .attr("fill", "gray");
+      .attr("fill", "gray")
+      .attr("opacity", 1);
   });
+
+  //baseLayer
 
   L.tileLayer(
     "https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
@@ -39,6 +47,8 @@ let map = () => {
       accessToken: API_KEY
     }
   ).addTo(myMap);
+
+  // pull data
 
   d3.csv(
     "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/CSV/1915.csv",
@@ -61,7 +71,7 @@ let map = () => {
       pplDotsOverlay.addTo(myMap);
     }
   );
-
+  //Draw the boundary lines for the Res
   L.curve(
     [
       "M",
@@ -91,15 +101,13 @@ let map = () => {
   ).addTo(myMap);
 };
 
-let heatMapLayer = d3.select(".leaflet-heatmap-layer").attr("opacity", 0);
-
 // Scrollytelling
 
-//svg
-let svg = d3.select("svg");
-
-//svg width and height
-svg.attr("width", 500).attr("height", 1000);
+//svg important bits
+let svg = d3
+  .select("svg")
+  .attr("width", 500)
+  .attr("height", 1000);
 
 //set up grid spacing
 let spacing = 40;
@@ -107,13 +115,13 @@ let rows = 15;
 let column = 10;
 let randnum = (min, max) => Math.round(Math.random() * (max - min) + min);
 
-//create an array of objects simulating data
+//array of objects simulating data
 let ourData = d3.range(25).map(i => ({
   race: i < 17 ? "Black" : "White",
   age: randnum(1, 65)
 }));
 
-//create group and join our data to that group
+//group and join our data to that group
 let group1 = svg
   .selectAll("g")
   .data(ourData)
@@ -230,7 +238,7 @@ let barChart = () => {
     )
     .attr("opacity", 1)
     .attr("transform", "translate(0,0) rotate(0)")
-    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 5 for now
+    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 25 for now
 
   //age text
   d3.selectAll("text.age")
@@ -242,7 +250,7 @@ let barChart = () => {
     .attr("text-anchor", "start")
     .attr("dx", 160)
     .attr("dy", (d, i) => i * 17 + 12)
-    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 5 ages
+    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 25 ages
 
   //race text
   d3.selectAll("text.race")
@@ -254,7 +262,16 @@ let barChart = () => {
     .attr("text-anchor", "end")
     .attr("dx", 140)
     .attr("dy", (d, i) => i * 17 + 12)
-    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 5 races
+    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 25 races
+};
+
+let violinChart = () => {
+  //rects transform
+  rects
+    .transition()
+    .delay((d, i) => 20 * i)
+    .duration(900)
+    .ease("elastic");
 };
 
 //waypoints scroll constructor
@@ -284,21 +301,21 @@ let func = () => {
     .duration(100)
     .attr("opacity", 0);
 };
-let heatFade = () => {
+/* let heatFade = () => {
   heatMapLayer
     .transition()
     .delay(500)
     .duration(250)
     .attr("opacity", 1);
 };
-
+ */
 //triger these functions on page scroll
 new scroll("home", "100%", func, func);
-new scroll("map", "100%", heatFade, func);
-new scroll("div1", "10%", grid, func);
-new scroll("div2", "25%", grid2, grid);
-new scroll("div4", "25%", divide, grid);
-new scroll("div6", "25%", barChart, divide);
+new scroll("map", "100%", map, func);
+new scroll("div1", "25%", grid, func);
+new scroll("div2", "25%", divide, grid);
+new scroll("div4", "25%", barChart, divide);
+new scroll("div6", "25%", barChart, barChart);
 
 //start grid on page load
-map();
+func();
