@@ -1,15 +1,17 @@
 let dataSyncing = () => {
-  dataSync = await d3.csv(
-    "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Karika/Resources/Reservation%20Census%20charting_1900.csv"
-  ).then(function(data) {
-    dataSync.push({
-      age: data["Age at last birthday (8)"],
-      race: data["Color or Race (5)"],
-      sex: data["Sex"],
-      name: data["GivenName"] + " " + data["LastName"],
-      address: data["House No"] + " " + data["Street Name"]
+  dataSync = d3
+    .csv(
+      "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Karika/Resources/Reservation%20Census%20charting_1900.csv"
+    )
+    .then(function(data) {
+      dataSync.push({
+        age: data["Age at last birthday (8)"],
+        race: data["Color or Race (5)"],
+        sex: data["Sex"],
+        name: data["GivenName"] + " " + data["LastName"],
+        address: data["House No"] + " " + data["Street Name"]
+      });
     });
-  });
 };
 console.log(dataSync);
 
@@ -162,7 +164,7 @@ let grid = () => {
     .transition()
     .delay((d, i) => 10 * i)
     .duration(600)
-    .easeElastic.amplitude(1.2)
+    .d3.easeElastic.amplitude(1.2)
     .attr("width", 5)
     .attr("height", 5)
     .attr("rx", 5)
