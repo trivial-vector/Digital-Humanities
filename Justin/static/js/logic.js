@@ -1,7 +1,23 @@
-// maps, maps and more maps
+let dataSyncing = () => {
+  dataSync = d3
+    .csv(
+      "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Karika/Resources/Reservation%20Census%20charting_1900.csv"
+    )
+    .then(function(data) {
+      dataSync.push({
+        age: data["Age at last birthday (8)"],
+        race: data["Color or Race (5)"],
+        sex: data["Sex"],
+        name: data["GivenName"] + " " + data["LastName"],
+        address: data["House No"] + " " + data["Street Name"]
+      });
+    });
+};
+console.log(dataSync);
 
-var heatL;
+// maps, maps and more maps
 var pplDots = [];
+
 let map = () => {
   let myMap = L.map("map", {
     center: [29.7597, -95.378],
@@ -11,23 +27,30 @@ let map = () => {
     attributionControl: false
   });
 
+  // D3 overlayLayer
   var pplDotsOverlay = L.d3SvgOverlay(function(sel, proj) {
     var pplUpd = sel.selectAll("circle").data(pplDots);
     pplUpd
       .enter()
       .append("circle")
-      .attr("r", 2.5)
-      .attr("cx", function(d) {
-        console.log(d);
+      .transition()
+      .attr("r", (d, i) => 4)
+      .delay((d, i) => 4 * i)
+      .easeElastic.amplitude(1.2)
+      .attr("cx", function x(d) {
         return proj.latLngToLayerPoint(d.latLng).x;
       })
-      .attr("cy", function(d) {
+      .attr("cy", function y(d) {
         return proj.latLngToLayerPoint(d.latLng).y;
       })
-      .attr("stroke", "black")
-      .attr("stroke-width", 1)
-      .attr("fill", "gray");
+      .attr("stroke-width", 0)
+      .attr("fill", (d, i) =>
+        d["Name"].includes("©") ? "var(--prussian-blue)" : "var(--outer-space)"
+      )
+      .attr("opacity", 0.75);
   });
+
+  //baseLayer
 
   L.tileLayer(
     "https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
@@ -40,28 +63,29 @@ let map = () => {
     }
   ).addTo(myMap);
 
+  // pull data
+
   d3.csv(
-    "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/CSV/1915.csv",
-    function(response) {
-      var heatArray = [];
-      for (var i = 0; i < response.length; i++) {
-        var location = [response[i].Longitude, response[i].Latitude];
-        heatArray.push([location[0], location[1]]);
-      }
-
-      heatL = L.heatLayer(heatArray, {
-        radius: 25,
-        blur: 35
-      });
-      //heatL.addTo(myMap);
-      pplDots = response.map(function(d) {
-        d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-        return d;
-      });
-      pplDotsOverlay.addTo(myMap);
+    "https://raw.githubusercontent.com/Wired361/Digital-Humanities/master/Data/CSV/1915.csv"
+  ).then(function(response) {
+    var heatArray = [];
+    for (var i = 0; i < response.length; i++) {
+      var location = [response[i].Longitude, response[i].Latitude];
+      heatArray.push([location[0], location[1]]);
     }
-  );
 
+    heatL = L.heatLayer(heatArray, {
+      radius: 25,
+      blur: 35
+    });
+    //heatL.addTo(myMap);
+    pplDots = response.map(function(d) {
+      d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+      return d;
+    });
+    pplDotsOverlay.addTo(myMap);
+  });
+  //Draw the boundary lines for the Res
   L.curve(
     [
       "M",
@@ -91,32 +115,27 @@ let map = () => {
   ).addTo(myMap);
 };
 
-let heatMapLayer = d3.select(".leaflet-heatmap-layer").attr("opacity", 0);
-
 // Scrollytelling
 
-//svg
-let svg = d3.select("svg");
-
-//svg width and height
-svg.attr("width", 500).attr("height", 1000);
+//svg important bits
+let svg = d3
+  .select("svg")
+  .attr("width", 500)
+  .attr("height", 1000);
 
 //set up grid spacing
 let spacing = 40;
 let rows = 15;
 let column = 10;
 let randnum = (min, max) => Math.round(Math.random() * (max - min) + min);
+let dataSync = [];
 
-//create an array of objects simulating data
-let ourData = d3.range(25).map(i => ({
-  race: i < 17 ? "Black" : "White",
-  age: randnum(1, 65)
-}));
+//array of objects simulating data
 
-//create group and join our data to that group
+//group and join our data to that group
 let group1 = svg
   .selectAll("g")
-  .data(ourData)
+  .data(dataSync)
   .enter()
   .append("g");
 
@@ -126,7 +145,7 @@ let rects = group1.append("rect");
 //race data
 d3.selectAll("g")
   .append("text")
-  .text(d => d["race"])
+  .text(d => d["Color or Race(5)"])
   .attr("fill", "var(--prussian-blue)")
   .attr("class", "race")
   .attr("dx", -500);
@@ -134,7 +153,7 @@ d3.selectAll("g")
 //age data
 d3.selectAll("g")
   .append("text")
-  .text(d => d["age"])
+  .text(d => d["Age at last birthday (8"])
   .attr("fill", "#fff")
   .attr("class", "age")
   .attr("dx", -500);
@@ -145,9 +164,9 @@ let grid = () => {
     .transition()
     .delay((d, i) => 10 * i)
     .duration(600)
-    .ease("elastic")
-    .attr("width", 20)
-    .attr("height", 20)
+    .d3.easeElastic.amplitude(1.2)
+    .attr("width", 5)
+    .attr("height", 5)
     .attr("rx", 5)
     .attr("ry", 5)
     .attr("x", (d, i) => (i % column) * spacing)
@@ -164,7 +183,7 @@ let grid2 = () => {
     .transition()
     .delay((d, i) => 10 * i)
     .duration(600)
-    .ease("elastic")
+    .easeElastic.amplitude(1.2)
     .attr("width", 20)
     .attr("height", 20)
     .attr("rx", "50%")
@@ -182,17 +201,19 @@ let divide = () => {
     .transition()
     .delay((d, i) => 10 * i)
     .duration(600)
-    .ease("elastic")
+    .easeElastic.amplitude(1.2)
     .attr("width", 10)
     .attr("height", 10)
     .attr("rx", 0)
     .attr("ry", 0)
     .attr("x", (d, i) =>
-      d["race"] == "Black" ? randnum(100, 150) : randnum(300, 350)
+      d["Color or Race (5)"] == "Black" ? randnum(100, 150) : randnum(300, 350)
     )
     .attr("y", (d, i) => i * 20)
     .attr("fill", (d, i) =>
-      d["race"] == "Black" ? "var(--prussian-blue)" : "var(--outer-space)"
+      d["Color or Race (5)"] == "B"
+        ? "var(--prussian-blue)"
+        : "var(--outer-space)"
     );
 
   //age
@@ -200,7 +221,7 @@ let divide = () => {
     .transition()
     .delay((d, i) => 40 * i)
     .duration(900)
-    .ease("elastic")
+    .easeElastic.amplitude(1.2)
     .attr("dx", -500);
 
   //race
@@ -208,7 +229,7 @@ let divide = () => {
     .transition()
     .delay((d, i) => 40 * i)
     .duration(900)
-    .ease("elastic")
+    .easeElastic.amplitude(1.2)
     .attr("dx", -500);
 };
 
@@ -220,7 +241,7 @@ let barChart = () => {
     .transition()
     .delay((d, i) => 20 * i)
     .duration(900)
-    .ease("elastic") //linear, quad, cubic, sin, exp, circle, elastic, back, bounce
+    .easeElastic.amplitude(1.2) //linear, quad, cubic, sin, exp, circle, elastic, back, bounce
     .attr("x", (d, i) => 150)
     .attr("y", (d, i) => i * 17)
     .attr("width", (d, i) => d["age"] * 2)
@@ -230,31 +251,40 @@ let barChart = () => {
     )
     .attr("opacity", 1)
     .attr("transform", "translate(0,0) rotate(0)")
-    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 5 for now
+    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 25 for now
 
   //age text
   d3.selectAll("text.age")
     .transition()
     .delay((d, i) => 20 * i)
     .duration(900)
-    .ease("elastic")
+    .easeElastic.amplitude(1.2)
     //align text right
     .attr("text-anchor", "start")
     .attr("dx", 160)
     .attr("dy", (d, i) => i * 17 + 12)
-    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 5 ages
+    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 25 ages
 
   //race text
   d3.selectAll("text.race")
     .transition()
     .delay((d, i) => 20 * i)
     .duration(900)
-    .ease("elastic")
+    .easeElastic.amplitude(1.2)
     //align text left
     .attr("text-anchor", "end")
     .attr("dx", 140)
     .attr("dy", (d, i) => i * 17 + 12)
-    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 5 races
+    .attr("opacity", (d, i) => (i < 25 ? 1 : 0)); //only show 25 races
+};
+
+let violinChart = () => {
+  //rects transform
+  rects
+    .transition()
+    .delay((d, i) => 20 * i)
+    .duration(900)
+    .easeElastic.amplitude(1.2);
 };
 
 //waypoints scroll constructor
@@ -284,21 +314,21 @@ let func = () => {
     .duration(100)
     .attr("opacity", 0);
 };
-let heatFade = () => {
+/* let heatFade = () => {
   heatMapLayer
     .transition()
     .delay(500)
     .duration(250)
     .attr("opacity", 1);
 };
-
+ */
 //triger these functions on page scroll
 new scroll("home", "100%", func, func);
-new scroll("map", "100%", heatFade, func);
-new scroll("div1", "10%", grid, func);
-new scroll("div2", "25%", grid2, grid);
-new scroll("div4", "25%", divide, grid);
-new scroll("div6", "25%", barChart, divide);
+new scroll("map", "100%", map, func);
+new scroll("div1", "25%", grid, func);
+new scroll("div2", "25%", divide, grid);
+new scroll("div4", "25%", barChart, divide);
+new scroll("div6", "25%", barChart, barChart);
 
 //start grid on page load
-map();
+dataSyncing();
