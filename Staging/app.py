@@ -7,4 +7,5 @@ app = Flask(__name__)
 app.register_blueprint(htmlroutes)
 app.register_blueprint(apiroutes, url_prefix="/api")
 
-app.run()
+if __name__ == "__main__":
+    app.run(debug=True)

@@ -1,17 +1,24 @@
+from bson.json_util import dumps
+import pymongo
 from flask import Blueprint, render_template
 from flask.json import jsonify
+import os
 
 import pandas as pd
 
-import pymongo
-from bson.json_util import dumps
-
+# import config
+# from config import DB_USERNAME
+# from config import DB_PASSWORD
+# from config import DB_HOST
+# from config import DB_PORT
+# from config import DB_NAME
 
 apiroutes = Blueprint("apiroutes", __name__)
 
 # Retrieve info from this
-conn = 'mongodb://localhost:27017'
-client = pymongo.MongoClient(conn)
+connnection = os.environ.get('MONGODB_URI')
+client = pymongo.MongoClient(connnection)
+db_DH = client['heroku_1zst25sm']
 
 
 @apiroutes.route("/")
@@ -37,7 +44,6 @@ def heat_maps(year):
     print("In of heat maps section.")
     print('year', year)
     # - Retrieve from DB
-    db_DH = client.digitalHumanity_db
     collection_string = "censuses_" + year
     censuses_year_collection = db_DH[collection_string]
     all_data = dumps(censuses_year_collection.find({"Latitude": {"$ne": None}, "Longitude": {"$ne": None}},
@@ -58,7 +64,6 @@ def censusyears_vs_ages(race_color):
     print("In census years_vs_ages section.")
     print('year', race_color)
     # - Retrieve from DB
-    db_DH = client.digitalHumanity_db
     census_years = ["1900", "1910", "1920"]
 
     counter = 0
