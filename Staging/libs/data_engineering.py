@@ -1,24 +1,29 @@
-import utils as vizgjk
-import pymongo
-import pandas as pd
-print("In the data engineering")
-print("~~~~~~~~~~~~~~~~~~~~~~~~~")
 # ===============================================================================================================================
 # All the packages used for data engineering & cleaning part
 # ===============================================================================================================================
 
-# created our own library
-# from libs import utils as vizgjk
+import utils as vizgjk
+import pymongo
+import pandas as pd
 
+import config
+from config import DB_USERNAME
+from config import DB_PASSWORD
+from config import DB_HOST
+from config import DB_PORT
+from config import DB_NAME
+
+print("In the data engineering")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 # ===============================================================================================================================
 # Step 1: Initialize PyMongo to work with MongoDBs & create our OWN db to store information
 # ===============================================================================================================================
-conn = 'mongodb://localhost:27017'
-client = pymongo.MongoClient(conn)
+connection = pymongo.MongoClient(DB_HOST, DB_PORT)
+db_DH = connection[DB_NAME]
+db_DH.authenticate(DB_USERNAME, DB_PASSWORD)
 
 # Retrieve OR Create New database and collection
-db_DH = client.digitalHumanity_db
 years = ["1900", "1902", "1903", "1905", "1907", "1908", "1910",
          "1911", "1912", "1913", "1915", "1917", "1918", "1919", "1920"]
 census_years = ["1900", "1910", "1920"]
@@ -33,7 +38,7 @@ for y in years:
 # ===============================================================================================================================
 # Step 2: Retrieve basic info for years 1900 through 1920 from CSV file
 # ===============================================================================================================================
-filename = "./Resources/basic info w race column_TableToExcel.csv"
+filename = "../resources/basic info w race column_TableToExcel.csv"
 df_basic_data_allyrs = pd.read_csv(filename)
 
 # Step 2a: Create separate dataframes for each year based on the info
@@ -73,7 +78,7 @@ for y in years:
 # Step 3c: Upsert the mongo collection with the dataframe content for that particular year
 
 for cy in census_years:
-    filename = "./Resources/Reservation Census charting_" + cy + ".csv"
+    filename = "../resources/Reservation Census charting_" + cy + ".csv"
     df = pd.read_csv(filename)
     df_new = vizgjk.create_additional_info_for_that_year(df, cy)
     for index, row in df_new.iterrows():
@@ -85,7 +90,7 @@ for cy in census_years:
 # ===============================================================================================================================
 
 # Step 4a: Retrieve the lat long info from CSV file
-filename_latlong = "./Resources/LatLong_Info.csv"
+filename_latlong = "../resources/LatLong_Info.csv"
 df_latlong = pd.read_csv(filename_latlong)
 
 # handling inconsistency of Street address across multiple csv files.
