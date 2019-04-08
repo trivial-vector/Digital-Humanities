@@ -71,8 +71,10 @@ strong {
   margin: auto;
 }
 #map {
-  height: 1000;
+  height: 850;
   width: 100%;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 #yearSlide {
   max-width: 1440px;
@@ -92,7 +94,8 @@ strong {
   position: absolute;
   height: 100%;
   line-height: 1.5;
-  left: 500px;
+  left: 650px;
+  justify-content: end;
 }
 .container div {
   height: 100%;
