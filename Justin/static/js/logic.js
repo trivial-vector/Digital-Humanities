@@ -108,6 +108,24 @@ console.log(pplDotMap);
 
 // Scrollytelling
 
+let dataSync = [
+  {
+    year: 1900,
+    ageGroup: ['Child(0-11)', '12-19', '20-40', '41-65', '65+'],
+    values: [193, 137, 273, 111, 15]
+  },
+  {
+    year: 1910,
+    ageGroup: ['Child(0-11)', '12-19', '20-40', '41-65', '65+'],
+    values: [28, 43, 132, 32, 3]
+  },
+  {
+    year: 1920,
+    ageGroup: ['Child(0-11)', '12-19', '20-40', '41-65', '65+'],
+    values: [352, 299, 1473, 374, 40]
+  }
+];
+
 //svg important bits
 let svg = d3
   .select('svg')

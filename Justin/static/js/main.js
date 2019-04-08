@@ -18,7 +18,7 @@ function scroll(n, offset, func1, func2) {
     offset: offset
   });
 }
-/* // Data Wrangling
+// Data Wrangling
 
 fetch('http://vizgjk-reservations.herokuapp.com/api/maps/1900', {
   mode: 'no-cors'
@@ -26,16 +26,21 @@ fetch('http://vizgjk-reservations.herokuapp.com/api/maps/1900', {
   console.log(response);
   return response;
 });
+//baseLayers
+
+let light = L.tileLayer(
+  'https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+  {
+    attribution: '',
+    maxZoom: 19,
+    id: 'light-v10',
+    username: 'Wired361',
+    accessToken:
+      'pk.eyJ1Ijoid2lyZWQzNjEiLCJhIjoiY2p0bGlteGppMGI2dzRicGthbWRjNGhhdSJ9.RopVXgG4fVgIXJ0_1FPdHQ'
+  }
+);
 
 //data1900 = dataGrab(1900);
-//Map Set up
-
-let resMap = L.map('map', {
-  center: [29.76, -95.378],
-  zoom: 17,
-  scrollWheelZoom: false,
-  attributionControl: false
-});
 
 //D3 overlayLayers
 //1900
@@ -55,7 +60,7 @@ let dots1900 = L.d3SvgOverlay(function(selection, projection) {
     .attr('opacity', 0.75);
 });
 //1907
-let dots1907 = L.d3SvgOverlay(function(selection, projection) {
+/* let dots1907 = L.d3SvgOverlay(function(selection, projection) {
   var ppl1907 = selection.selectAll('circle').data(data1907);
   ppl1907
     .enter()
@@ -117,7 +122,7 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
     })
     .style('fill', 'black')
     .attr('opacity', 0.75);
-});
+}); */
 
 //Res overlay
 let resOutline = L.curve(
@@ -151,12 +156,12 @@ let resOutline = L.curve(
 //Heat Layers
 
 //heatLayer 1900
- let heat1900 = L.heatLayer(data1900, {
+let heat1900 = L.heatLayer(data1900, {
   radius: 25,
   blur: 35
 });
 
-let heat1907 = L.heatLayer(data1907, {
+/* let heat1907 = L.heatLayer(data1907, {
   radius: 25,
   blur: 35
 });
@@ -171,29 +176,29 @@ let heat1915 = L.heatLayer(data1915, {
 let heat1917 = L.heatLayer(data1917, {
   radius: 25,
   blur: 35
-}); 
-
-//baseLayers
-
-L.tileLayer(
-  'https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
-  {
-    attribution: '',
-    maxZoom: 19,
-    id: 'light-v10',
-    username: 'Wired361',
-    accessToken: API_KEY
-  }
-);
+});
  */
 
-let dataSync = [
-  { year: 1900, ageGroup: ['Child(0-11)', '12-19', '20-40', '41-65', '65+'] },
-  { year: 1910, ageGroup: ['Child(0-11)', '12-19', '20-40', '41-65', '65+'] },
-  { year: 1920, ageGroup: ['Child(0-11)', '12-19', '20-40', '41-65', '65+'] }
-];
+//Map Set up
 
-console.log(dataSync1900);
+let resMap = L.map('map', {
+  center: [29.76, -95.378],
+  zoom: 17,
+  layers: [light, resOutline],
+  scrollWheelZoom: false,
+  attributionControl: false
+});
+var overlayMaps = {
+  Reservation: resOutline,
+  '1900 Homes': dots1900,
+  '1900 Heatmap': heat1900
+};
+
+L.control.layers(overlayMaps).addTo(resMap);
+
+console.log(data1900);
+
+/*
 //Declarations
 let svg = d3
   .select('svg')
@@ -211,4 +216,4 @@ let rects = group.append('rect');
 //set up grid spacing
 let spacing = 40;
 let rows = 15;
-let column = 10;
+let column = 10*/
