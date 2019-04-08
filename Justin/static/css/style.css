@@ -1,5 +1,5 @@
 :root {
-  --open: "Open Sans", sans-serif;
+  --open: 'Open Sans', sans-serif;
   --prussian-blue: #003049;
   --outer-space: #494949;
   --smoky-black: #0e0f19;
@@ -45,7 +45,7 @@ body {
   scroll-behavior: smooth;
   background: #f7f5f2;
   color: var(--outer-space) !important;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 h2 {
@@ -71,7 +71,8 @@ strong {
   margin: auto;
 }
 #map {
-  height: 85%;
+  height: 1000;
+  width: 100%;
 }
 #yearSlide {
   max-width: 1440px;
@@ -100,8 +101,8 @@ strong {
 }
 .fixed {
   position: fixed;
-  max-width: 500px;
-  height: 800px;
+  max-width: 850px;
+  height: 1000px;
   top: 50px;
 }
 .container-flex {
