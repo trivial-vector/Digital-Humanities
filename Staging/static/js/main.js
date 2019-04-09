@@ -55,7 +55,7 @@ d3.json('/api/maps/1907').then(function(response) {
       heat1907.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
-    data1900.push(d);
+    data1907.push(d);
   });
 });
 
@@ -69,7 +69,7 @@ d3.json('/api/maps/1908').then(function(response) {
       heat1908.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
-    data1900.push(d);
+    data1908.push(d);
   });
 });
 
@@ -83,7 +83,7 @@ d3.json('/api/maps/1915').then(function(response) {
       heat1915.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
-    data1900.push(d);
+    data1915.push(d);
   });
 });
 
@@ -97,7 +97,7 @@ d3.json('/api/maps/1917').then(function(response) {
       heat1917.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
-    data1900.push(d);
+    data1917.push(d);
   });
 });
 //baseLayers
