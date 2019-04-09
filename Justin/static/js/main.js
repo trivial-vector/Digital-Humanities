@@ -25,17 +25,20 @@ let data1900 = [],
   data1908 = [],
   data1915 = [],
   data1917 = [],
-  heatData1900 = [],
-  heatData1907 = [],
-  heatData1908 = [],
-  heatData1915 = [],
-  heatData1917 = [];
+  heat1900 = [],
+  heat1907 = [],
+  heat1908 = [],
+  heat1915 = [],
+  heat1917 = [];
 
 d3.json('/api/maps/1900').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (!d['Full Name'].includes('no continuity')) {
-      heatData1900.push([d.Latitude, d.Longitude]);
+    if (
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
+    ) {
+      heat1900.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
     data1900.push(d);
@@ -49,10 +52,10 @@ d3.json('/api/maps/1907').then(function(response) {
       !d['Full Name'].includes('NOT LISTED') ||
       !d['Full Name'].includes('no continuity')
     ) {
-      heatData1907.push([d.Latitude, d.Longitude]);
+      heat1907.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
-    data1907.push(d);
+    data1900.push(d);
   });
 });
 
@@ -63,10 +66,10 @@ d3.json('/api/maps/1908').then(function(response) {
       !d['Full Name'].includes('NOT LISTED') ||
       !d['Full Name'].includes('no continuity')
     ) {
-      heatData1908.push([d.Latitude, d.Longitude]);
+      heat1908.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
-    data1908.push(d);
+    data1900.push(d);
   });
 });
 
@@ -77,10 +80,10 @@ d3.json('/api/maps/1915').then(function(response) {
       !d['Full Name'].includes('NOT LISTED') ||
       !d['Full Name'].includes('no continuity')
     ) {
-      heatData1915.push([d.Latitude, d.Longitude]);
+      heat1915.push([d.Latitude, d.Longitude]);
     }
-    data1915.push(d);
     console.log(d);
+    data1900.push(d);
   });
 });
 
@@ -88,13 +91,13 @@ d3.json('/api/maps/1917').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      d['Full Name'].includes(!'NOT LISTED') ||
-      d['Full Name'].includes(!'no continuity')
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
     ) {
-      heatData1917.push([d.Latitude, d.Longitude]);
-      data1917.push(d);
+      heat1917.push([d.Latitude, d.Longitude]);
     }
     console.log(d);
+    data1900.push(d);
   });
 });
 //baseLayers
@@ -110,7 +113,19 @@ let light = L.tileLayer(
       'pk.eyJ1Ijoid2lyZWQzNjEiLCJhIjoiY2p0bGlteGppMGI2dzRicGthbWRjNGhhdSJ9.RopVXgG4fVgIXJ0_1FPdHQ'
   }
 );
-//Res overlay
+let streets = L.tileLayer(
+  'https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+  {
+    attribution: '',
+    maxZoom: 19,
+    id: 'outdoors-v11',
+    username: 'Wired361',
+    accessToken:
+      'pk.eyJ1Ijoid2lyZWQzNjEiLCJhIjoiY2p0bGlteGppMGI2dzRicGthbWRjNGhhdSJ9.RopVXgG4fVgIXJ0_1FPdHQ'
+  }
+);
+
+//Res Outline
 let resOutline = L.curve(
   [
     'M',
@@ -141,7 +156,7 @@ let resOutline = L.curve(
 
 console.log(data1900);
 
-//D3 overlayLayers
+//D3 overlay Layers
 //1900
 let dots1900 = L.d3SvgOverlay(function(selection, projection) {
   var ppl1900 = selection.selectAll('circle').data(data1900);
@@ -156,9 +171,7 @@ let dots1900 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].include('©')
-        ? 'var(--prussian-blue)'
-        : 'var(--red-inactive)'
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -181,9 +194,7 @@ let dots1907 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].include('©')
-        ? 'var(--prussian-blue)'
-        : 'var(--red-inactive)'
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -206,9 +217,7 @@ let dots1908 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].include('©')
-        ? 'var(--prussian-blue)'
-        : 'var(--red-inactive)'
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -231,9 +240,7 @@ let dots1915 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].include('©')
-        ? 'var(--prussian-blue)'
-        : 'var(--red-inactive)'
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -256,9 +263,7 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].include('©')
-        ? 'var(--prussian-blue)'
-        : 'var(--red-inactive)'
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -271,24 +276,24 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
 //Heat Layers
 
 //heatLayer 1900
-let heat1900 = L.heatLayer(heatData1900, {
+let heat1900 = L.heatLayer(heat1900, {
   radius: 25,
   blur: 35
 });
 
-let heat1907 = L.heatLayer(heatData1907, {
+let heat1907 = L.heatLayer(heat1907, {
   radius: 25,
   blur: 35
 });
-let heat1908 = L.heatLayer(heatData1908, {
+let heat1908 = L.heatLayer(heat1908, {
   radius: 25,
   blur: 35
 });
-let heat1915 = L.heatLayer(heatData1915, {
+let heat1915 = L.heatLayer(data1915, {
   radius: 25,
   blur: 35
 });
-let heat1917 = L.heatLayer(heatData1917, {
+let heat1917 = L.heatLayer(data1917, {
   radius: 25,
   blur: 35
 });
@@ -302,21 +307,26 @@ let resMap = L.map('map', {
   scrollWheelZoom: false,
   attributionControl: false
 });
+var baseMaps = {
+  'Reservation Outline': resOutline,
+  Streets: streets,
+  Grayscale: light
+};
+
 var overlayMaps = {
-  Reservation: resOutline,
   '1900 Residents by Race': dots1900,
   '1907 Residents by Race': dots1907,
   '1908 Residents by Race': dots1908,
   '1915 Residents by Race': dots1915,
   '1917 Residents by Race': dots1917,
   '1900 Residents Heatmap': heat1900,
-  '1900 Residents Heatmap': heat1907,
-  '1900 Residents Heatmap': heat1908,
-  '1900 Residents Heatmap': heat1915,
-  '1900 Residents Heatmap': heat1917
+  '1907 Residents Heatmap': heat1907,
+  '1908 Residents Heatmap': heat1908,
+  '1915 Residents Heatmap': heat1915,
+  '1917 Residents Heatmap': heat1917
 };
 
-L.control.layers(overlayMaps).addTo(resMap);
+L.control.layers(baseMaps, overlayMaps).addTo(resMap);
 
 console.log(data1900);
 /*
