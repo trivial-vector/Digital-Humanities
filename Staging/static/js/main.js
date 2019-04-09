@@ -61,7 +61,6 @@ d3.json('/api/maps/1908').then(function(response) {
 d3.json('/api/maps/1915').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-
     heat1915.push([d.Latitude, d.Longitude]);
     console.log(d);
     data1900.push(d);
