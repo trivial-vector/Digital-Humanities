@@ -34,15 +34,11 @@ let data1900 = [],
 d3.json('/api/maps/1900').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (
-      d['Full Name'].includes(!'NOT LISTED') ||
-      d['Full Name'].includes(!'no continuity') ||
-      d['Full Name'].includes(!'VACANT')
-    ) {
+    if (!d['Full Name'].includes('no continuity')) {
       heatData1900.push([d.Latitude, d.Longitude]);
-      data1900.push(d);
     }
     console.log(d);
+    data1900.push(d);
   });
 });
 
@@ -50,14 +46,13 @@ d3.json('/api/maps/1907').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      d['Full Name'].includes(!'NOT LISTED') ||
-      d['Full Name'].includes(!'no continuity') ||
-      d['Full Name'].includes(!'VACANT')
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
     ) {
       heatData1907.push([d.Latitude, d.Longitude]);
-      data1907.push(d);
     }
     console.log(d);
+    data1907.push(d);
   });
 });
 
@@ -65,14 +60,13 @@ d3.json('/api/maps/1908').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      d['Full Name'].includes(!'NOT LISTED') ||
-      d['Full Name'].includes(!'no continuity') ||
-      d['Full Name'].includes(!'VACANT')
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
     ) {
       heatData1908.push([d.Latitude, d.Longitude]);
-      data1908.push(d);
     }
     console.log(d);
+    data1908.push(d);
   });
 });
 
@@ -80,13 +74,12 @@ d3.json('/api/maps/1915').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      d['Full Name'].includes(!'NOT LISTED') ||
-      d['Full Name'].includes(!'no continuity') ||
-      d['Full Name'].includes(!'VACANT')
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
     ) {
       heatData1915.push([d.Latitude, d.Longitude]);
-      data1915.push(d);
     }
+    data1915.push(d);
     console.log(d);
   });
 });
@@ -96,8 +89,7 @@ d3.json('/api/maps/1917').then(function(response) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
       d['Full Name'].includes(!'NOT LISTED') ||
-      d['Full Name'].includes(!'no continuity') ||
-      d['Full Name'].includes(!'VACANT')
+      d['Full Name'].includes(!'no continuity')
     ) {
       heatData1917.push([d.Latitude, d.Longitude]);
       data1917.push(d);
