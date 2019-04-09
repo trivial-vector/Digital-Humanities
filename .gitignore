@@ -2,7 +2,9 @@
 VSCodeWS.code-workspace
 .vscode
 notes.md
-
+config.js
+storage.js
+logic.js
 # Local Backup
 static-backup
 

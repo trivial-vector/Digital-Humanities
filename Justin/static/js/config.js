@@ -1,4 +1,4 @@
-const data1900 = [
+const dataGrab1900 = [
   {
     'Street Address': '834 Arthur St',
     Race_Color: 'B',
