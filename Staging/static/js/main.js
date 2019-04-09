@@ -253,8 +253,8 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
       d['Full Name'].includes('no continuity')
-        ? 0
-        : 1
+        ? 1
+        : 0
     );
 });
 
@@ -293,12 +293,12 @@ let resMap = L.map('map', {
   attributionControl: false
 });
 var baseMaps = {
-  'Reservation Outline': resOutline,
   Streets: streets,
   Grayscale: light
 };
 
 var overlayMaps = {
+  'Reservation Outline': resOutline,
   '1900 Residents by Race': dots1900,
   '1907 Residents by Race': dots1907,
   '1908 Residents by Race': dots1908,
