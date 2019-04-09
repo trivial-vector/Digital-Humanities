@@ -48,12 +48,7 @@ d3.json('/api/maps/1900').then(function(response) {
 d3.json('/api/maps/1907').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
-    ) {
-      heat1907.push([d.Latitude, d.Longitude]);
-    }
+    heat1907.push([d.Latitude, d.Longitude]);
     console.log(d);
     data1900.push(d);
   });
@@ -62,12 +57,7 @@ d3.json('/api/maps/1907').then(function(response) {
 d3.json('/api/maps/1908').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
-    ) {
-      heat1908.push([d.Latitude, d.Longitude]);
-    }
+    heat1908.push([d.Latitude, d.Longitude]);
     console.log(d);
     data1900.push(d);
   });
@@ -76,12 +66,8 @@ d3.json('/api/maps/1908').then(function(response) {
 d3.json('/api/maps/1915').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
-    ) {
-      heat1915.push([d.Latitude, d.Longitude]);
-    }
+
+    heat1915.push([d.Latitude, d.Longitude]);
     console.log(d);
     data1900.push(d);
   });
@@ -90,12 +76,7 @@ d3.json('/api/maps/1915').then(function(response) {
 d3.json('/api/maps/1917').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
-    ) {
-      heat1917.push([d.Latitude, d.Longitude]);
-    }
+    heat1917.push([d.Latitude, d.Longitude]);
     console.log(d);
     data1900.push(d);
   });
