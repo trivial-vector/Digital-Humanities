@@ -152,7 +152,7 @@ let dots1900 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].includ('\u00a9')
+      d['Full Name'].includes('\u00a9')
         ? 'var(--prussian-blue)'
         : 'var(--red-inactive)'
     )
@@ -177,7 +177,7 @@ let dots1907 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].includ('\u00a9')
+      d['Full Name'].includes('\u00a9')
         ? 'var(--prussian-blue)'
         : 'var(--red-inactive)'
     )
@@ -202,7 +202,7 @@ let dots1908 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].includ('\u00a9')
+      d['Full Name'].includes('\u00a9')
         ? 'var(--prussian-blue)'
         : 'var(--red-inactive)'
     )
@@ -227,7 +227,7 @@ let dots1915 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].includ('\u00a9')
+      d['Full Name'].includes('\u00a9')
         ? 'var(--prussian-blue)'
         : 'var(--red-inactive)'
     )
@@ -252,7 +252,7 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Full Name'].includ('\u00a9')
+      d['Full Name'].includes('\u00a9')
         ? 'var(--prussian-blue)'
         : 'var(--red-inactive)'
     )
