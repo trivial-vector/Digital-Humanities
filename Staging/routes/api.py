@@ -47,7 +47,7 @@ def heat_maps(year):
     collection_string = "censuses_" + year
     censuses_year_collection = db_DH[collection_string]
     all_data = dumps(censuses_year_collection.find({"Latitude": {"$ne": None}, "Longitude": {"$ne": None}},
-                                                   {"_id": 0, "Street Address": 1, "Latitude": 1, "Longitude": 1, "Race_Color": 1}))
+                                                   {"_id": 0, "Full Name": 1, "Street Address": 1, "Latitude": 1, "Longitude": 1, "Race_Color": 1}))
 
     return all_data
 
