@@ -25,23 +25,24 @@ let data1900 = [],
   data1908 = [],
   data1915 = [],
   data1917 = [],
-  heat1900 = [],
-  heat1907 = [],
-  heat1908 = [],
-  heat1915 = [],
-  heat1917 = [];
+  heatData1900 = [],
+  heatData1907 = [],
+  heatData1908 = [],
+  heatData1915 = [],
+  heatData1917 = [];
 
 d3.json('/api/maps/1900').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
-      heat1900.push([d.Latitude, d.Longitude]);
+      heatData1900.push([d.Latitude, d.Longitude]);
+      data1900.push(d);
     }
     console.log(d);
-    data1900.push(d);
   });
 });
 
@@ -49,13 +50,14 @@ d3.json('/api/maps/1907').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
-      heat1907.push([d.Latitude, d.Longitude]);
+      heatData1907.push([d.Latitude, d.Longitude]);
+      data1907.push(d);
     }
     console.log(d);
-    data1900.push(d);
   });
 });
 
@@ -63,13 +65,14 @@ d3.json('/api/maps/1908').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
-      heat1908.push([d.Latitude, d.Longitude]);
+      heatData1908.push([d.Latitude, d.Longitude]);
+      data1908.push(d);
     }
     console.log(d);
-    data1900.push(d);
   });
 });
 
@@ -77,13 +80,14 @@ d3.json('/api/maps/1915').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
-      heat1915.push([d.Latitude, d.Longitude]);
+      heatData1915.push([d.Latitude, d.Longitude]);
+      data1915.push(d);
     }
     console.log(d);
-    data1900.push(d);
   });
 });
 
@@ -91,13 +95,14 @@ d3.json('/api/maps/1917').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
-      heat1917.push([d.Latitude, d.Longitude]);
+      heatData1917.push([d.Latitude, d.Longitude]);
+      data1917.push(d);
     }
     console.log(d);
-    data1900.push(d);
   });
 });
 //baseLayers
@@ -159,7 +164,9 @@ let dots1900 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -182,7 +189,9 @@ let dots1907 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -205,7 +214,9 @@ let dots1908 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -228,7 +239,9 @@ let dots1915 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -251,7 +264,9 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -264,24 +279,24 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
 //Heat Layers
 
 //heatLayer 1900
-let heat1900 = L.heatLayer(heat1900, {
+let heat1900 = L.heatLayer(heatData1900, {
   radius: 25,
   blur: 35
 });
 
-let heat1907 = L.heatLayer(heat1907, {
+let heat1907 = L.heatLayer(heatData1907, {
   radius: 25,
   blur: 35
 });
-let heat1908 = L.heatLayer(heat1908, {
+let heat1908 = L.heatLayer(heatData1908, {
   radius: 25,
   blur: 35
 });
-let heat1915 = L.heatLayer(heat1915, {
+let heat1915 = L.heatLayer(heatData1915, {
   radius: 25,
   blur: 35
 });
-let heat1917 = L.heatLayer(heat1917, {
+let heat1917 = L.heatLayer(heatData1917, {
   radius: 25,
   blur: 35
 });
