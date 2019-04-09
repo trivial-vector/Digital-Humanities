@@ -34,12 +34,7 @@ let data1900 = [],
 d3.json('/api/maps/1900').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
-    ) {
-      heat1900.push([d.Latitude, d.Longitude]);
-    }
+    heat1900.push([d.Latitude, d.Longitude]);
     console.log(d);
     data1900.push(d);
   });
