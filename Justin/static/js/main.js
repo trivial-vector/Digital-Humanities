@@ -20,13 +20,86 @@ function scroll(n, offset, func1, func2) {
 }
 // Data Wrangling
 
-let data1900 = d3
-  .json('/maps/1917')
-  .then(function(response) {
-      response.map(function (d) {
-          d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-          return d;
+let data1900 = [],
+  data1907 = [],
+  data1908 = [],
+  data1915 = [],
+  data1917 = [],
+  heat1900 = [],
+  heat1907 = [],
+  heat1908 = [],
+  heat1915 = [],
+  heat1917 = [];
+
+d3.json('/api/maps/1900').then(function(response) {
+  response.map(function(d) {
+    d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+    if (
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
+    ) {
+      heat1900.push([d.Latitude, d.Longitude]);
+    }
+    console.log(d);
+    data1900.push(d);
   });
+});
+
+d3.json('/api/maps/1907').then(function(response) {
+  response.map(function(d) {
+    d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+    if (
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
+    ) {
+      heat1907.push([d.Latitude, d.Longitude]);
+    }
+    console.log(d);
+    data1900.push(d);
+  });
+});
+
+d3.json('/api/maps/1908').then(function(response) {
+  response.map(function(d) {
+    d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+    if (
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
+    ) {
+      heat1908.push([d.Latitude, d.Longitude]);
+    }
+    console.log(d);
+    data1900.push(d);
+  });
+});
+
+d3.json('/api/maps/1915').then(function(response) {
+  response.map(function(d) {
+    d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+    if (
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
+    ) {
+      heat1915.push([d.Latitude, d.Longitude]);
+    }
+    console.log(d);
+    data1900.push(d);
+  });
+});
+
+d3.json('/api/maps/1917').then(function(response) {
+  response.map(function(d) {
+    d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
+    if (
+      !d['Full Name'].includes('NOT LISTED') ||
+      !d['Full Name'].includes('no continuity')
+    ) {
+      heat1917.push([d.Latitude, d.Longitude]);
+    }
+    console.log(d);
+    data1900.push(d);
+  });
+});
 //baseLayers
 
 let light = L.tileLayer(
@@ -40,96 +113,6 @@ let light = L.tileLayer(
       'pk.eyJ1Ijoid2lyZWQzNjEiLCJhIjoiY2p0bGlteGppMGI2dzRicGthbWRjNGhhdSJ9.RopVXgG4fVgIXJ0_1FPdHQ'
   }
 );
-
-//data1900 = dataGrab(1900);
-let data1900 = dataGrab1900.map(function(d) {
-  d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-  return d;
-});
-console.log(data1900);
-
-//D3 overlayLayers
-//1900
-let dots1900 = L.d3SvgOverlay(function(selection, projection) {
-  var ppl1900 = selection.selectAll('circle').data(data1900);
-  ppl1900
-    .enter()
-    .append('circle')
-    .attr('r', 3)
-    .attr('cx', function x(d) {
-      return projection.latLngToLayerPoint(d.latLng).x;
-    })
-    .attr('cy', function y(d) {
-      return projection.latLngToLayerPoint(d.latLng).y;
-    })
-    .attr('fill', (d, i) => (d["Race_Color"]=='B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'))
-    .attr('opacity', 0.75);
-});
-/* //1907
-let dots1907 = L.d3SvgOverlay(function(selection, projection) {
-  var ppl1907 = selection.selectAll('circle').data(data1907);
-  ppl1907
-    .enter()
-    .append('circle')
-    .attr('r', 3)
-    .attr('cx', function x(d) {
-      return projection.latLngToLayerPoint(d.latLng).x;
-    })
-    .attr('cy', function y(d) {
-      return projection.latLngToLayerPoint(d.latLng).y;
-    })
-    .style('fill', 'black')
-    .attr('opacity', 0.75);
-});
-//1908
-let dots1908 = L.d3SvgOverlay(function(selection, projection) {
-  var ppl1908 = selection.selectAll('circle').data(data1908);
-  ppl1908
-    .enter()
-    .append('circle')
-    .attr('r', 3)
-    .attr('cx', function x(d) {
-      return projection.latLngToLayerPoint(d.latLng).x;
-    })
-    .attr('cy', function y(d) {
-      return projection.latLngToLayerPoint(d.latLng).y;
-    })
-    .style('fill', 'black')
-    .attr('opacity', 0.75);
-});
-//1915
-let dots1915 = L.d3SvgOverlay(function(selection, projection) {
-  var ppl1915 = selection.selectAll('circle').data(data1915);
-  ppl1915
-    .enter()
-    .append('circle')
-    .attr('r', 3)
-    .attr('cx', function x(d) {
-      return projection.latLngToLayerPoint(d.latLng).x;
-    })
-    .attr('cy', function y(d) {
-      return projection.latLngToLayerPoint(d.latLng).y;
-    })
-    .style('fill', 'black')
-    .attr('opacity', 0.75);
-});
-//1917
-let dots1917 = L.d3SvgOverlay(function(selection, projection) {
-  var ppl1917 = selection.selectAll('circle').data(data1917);
-  ppl1917
-    .enter()
-    .append('circle')
-    .attr('r', 3)
-    .attr('cx', function x(d) {
-      return projection.latLngToLayerPoint(d.latLng).x;
-    })
-    .attr('cy', function y(d) {
-      return projection.latLngToLayerPoint(d.latLng).y;
-    })
-    .style('fill', 'black')
-    .attr('opacity', 0.75);
-});
- */
 //Res overlay
 let resOutline = L.curve(
   [
@@ -159,31 +142,150 @@ let resOutline = L.curve(
   { color: 'red', 'border-style': 'dotted', fill: true, animate: 2000 }
 );
 
+console.log(data1900);
+
+//D3 overlayLayers
+//1900
+let dots1900 = L.d3SvgOverlay(function(selection, projection) {
+  var ppl1900 = selection.selectAll('circle').data(data1900);
+  ppl1900
+    .enter()
+    .append('circle')
+    .attr('r', 3)
+    .attr('cx', function x(d) {
+      return projection.latLngToLayerPoint(d.latLng).x;
+    })
+    .attr('cy', function y(d) {
+      return projection.latLngToLayerPoint(d.latLng).y;
+    })
+    .attr('fill', (d, i) =>
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+    )
+    .attr('opacity', (d, i) =>
+      d['Full Name'].includes('NOT LISTED') ||
+      d['Full Name'].includes('no continuity')
+        ? 0
+        : 1
+    );
+});
+//1907
+let dots1907 = L.d3SvgOverlay(function(selection, projection) {
+  var ppl1907 = selection.selectAll('circle').data(data1907);
+  ppl1907
+    .enter()
+    .append('circle')
+    .attr('r', 3)
+    .attr('cx', function x(d) {
+      return projection.latLngToLayerPoint(d.latLng).x;
+    })
+    .attr('cy', function y(d) {
+      return projection.latLngToLayerPoint(d.latLng).y;
+    })
+    .attr('fill', (d, i) =>
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+    )
+    .attr('opacity', (d, i) =>
+      d['Full Name'].includes('NOT LISTED') ||
+      d['Full Name'].includes('no continuity')
+        ? 0
+        : 1
+    );
+});
+//1908
+let dots1908 = L.d3SvgOverlay(function(selection, projection) {
+  var ppl1908 = selection.selectAll('circle').data(data1908);
+  ppl1908
+    .enter()
+    .append('circle')
+    .attr('r', 3)
+    .attr('cx', function x(d) {
+      return projection.latLngToLayerPoint(d.latLng).x;
+    })
+    .attr('cy', function y(d) {
+      return projection.latLngToLayerPoint(d.latLng).y;
+    })
+    .attr('fill', (d, i) =>
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+    )
+    .attr('opacity', (d, i) =>
+      d['Full Name'].includes('NOT LISTED') ||
+      d['Full Name'].includes('no continuity')
+        ? 0
+        : 1
+    );
+});
+//1915
+let dots1915 = L.d3SvgOverlay(function(selection, projection) {
+  var ppl1915 = selection.selectAll('circle').data(data1915);
+  ppl1915
+    .enter()
+    .append('circle')
+    .attr('r', 3)
+    .attr('cx', function x(d) {
+      return projection.latLngToLayerPoint(d.latLng).x;
+    })
+    .attr('cy', function y(d) {
+      return projection.latLngToLayerPoint(d.latLng).y;
+    })
+    .attr('fill', (d, i) =>
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+    )
+    .attr('opacity', (d, i) =>
+      d['Full Name'].includes('NOT LISTED') ||
+      d['Full Name'].includes('no continuity')
+        ? 0
+        : 1
+    );
+});
+//1917
+let dots1917 = L.d3SvgOverlay(function(selection, projection) {
+  var ppl1917 = selection.selectAll('circle').data(data1917);
+  ppl1917
+    .enter()
+    .append('circle')
+    .attr('r', 3)
+    .attr('cx', function x(d) {
+      return projection.latLngToLayerPoint(d.latLng).x;
+    })
+    .attr('cy', function y(d) {
+      return projection.latLngToLayerPoint(d.latLng).y;
+    })
+    .attr('fill', (d, i) =>
+      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+    )
+    .attr('opacity', (d, i) =>
+      d['Full Name'].includes('NOT LISTED') ||
+      d['Full Name'].includes('no continuity')
+        ? 0
+        : 1
+    );
+});
+
 //Heat Layers
 
 //heatLayer 1900
-let heat1900 = L.heatLayer(data1900, {
+let heat1900 = L.heatLayer(heat1900, {
   radius: 25,
   blur: 35
 });
-/* 
-let heat1907 = L.heatLayer(data1907, {
+
+let heat1907 = L.heatLayer(heat1907, {
   radius: 25,
   blur: 35
 });
-let heat1908 = L.heatLayer(data1908, {
+let heat1908 = L.heatLayer(heat1908, {
   radius: 25,
   blur: 35
 });
-let heat1915 = L.heatLayer(data1915, {
+let heat1915 = L.heatLayer(heat1915, {
   radius: 25,
   blur: 35
 });
-let heat1917 = L.heatLayer(data1917, {
+let heat1917 = L.heatLayer(heat1917, {
   radius: 25,
   blur: 35
 });
- */
+
 //Map Set up
 
 let resMap = L.map('map', {
@@ -195,15 +297,23 @@ let resMap = L.map('map', {
 });
 var overlayMaps = {
   Reservation: resOutline,
-  '1900 Homes': dots1900,
-  '1900 Heatmap': heat1900
+  '1900 Residents by Race': dots1900,
+  '1907 Residents by Race': dots1907,
+  '1908 Residents by Race': dots1908,
+  '1915 Residents by Race': dots1915,
+  '1917 Residents by Race': dots1917,
+  '1900 Residents Heatmap': heat1900,
+  '1900 Residents Heatmap': heat1907,
+  '1900 Residents Heatmap': heat1908,
+  '1900 Residents Heatmap': heat1915,
+  '1900 Residents Heatmap': heat1917
 };
 
 L.control.layers(overlayMaps).addTo(resMap);
 
 console.log(data1900);
-
-/* var trace1 = {
+/*
+var trace1 = {
   x: ['1900', '1910', '1920'],
   y: [193, 28, 352],
   name: 'Child(0-11)',
@@ -256,9 +366,7 @@ var layout = {
   }
 };
 
-Plotly.newPlot('myDiv', data, layout, {}, { showSendToCloud: true }); */
-
-/* 
+Plotly.newPlot('myDiv', data, layout, {}, { showSendToCloud: true });
 //Declarations
 let svg = d3
   .select('svg')
@@ -276,5 +384,4 @@ let rects = group.append('rect');
 //set up grid spacing
 let spacing = 40;
 let rows = 15;
-let column = 10
- */
+let column = 10 */
