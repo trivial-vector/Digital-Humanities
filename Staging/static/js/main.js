@@ -35,7 +35,6 @@ d3.json('/api/maps/1900').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      d['Full Name'].includes(!'NOT LISTED') ||
       d['Full Name'].includes(!'no continuity') ||
       d['Full Name'].includes(!'VACANT')
     ) {
