@@ -34,11 +34,15 @@ let data1900 = [],
 d3.json('/api/maps/1900').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
-    if (!d['Full Name'].includes('no continuity')) {
+    if (
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
+    ) {
       heatData1900.push([d.Latitude, d.Longitude]);
+      data1900.push(d);
     }
     console.log(d);
-    data1900.push(d);
   });
 });
 
@@ -46,13 +50,14 @@ d3.json('/api/maps/1907').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
       heatData1907.push([d.Latitude, d.Longitude]);
+      data1907.push(d);
     }
     console.log(d);
-    data1907.push(d);
   });
 });
 
@@ -60,13 +65,14 @@ d3.json('/api/maps/1908').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
       heatData1908.push([d.Latitude, d.Longitude]);
+      data1908.push(d);
     }
     console.log(d);
-    data1908.push(d);
   });
 });
 
@@ -74,13 +80,14 @@ d3.json('/api/maps/1915').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
       heatData1915.push([d.Latitude, d.Longitude]);
+      data1915.push(d);
     }
     console.log(d);
-    data1915.push(d);
   });
 });
 
@@ -88,13 +95,14 @@ d3.json('/api/maps/1917').then(function(response) {
   response.map(function(d) {
     d.latLng = [parseFloat(d.Longitude), parseFloat(d.Latitude)];
     if (
-      !d['Full Name'].includes('NOT LISTED') ||
-      !d['Full Name'].includes('no continuity')
+      d['Full Name'].includes(!'NOT LISTED') ||
+      d['Full Name'].includes(!'no continuity') ||
+      d['Full Name'].includes(!'VACANT')
     ) {
       heatData1917.push([d.Latitude, d.Longitude]);
+      data1917.push(d);
     }
     console.log(d);
-    data1917.push(d);
   });
 });
 //baseLayers
@@ -156,7 +164,9 @@ let dots1900 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -179,7 +189,9 @@ let dots1907 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -202,7 +214,9 @@ let dots1908 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -225,7 +239,9 @@ let dots1915 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
@@ -248,7 +264,9 @@ let dots1917 = L.d3SvgOverlay(function(selection, projection) {
       return projection.latLngToLayerPoint(d.latLng).y;
     })
     .attr('fill', (d, i) =>
-      d['Race_Color'] == 'B' ? 'var(--prussian-blue)' : 'var(--red-inactive)'
+      d['Full Name'].include('©')
+        ? 'var(--prussian-blue)'
+        : 'var(--red-inactive)'
     )
     .attr('opacity', (d, i) =>
       d['Full Name'].includes('NOT LISTED') ||
