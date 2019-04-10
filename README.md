@@ -54,31 +54,6 @@ A sample entry of an API response:
 
 [![Generic badge](https://img.shields.io/badge/Dependencies-8-blue.svg)](https://github.com/Wired361/Digital-Humanities/network/dependencies)
 
-```mermaid
-graph LR
-subgraph Data Engineering
-
-C(Database)-->B
-B-->C
-B[API]-->F
-F[Javascript]-->B
-a1(Sanborn Fire Insurance Company)-->f1
-b1(Deeds Records)-->f1(Pandas)
-c1(City of Houston Directories)-->f1
-d1(Census Info)-->f1
-e1(Newspaper Archives)-->f1
-f1-->j1(Local Mongo)
-j1-->k1((Heroku))
-k1-->C
-f1-->G(Seaborn)
-G-->F
-D(Website)-->F
-H((User))==>D
-end
-```
-
-Path of the Data
-
 # References
 
 [The Reservation](https://arcgis.com/apps/Cascade/index.html?appid=2262a3c6c67e4f1ebd2261ca8f82a267)
