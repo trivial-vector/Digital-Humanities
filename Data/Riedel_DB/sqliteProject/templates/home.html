@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>sqlilte sample</title>
+    </head>
+    <body>
+        <form class="" action="{{ url_for('selectDB') }}" method="post">
+            <select name = 'getDB' >
+                {%for db in databases%}
+                <option  value="{{db}}">{{db}}</option>
+                {% endfor %}
+            </select>
+            <br>
+
+            <button type="submit" name="button">Select</button>
+
+        </form>
+
+        <!-- <a href="/list">add new recode</a>
+        <br>
+        <a href="/matchlist">Matched</a> -->
+    </body>
+</html>

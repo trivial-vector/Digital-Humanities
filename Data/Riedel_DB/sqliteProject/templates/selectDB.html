@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <form class="" action="{{ url_for('selectMatch') }}" method="post">
+            <select name = 'getTable' >
+                {%for table in tables%}
+                <option  value="{{table}}">{{table}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <select name = 'getTable2' >
+                {%for table in tables%}
+                <option  value="{{table}}">{{table}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <button type="submit" name="button">Select</button>
+        </form>
+        
+    </body>
+</html>

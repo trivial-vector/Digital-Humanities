@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+   <body>
+      <strong>{{msg}}</strong>
+
+      <table border = 1>
+         <thead>
+             <td>delete</td>
+             {% for s in schema %}
+            <td>{{s}}</td>
+            {% endfor %}
+         </thead>
+
+         {% for row in rows %}
+            <tr>
+                <form class="" action="{{ url_for('getEntryInfo') }}" method="post">
+                    <input type="hidden" name="info" value="{{ loop.index0 }} {{ val }}">
+                    <td><input type="checkbox" name="delete" value="{{row[0]}}"></td>
+                    {% for key in row %}
+                        {% if key %}
+                           <td>{{key}}</td>
+                        {% else %}
+                            <td>  </td>
+                        {% endif %}
+                    {% endfor %}
+                    <td><button type="submit">get/delete content</button></td>
+                </form>
+            </tr>
+         {% endfor %}
+      </table>
+      <hr>
+
+
+    <div class="entry_info">
+        {% if info %}
+        <table border = 1>
+
+            {% for schema in range(2) %}
+                <thead>
+
+                {% for s in info_schema[schema] %}
+                   <td>{{s}}</td>
+                   {% endfor %}
+                </thead>
+
+                   <tr>
+                       {% for key in info[schema][0] %}
+                       {% if key %}
+                          <td>{{key}}</td>
+                       {% else %}
+                           <td>  </td>
+                       {% endif %}
+                        {% endfor %}
+                   </tr>
+                   <br>
+
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+
+       <a href="/"></a>
+      <a href = "/">Go back to home page</a>
+   </body>
+</html>
