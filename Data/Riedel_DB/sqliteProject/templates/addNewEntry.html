@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <a href = "/">Go back to home page</a> <br />
+        <br />
+        <hr>
+        <form class="" action="{{ url_for('filter') }}" method="post">
+            <label for="show"><strong>Show all data</strong></label>
+                <input type="radio" name="show" value="Show all data">
+            <label for="show"><strong>Show data has not been matched</strong></label>
+                <input type="radio" name="show" value="Show data has not been matched">
+
+            <button type="submit" name="show">get data</button>
+        </form>
+        <br>
+        <form class="" action="{{ url_for('filterData') }}" method="post">
+            <thead>
+                <input type="hidden" name='match1' value='{{cache["match1"]}}'>
+
+                {% for s in schema_cen %}
+                <td>{{s}}</td>
+               <td><input type="text" name={{s}} value=""></td>
+               {% endfor %}
+            </thead>
+            <br>
+            <button type="submit">filter</button>
+        </form>
+        <br>
+
+        <form class="" action="{{ url_for('filterData') }}" method="post">
+            <thead>
+                <input type="hidden" name='match2' value='{{cache["match2"]}}'>
+                {% for s in schema_blo %}
+                    <td>{{s}}</td>
+                    <td><input type="text" name={{s}} value=""></td>
+                {% endfor %}
+            </thead>
+            <br>
+            <button type="submit">filter</button>
+        </form>
+        <br>
+
+        <hr>
+        
+        <form class="" action="{{ url_for('addmatchrec') }}" method="post">
+        <div class="name1" style="height:300px; overflow:auto;">
+           <table border = 1>
+
+              <thead>
+                  <td>Check</td>
+                  {% for s in schema_cen %}
+                 <td>{{s}}</td>
+                 {% endfor %}
+              </thead>
+
+              {% for row in rows_cen %}
+                 <tr>
+                     <td><input type="checkbox" name="match1" value="{{row['rowid']}}"></td>
+                     {% for key in row %}
+                        <td>{{key}}</td>
+                       {% endfor %}
+                 </tr>
+              {% endfor %}
+           </table>
+         </div>
+         <br>
+         <div class="name1" style="height:300px; overflow:auto;">
+            <table border = 1>
+
+               <thead>
+                   <td>Check</td>
+                   {% for s in schema_blo %}
+                  <td>{{s}}</td>
+                  {% endfor %}
+               </thead>
+
+               {% for row in rows_blo %}
+                  <tr>
+                      <td><input type="checkbox" name="match2" value="{{row['rowid']}}"></td>
+                      {% for key in row %}
+                         <td>{{key}}</td>
+                        {% endfor %}
+                  </tr>
+               {% endfor %}
+
+            </table>
+          </div>
+
+          {{matchNote}} <br>
+          <input type = "text" name = "matchInput" /><br>
+          Master <br>
+          <input type = "text" name = "master" /><br>
+          Note <br>
+          <input type = "text" name = "Note" /><br>
+
+          <input type = "submit" value = "submit" /><br>
+      </form>
+       <a href = "/">Go back to home page</a>
+    </body>
+</html>

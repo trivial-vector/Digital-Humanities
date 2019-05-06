@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+   <body>
+       <form class="" action="{{ url_for('addmatch') }}" method="post">
+       <div class="name1" style="height:300px; overflow:auto;">
+          <table border = 1>
+             <thead>
+                 <td>Check</td>
+                 {% for s in schema_cen %}
+                <td>{{s}}</td>
+                {% endfor %}
+             </thead>
+
+             {% for row in rows_cen %}
+                <tr>
+                    <td><input type="radio" name="match1" value="{{row['ID']}}"></td>
+                    {% for key in row %}
+                       <td>{{key}}</td>
+                      {% endfor %}
+                </tr>
+             {% endfor %}
+          </table>
+        </div>
+        <br>
+        <div class="name1" style="height:300px; overflow:auto;">
+           <table border = 1>
+              <thead>
+                  <td>Check</td>
+                  {% for s in schema_blo %}
+                 <td>{{s}}</td>
+                 {% endfor %}
+              </thead>
+
+              {% for row in rows_blo %}
+                 <tr>
+                     <td><input type="radio" name="match2" value="{{row['ID']}}"></td>
+                     {% for key in row %}
+                        <td>{{key}}</td>
+                       {% endfor %}
+                 </tr>
+              {% endfor %}
+              
+           </table>
+         </div>
+         Master <br>
+         <input type = "text" name = "master" /><br>
+         Note <br>
+         <input type = "text" name = "Note" /><br>
+
+         <input type = "submit" value = "submit" /><br>
+     </form>
+      <a href = "/">Go back to home page</a>
+   </body>
+</html>

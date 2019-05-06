@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h2>{{m1}} matches {{m2}}</h2>
+        <form class="" action="{{ url_for('addNewEntry') }}" method="post">
+
+            <select name = 'getTable' >
+                {%for i in range(length)%}
+                <option value="{{tables[i]}}">{{matchName[i]}}</option>
+                {% endfor %}
+            </select>
+            <br>
+
+            <button type="submit" name="button">Select a match table</button>
+        </form> <br>
+            <form class="" action="{{ url_for('createTable') }}" method="post">
+                Name <br>
+                <input type="text" name="name"><br>
+                <input type="submit" name="submit" value="Create a new match table">
+            </form>
+
+            <br>
+            <br>
+
+            <form class="" action="{{ url_for('getMatchlist') }}" method="post">
+                <select name = 'getTable' >
+                    {%for i in range(length)%}
+                    <option value="{{tables[i]}}">{{matchName[i]}}</option>
+                    {% endfor %}
+                </select>
+                <input type="submit" name="submit" value="get the match table">
+            </form>
+
+    <br>
+    <br>
+    <br>
+    <a href = "/">Go back to home page</a>
+    </body>
+
+
+</html>
