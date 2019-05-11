@@ -1,0 +1,2855 @@
+,Race,Sex,Age,Occupation,Year,Male,B
+0,B,F,26,Servant,1900,0,1
+1,B,M,27,Drayman,1900,1,1
+2,B,F,25,Laundress,1900,0,1
+3,B,F,25,Servant,1900,0,1
+4,B,F,8,At School,1900,0,1
+5,B,M,46,Laborer,1900,1,1
+7,B,M,19,Drayman,1900,1,1
+9,B,M,12,At School,1900,1,1
+12,B,M,21,Janitor,1900,1,1
+17,B,F,58,Laundress,1900,0,1
+18,B,F,35,Laundress,1900,0,1
+19,B,F,23,Laundress,1900,0,1
+20,B,F,18,Servant,1900,0,1
+21,B,F,13,Servant,1900,0,1
+22,B,M,56,Laborer,1900,1,1
+24,B,M,20,Laborer,1900,1,1
+25,B,F,39,Laundress,1900,0,1
+26,B,M,20,Laborer,1900,1,1
+31,B,F,24,Servant,1900,0,1
+32,B,M,51,Laborer,1900,1,1
+34,B,F,20,Laundress,1900,0,1
+35,B,M,15,Coachman,1900,1,1
+36,B,F,17,At School,1900,0,1
+37,B,F,25,Laundress,1900,0,1
+39,B,F,46,Servant,1900,0,1
+40,B,M,21,Expressman,1900,1,1
+41,B,F,19,Servant,1900,0,1
+42,B,M,17,At School,1900,1,1
+43,B,M,14,At School,1900,1,1
+44,B,F,24,Laundress,1900,0,1
+45,B,F,60,Laborer,1900,0,1
+46,B,M,19,Laborer,1900,1,1
+49,B,M,22,Laborer,1900,1,1
+50,B,M,25,Laborer,1900,1,1
+52,B,M,54,Laborer,1900,1,1
+54,B,F,25,Servant,1900,0,1
+55,B,F,48,Servant,1900,0,1
+56,B,M,13,Servant,1900,1,1
+57,B,M,10,At School,1900,1,1
+58,B,F,28,Servant,1900,0,1
+59,B,F,22,Servant,1900,0,1
+60,B,F,30,Laundress,1900,0,1
+61,B,F,15,At School,1900,0,1
+62,B,F,11,At School,1900,0,1
+65,B,M,28,Laborer,1900,1,1
+66,B,M,31,Janitor,1900,1,1
+67,B,M,29,Janitor,1900,1,1
+69,B,F,29,Laundress,1900,0,1
+70,B,M,30,Mason,1900,1,1
+72,B,F,9,At School,1900,0,1
+74,B,F,12,Nurse,1900,0,1
+76,B,M,50,Laborer,1900,1,1
+77,B,F,49,Laundress,1900,0,1
+79,B,M,29,Laborer,1900,1,1
+80,B,F,27,Laundress,1900,0,1
+82,B,M,39,Laborer,1900,1,1
+86,B,M,35,Laborer,1900,1,1
+87,B,F,30,Cook,1900,0,1
+88,B,F,14,At School,1900,0,1
+90,B,F,63,Housework,1900,0,1
+91,B,F,33,Laundress,1900,0,1
+92,B,F,24,Laundress,1900,0,1
+93,B,M,14,Drayman,1900,1,1
+94,B,M,34,Laborer,1900,1,1
+95,B,F,18,Laundress,1900,0,1
+96,B,M,22,Bartender,1900,1,1
+97,B,F,35,Laundress,1900,0,1
+98,B,M,10,At School,1900,1,1
+99,B,M,8,At School,1900,1,1
+104,B,F,29,Seamstress,1900,0,1
+105,B,F,27,Cook,1900,0,1
+106,B,M,32,Laborer,1900,1,1
+108,B,M,24,Janitor,1900,1,1
+110,B,M,32,Laborer,1900,1,1
+113,B,M,35,Laborer,1900,1,1
+115,B,M,9,At School,1900,1,1
+116,B,F,8,At School,1900,0,1
+120,B,M,30,Laborer,1900,1,1
+122,B,M,22,Laborer,1900,1,1
+124,B,F,13,At School,1900,0,1
+125,B,M,28,Laborer,1900,1,1
+127,B,F,37,Laundress,1900,0,1
+128,B,M,8,At School,1900,1,1
+129,B,M,60,Cook,1900,1,1
+131,B,M,55,Laborer,1900,1,1
+132,B,M,36,Drayman,1900,1,1
+134,B,M,10,At School,1900,1,1
+135,B,F,9,At School,1900,0,1
+136,B,M,57,Carpenter,1900,1,1
+138,B,F,24,Seamstress,1900,0,1
+139,B,F,24,Seamstress,1900,0,1
+140,B,M,22,Barber,1900,1,1
+142,B,F,18,At School,1900,0,1
+143,B,F,17,At School,1900,0,1
+144,B,F,16,At School,1900,0,1
+145,B,F,14,At School,1900,0,1
+146,B,M,12,At School,1900,1,1
+147,B,M,23,Laborer,1900,1,1
+149,B,M,87,Gardener,1900,1,1
+150,B,M,81,Porter,1900,1,1
+151,B,M,21,Laborer,1900,1,1
+152,B,M,17,Tailor,1900,1,1
+153,B,M,30,Tailor,1900,1,1
+155,B,M,38,Teamster,1900,1,1
+157,B,F,23,Cook,1900,0,1
+158,B,M,21,Laborer,1900,1,1
+159,B,F,19,Laundress,1900,0,1
+160,B,F,17,Nurse,1900,0,1
+162,B,M,12,Dishwasher (hotel),1900,1,1
+163,B,F,11,Nurse,1900,0,1
+164,B,F,9,At School,1900,0,1
+169,B,F,10,At School,1900,0,1
+170,B,M,30,Laborer,1900,1,1
+171,B,F,27,Laundress,1900,0,1
+172,B,M,25,Bricklayer,1900,1,1
+173,B,F,35,Laundress,1900,0,1
+174,B,M,19,Laborer,1900,1,1
+178,B,F,28,Laundress,1900,0,1
+179,B,F,11,At School,1900,0,1
+180,B,M,10,At School,1900,1,1
+181,W,M,26,Baker,1900,1,0
+182,W,M,35,Baker,1900,1,0
+184,W,M,57,Upholsterer,1900,1,0
+185,B,M,38,Blacksmith,1900,1,1
+187,B,M,8,At School,1900,1,1
+189,B,M,22,Coachman,1900,1,1
+190,W,M,45,Drummer,1900,1,0
+191,B,M,38,Laborer,1900,1,1
+193,B,F,12,At School,1900,0,1
+195,B,M,24,Laborer,1900,1,1
+196,B,M,55,Laborer,1900,1,1
+198,B,F,38,Laundress,1900,0,1
+200,B,M,38,Drayman,1900,1,1
+203,B,M,63,Laborer,1900,1,1
+205,B,M,18,Coachman,1900,1,1
+206,B,M,17,Porter,1900,1,1
+207,B,F,16,At School,1900,0,1
+208,B,M,14,At School,1900,1,1
+209,B,F,11,At School,1900,0,1
+210,B,M,10,At School,1900,1,1
+211,B,M,8,At School,1900,1,1
+214,B,M,34,Laborer,1900,1,1
+215,B,M,76,Chopping Wood,1900,1,1
+217,B,M,29,Janitor,1900,1,1
+219,B,M,24,Porter,1900,1,1
+221,B,M,54,Drayman,1900,1,1
+223,B,M,15,At School,1900,1,1
+224,B,M,13,At School,1900,1,1
+225,B,F,12,At School,1900,0,1
+226,B,F,10,At School,1900,0,1
+228,B,F,34,Laundress,1900,0,1
+229,B,M,32,Laborer,1900,1,1
+230,B,M,18,Barber,1900,1,1
+233,B,M,15,At School,1900,1,1
+235,B,M,22,Laborer,1900,1,1
+239,B,M,40,Janitor,1900,1,1
+240,B,M,18,Waitress,1900,1,1
+241,B,M,31,Laborer,1900,1,1
+243,B,M,20,Laborer,1900,1,1
+246,B,F,10,At School,1900,0,1
+247,B,F,23,Cook,1900,0,1
+249,B,M,39,Carpenter,1900,1,1
+251,B,M,34,Clergyman,1900,1,1
+253,B,M,28,Musician,1900,1,1
+258,B,M,47,Laborer,1900,1,1
+259,B,F,20,Servant,1900,0,1
+260,B,F,19,Servant,1900,0,1
+261,B,M,15,Coachman,1900,1,1
+262,B,F,14,Office Girl,1900,0,1
+267,W,M,34,Stock Raiser,1900,1,0
+270,W,F,11,At School,1900,0,0
+271,W,M,8,At School,1900,1,0
+273,B,M,27,Tailor,1900,1,1
+277,B,F,37,Laundress,1900,0,1
+278,B,M,30,Drayman,1900,1,1
+279,B,M,15,Laborer,1900,1,1
+280,B,M,56,Clergyman,1900,1,1
+281,B,F,29,Laundress,1900,0,1
+285,B,M,27,Laborer,1900,1,1
+286,B,F,9,At School,1900,0,1
+287,B,M,55,Carpenter,1900,1,1
+288,B,M,44,Drayman,1900,1,1
+289,B,M,44,Laborer,1900,1,1
+290,B,M,41,Laborer,1900,1,1
+294,B,F,14,At School,1900,0,1
+295,B,M,40,Laborer,1900,1,1
+300,B,M,48,Laborer,1900,1,1
+302,B,M,45,Laborer,1900,1,1
+304,B,F,32,Laundress,1900,0,1
+305,B,M,10,At School,1900,1,1
+306,B,M,12,At School,1900,1,1
+307,B,F,43,Laundress,1900,0,1
+308,B,F,15,At School,1900,0,1
+309,B,F,50,Mid-wife,1900,0,1
+310,B,F,26,Laundress,1900,0,1
+313,B,F,53,Laundress,1900,0,1
+314,B,F,27,Teacher,1900,0,1
+315,B,M,21,Laborer,1900,1,1
+316,B,M,57,Carpenter,1900,1,1
+318,B,M,28,Laborer,1900,1,1
+321,B,F,16,Cook,1900,0,1
+322,B,F,26,Seamstress,1900,0,1
+323,B,F,11,At School,1900,0,1
+324,B,M,8,At School,1900,1,1
+326,B,F,54,Laundress,1900,0,1
+327,B,F,26,Seamstress,1900,0,1
+328,B,M,23,Blacksmith,1900,1,1
+329,B,F,15,At School,1900,0,1
+330,B,M,29,Musician,1900,1,1
+332,B,M,10,At School,1900,1,1
+334,B,F,40,Nurse,1900,0,1
+336,B,F,20,Seamstress,1900,0,1
+337,B,M,18,Laborer,1900,1,1
+338,B,M,16,Laborer,1900,1,1
+339,B,M,13,At School,1900,1,1
+340,B,M,45,Drayman,1900,1,1
+341,B,F,30,Laundress,1900,0,1
+342,B,M,11,At School,1900,1,1
+343,B,M,27,Laborer,1900,1,1
+346,B,M,50,Chopping Wood,1900,1,1
+347,B,F,48,Laundress,1900,0,1
+349,B,M,42,Chopping Wood,1900,1,1
+350,B,M,24,Laborer,1900,1,1
+351,B,M,22,Laborer,1900,1,1
+352,B,F,37,Laundress,1900,0,1
+353,B,F,19,Laundress,1900,0,1
+354,B,M,22,Gravedigger,1900,1,1
+355,B,F,25,Laundress,1900,0,1
+356,B,M,20,Laborer,1900,1,1
+357,B,M,9,At School,1900,1,1
+359,B,M,40,Carpenter,1900,1,1
+361,B,M,12,At School,1900,1,1
+362,B,M,10,At School,1900,1,1
+365,B,M,24,Drayman,1900,1,1
+366,B,F,34,Laundress,1900,0,1
+367,B,F,15,At School,1900,0,1
+368,B,M,13,At School,1900,1,1
+369,B,M,10,At School,1900,1,1
+370,B,M,8,At School,1900,1,1
+371,B,F,36,Laundress,1900,0,1
+372,B,M,10,At School,1900,1,1
+373,B,M,8,At School,1900,1,1
+374,B,F,20,Laundress,1900,0,1
+375,B,F,18,Laundress,1900,0,1
+376,B,F,14,At School,1900,0,1
+377,B,M,25,Bartender,1900,1,1
+380,B,M,36,Laborer,1900,1,1
+382,B,F,44,Laundress,1900,0,1
+383,B,F,24,Cook,1900,0,1
+384,B,F,16,At School,1900,0,1
+385,B,F,35,Laundress,1900,0,1
+386,B,F,48,Laundress,1900,0,1
+388,B,M,14,At School,1900,1,1
+389,B,M,25,Yardman,1900,1,1
+390,B,F,21,Cook,1900,0,1
+391,B,F,21,Cook,1900,0,1
+392,B,F,27,Servant,1900,0,1
+395,B,F,40,Cook,1900,0,1
+396,B,M,52,Sexton,1900,1,1
+398,B,M,18,Coachman,1900,1,1
+399,B,M,16,At School,1900,1,1
+400,B,F,10,At School,1900,0,1
+402,B,M,21,Laborer,1900,1,1
+403,B,M,41,Painter,1900,1,1
+406,B,M,54,Bartender,1900,1,1
+408,B,F,14,At School,1900,0,1
+409,B,M,50,Laborer,1900,1,1
+410,B,M,40,Drayman,1900,1,1
+411,B,M,39,Cook,1900,1,1
+413,B,M,30,Laborer,1900,1,1
+416,B,M,76,Woodchopper,1900,1,1
+418,B,M,30,Laborer,1900,1,1
+422,B,M,29,Drayman,1900,1,1
+424,B,M,26,Expressman,1900,1,1
+425,B,M,38,Bartender,1900,1,1
+426,B,M,22,Porter,1900,1,1
+427,B,M,17,Laborer,1900,1,1
+428,B,F,39,Laundress,1900,0,1
+429,B,M,34,Porter,1900,1,1
+430,B,M,69,Gardener,1900,1,1
+432,B,M,25,Drayman,1900,1,1
+435,B,M,65,Coachman,1900,1,1
+436,B,F,47,Laundress,1900,0,1
+437,B,F,29,Hairdresser,1900,0,1
+438,B,F,17,At School,1900,0,1
+440,B,M,47,Clergyman,1900,1,1
+441,B,M,19,Laborer,1900,1,1
+442,B,M,17,Laborer,1900,1,1
+443,B,M,15,At School,1900,1,1
+446,B,F,29,Laundress,1900,0,1
+448,B,M,37,Bricklayer,1900,1,1
+449,B,F,20,Laundress,1900,0,1
+450,B,F,23,Laundress,1900,0,1
+451,B,M,23,Laundress,1900,1,1
+452,B,M,54,Bricklayer,1900,1,1
+454,B,F,10,At School,1900,0,1
+455,B,M,8,At School,1900,1,1
+458,B,M,17,Laborer,1900,1,1
+459,B,F,15,Nurse,1900,0,1
+460,B,M,21,Coachman,1900,1,1
+462,B,M,26,Porter,1900,1,1
+464,B,M,68,Huckster,1900,1,1
+465,B,M,35,Cook,1900,1,1
+466,B,F,31,Laundress,1900,0,1
+467,B,F,30,Servant,1900,0,1
+468,B,F,12,At School,1900,0,1
+469,B,M,8,At School,1900,1,1
+473,W,M,42,Agent (Machines),1900,1,0
+475,W,M,22,Iron Molder,1900,1,0
+476,W,M,20,Machinist,1900,1,0
+478,W,F,13,At School,1900,0,0
+479,W,M,10,At School,1900,1,0
+482,B,F,77,Laundress,1900,0,1
+483,B,F,16,Servant,1900,0,1
+484,B,M,12,At School,1900,1,1
+485,B,M,9,At School,1900,1,1
+486,B,F,24,Cook,1900,0,1
+487,B,M,44,Laborer,1900,1,1
+490,B,M,18,Laborer,1900,1,1
+491,B,F,16,At School,1900,0,1
+492,B,M,14,At School,1900,1,1
+493,B,F,12,At School,1900,0,1
+494,B,M,10,At School,1900,1,1
+499,B,M,42,Expressman,1900,1,1
+501,B,M,18,Janitor,1900,1,1
+502,B,F,17,At School,1900,0,1
+503,B,M,14,At School,1900,1,1
+504,B,M,12,At School,1900,1,1
+506,B,F,24,Cook,1900,0,1
+509,B,M,46,Drayman,1900,1,1
+511,B,F,18,Servant,1900,0,1
+512,B,M,16,Errand Boy,1900,1,1
+514,W,F,42,Seamstress,1900,0,0
+515,W,M,13,Laborer,1900,1,0
+516,W,F,8,At School,1900,0,0
+518,B,F,37,Laundress,1900,0,1
+519,B,M,14,Servant,1900,1,1
+520,B,F,12,At School,1900,0,1
+521,B,F,10,At School,1900,0,1
+523,B,F,50,Laundress,1900,0,1
+524,B,F,33,Laundress,1900,0,1
+525,B,F,17,Servant,1900,0,1
+526,B,F,10,At School,1900,0,1
+528,W,F,48,Seamstress,1900,0,0
+529,W,M,27,Jeweler,1900,1,0
+530,B,M,46,Clergyman,1900,1,1
+532,B,M,27,Waitress,1900,1,1
+536,B,M,30,Laborer,1900,1,1
+537,B,M,39,Porter,1900,1,1
+538,B,F,35,Laundress,1900,0,1
+540,B,M,30,Clergyman,1900,1,1
+544,B,F,44,Laundress,1900,0,1
+545,B,M,34,Laborer,1900,1,1
+547,B,F,45,Laundress,1900,0,1
+548,B,F,11,At School,1900,0,1
+550,B,F,17,Servant,1900,0,1
+551,B,F,14,At School,1900,0,1
+552,B,F,20,Cook,1900,0,1
+553,B,F,42,Laundress,1900,0,1
+557,B,M,27,Laborer,1900,1,1
+558,B,M,24,Carpenter,1900,1,1
+562,B,M,27,Laborer,1900,1,1
+563,B,M,60,Cotton Sampler,1900,1,1
+566,B,M,9,At School,1900,1,1
+567,B,M,8,At School,1900,1,1
+569,B,F,24,Laundress,1900,0,1
+573,B,M,39,Woodchopper,1900,1,1
+574,B,F,38,Servant,1900,0,1
+575,B,F,47,Laundress,1900,0,1
+577,B,F,32,Laundress,1900,0,1
+579,B,M,39,Fireman,1900,1,1
+580,B,F,15,At School,1900,0,1
+581,W,M,52,Grocer,1900,1,0
+583,W,M,23,Shoemaker,1900,1,0
+584,W,M,21,Shoemaker,1900,1,0
+586,B,M,22,Laborer,1900,1,1
+589,B,F,34,Laundress,1900,0,1
+590,B,M,18,At School,1900,1,1
+591,B,F,15,At School,1900,0,1
+593,B,F,34,Laundress,1900,0,1
+596,B,F,17,Laundress,1900,0,1
+597,B,M,55,Woodchopper,1900,1,1
+598,B,F,45,Laundress,1900,0,1
+599,B,M,16,Coachman,1900,1,1
+600,B,F,36,Laundress,1900,0,1
+602,B,M,40,Woodchopper,1900,1,1
+605,B,F,34,Laundress,1900,0,1
+606,B,M,14,At School,1900,1,1
+607,B,F,10,At School,1900,0,1
+608,B,M,38,Drayman,1900,1,1
+610,B,M,40,Laundryman,1900,1,1
+612,B,F,11,At School,1900,0,1
+615,B,M,14,Coachman,1900,1,1
+616,B,F,38,Servant,1900,0,1
+617,B,M,20,Drayman,1900,1,1
+619,B,M,41,Laborer,1900,1,1
+620,B,F,21,Servant,1900,0,1
+622,B,F,18,Servant,1900,0,1
+623,W,M,42,Grocer,1900,1,0
+627,W,M,7,At School,1900,1,0
+630,B,M,42,Laborer,1900,1,1
+632,B,M,44,Laborer,1900,1,1
+634,B,F,25,Laundress,1900,0,1
+639,B,M,19,Janitor,1900,1,1
+640,B,M,27,Laborer,1900,1,1
+643,B,M,25,Laborer,1900,1,1
+648,W,M,60,Blacksmith,1900,1,0
+650,W,M,26,Laborer,1900,1,0
+651,W,M,10,At School,1900,1,0
+653,B,M,60,Chopping Wood,1900,1,1
+654,B,M,41,Bale Hides,1900,1,1
+655,W,M,32,Landlord,1900,1,0
+657,W,F,6,At School,1900,0,0
+658,W,M,45,Grocer,1900,1,0
+660,W,M,20,Bottling (Brewery),1900,1,0
+662,W,M,12,At School,1900,1,0
+663,W,F,10,At School,1900,0,0
+667,B,M,35,Porter,1900,1,1
+668,W,F,76,Teacher,1900,0,0
+669,B,F,36,Cook,1900,0,1
+670,B,M,30,Barber,1900,1,1
+676,B,M,17,Laborer,1900,1,1
+677,B,M,54,Carpenter,1900,1,1
+679,B,M,38,Laborer,1900,1,1
+681,B,F,17,Nurse,1900,0,1
+682,B,F,14,At School,1900,0,1
+683,W,M,19,Blacksmith,1900,1,0
+689,B,F,30,Cook,1900,0,1
+690,B,F,17,Servant,1900,0,1
+691,B,M,15,Coachman,1900,1,1
+692,B,F,32,Laundress,1900,0,1
+695,W,M,9,At School,1900,1,0
+699,B,M,51,Laborer,1900,1,1
+700,B,F,42,Laundress,1900,0,1
+701,B,M,13,At School,1900,1,1
+702,B,M,9,At School,1900,1,1
+705,B,M,51,Laborer,1900,1,1
+706,B,F,45,Laundress,1900,0,1
+707,B,F,39,Laundress,1900,0,1
+708,B,M,36,Laborer,1900,1,1
+712,B,F,13,At School,1900,0,1
+714,W,M,42,Carpenter,1900,1,0
+719,W,F,15,At School,1900,0,0
+720,W,M,13,At School,1900,1,0
+722,B,M,34,Drayman,1900,1,1
+724,B,M,9,At School,1900,1,1
+729,B,F,30,Laundress,1900,0,1
+732,B,F,54,Nurse,1900,0,1
+733,B,F,17,At School,1900,0,1
+734,B,F,49,Laundress,1900,0,1
+735,B,M,55,Gardener,1900,1,1
+736,B,F,17,At School,1900,0,1
+737,B,F,50,Laundress,1900,0,1
+738,B,M,30,Porter,1900,1,1
+740,W,M,42,Laborer,1900,1,0
+746,B,M,26,Laborer,1900,1,1
+750,B,M,53,Laborer,1900,1,1
+752,B,M,52,Carpenter,1900,1,1
+754,B,M,50,Laborer,1900,1,1
+761,B,F,80,Cook,1900,0,1
+763,B,F,44,Cook,1900,0,1
+764,B,M,45,Carpenter,1900,1,1
+765,B,F,30,Seamstress,1900,0,1
+766,B,M,26,Laborer,1900,1,1
+767,B,F,22,Laundress,1900,0,1
+768,B,F,35,Cook,1900,0,1
+769,B,M,14,Laborer,1900,1,1
+774,B,M,54,Woodchopper,1900,1,1
+777,B,M,33,Laborer,1900,1,1
+779,B,M,30,Laborer,1900,1,1
+781,B,M,13,At School,1900,1,1
+782,B,M,9,At School,1900,1,1
+786,B,M,45,Drayman,1900,1,1
+788,B,M,38,Bartender,1900,1,1
+789,B,M,32,Porter,1900,1,1
+790,B,M,50,Laborer,1900,1,1
+794,B,F,24,Laundress,1900,0,1
+796,B,F,37,Laundress,1900,0,1
+797,B,M,25,Porter,1900,1,1
+798,B,M,15,At School,1900,1,1
+799,B,M,55,Landlord,1900,1,1
+802,B,M,34,Bartender,1900,1,1
+803,B,F,33,Laundress,1900,0,1
+804,B,F,17,At School,1900,0,1
+805,B,M,16,At School,1900,1,1
+806,B,M,14,At School,1900,1,1
+807,B,M,12,At School,1900,1,1
+50,B,M,42,Driver,1910,1,1
+52,B,F,65,Laundress,1910,0,1
+53,B,F,43,Laundress,1910,0,1
+54,B,M,21,Laborer,1910,1,1
+55,B,M,24,Driver,1910,1,1
+57,B,F,31,Laundress,1910,0,1
+58,B,F,25,Cook,1910,0,1
+60,B,M,38,Yardman at Parent's House,1910,1,1
+64,B,M,19,Cook,1910,1,1
+65,B,M,13,none ,1910,1,1
+68,B,F,30,Laundress,1910,0,1
+69,B,M,27,Laborer,1910,1,1
+70,B,M,58,Sampler at Cotton,1910,1,1
+72,B,M,33,Cook,1910,1,1
+73,B,F,15,none ,1910,0,1
+75,B,F,27,Teacher at school,1910,0,1
+76,B,M,19,Porter,1910,1,1
+77,B,F,41,Laundress,1910,0,1
+78,B,M,58,Carpenter,1910,1,1
+80,B,M,40,Grave digger at Cemetery,1910,1,1
+82,B,M,40,Barber,1910,1,1
+83,B,F,60,Laundress,1910,0,1
+84,B,F,32,Laundress,1910,0,1
+85,B,M,18,Laborer,1910,1,1
+86,B,F,52,Laundress,1910,0,1
+87,W,F,42,?,1910,0,0
+88,W,F,21,Librarian at Library,1910,0,0
+89,W,F,17,Clerk,1910,0,0
+90,W,M,15,Apprentice at Carriage Shop,1910,1,0
+92,B,M,28,Laborer,1910,1,1
+93,B,F,25,Laundress,1910,0,1
+94,B,F,17,Laundress,1910,0,1
+95,B,M,38,Laborer,1910,1,1
+98,B,M,42,?,1910,1,1
+100,B,M,16,Elevator Boy at ?,1910,1,1
+104,B,M,29,Laborer,1910,1,1
+106,B,F,33,Cook,1910,0,1
+109,B,F,33,Cook,1910,0,1
+110,B,M,39,Trucker at ?,1910,1,1
+112,B,F,18,Cook,1910,0,1
+114,B,F,28,Laundress,1910,0,1
+115,B,F,15,Maid,1910,0,1
+117,B,F,24,Cook,1910,0,1
+118,B,M,17,Driver,1910,1,1
+119,B,F,42,Laundress,1910,0,1
+120,B,F,42,Laundress,1910,0,1
+122,B,M,35,Driver,1910,1,1
+126,B,F,20,Dishwasher at YMCA,1910,0,1
+127,B,F,32,Laundress,1910,0,1
+128,B,M,30,Trucker at Rise Mill,1910,1,1
+129,B,F,16,Laundress,1910,0,1
+130,B,M,47,Laborer,1910,1,1
+131,B,M,40,Bricklayer,1910,1,1
+133,B,M,28,Laborer,1910,1,1
+135,B,F,3,none ,1910,0,1
+136,B,M,50,Carpenter,1910,1,1
+138,B,M,40,? At city,1910,1,1
+140,B,F,55,Laundress,1910,0,1
+141,B,F,25,Laundress,1910,0,1
+142,B,M,22,Laborer,1910,1,1
+143,B,M,34,Laundress,1910,1,1
+144,B,F,17,Laundress,1910,0,1
+148,B,M,57,Janitor,1910,1,1
+149,B,M,30,?,1910,1,1
+150,B,F,64,Dressmaker at Home,1910,0,1
+151,B,F,32,Dressmaker at Home,1910,0,1
+152,B,M,29,Blacksmith at shop,1910,1,1
+153,B,F,19,Dressmaker at Home,1910,0,1
+154,B,F,56,Nurse,1910,0,1
+155,B,M,26,Driver,1910,1,1
+156,B,M,45,Hide Haudler at Leather Company,1910,1,1
+158,B,F,31,Housekeeper at Private House,1910,0,1
+159,W,M,45,Vegetable at Land,1910,1,0
+163,W,M,39,Laborer,1910,1,0
+164,B,M,38,Express at Transfer Company,1910,1,1
+165,B,F,35,none ,1910,0,1
+166,B,M,15,none ,1910,1,1
+167,B,M,13,none ,1910,1,1
+168,B,F,12,none ,1910,0,1
+169,B,M,10,none ,1910,1,1
+170,B,M,7,none ,1910,1,1
+171,B,M,35,Laborer,1910,1,1
+174,B,F,27,Maid,1910,0,1
+175,B,F,24,Housekeeper at Private House,1910,0,1
+176,B,M,18,Porter,1910,1,1
+177,B,M,19,Trucker at Rise Mill,1910,1,1
+178,B,M,20,Porter,1910,1,1
+179,B,F,24,Keeper at Private House,1910,0,1
+180,B,F,25,Laundress,1910,0,1
+181,B,F,20,Laundress,1910,0,1
+182,B,F,23,Laundress,1910,0,1
+188,B,F,31,Dressmaker at Home,1910,0,1
+190,B,F,70,?,1910,0,1
+191,B,M,28,Waitress,1910,1,1
+194,B,M,50,Laborer,1910,1,1
+196,B,F,26,Cook,1910,0,1
+197,B,M,20,Laborer,1910,1,1
+198,B,M,22,Laborer,1910,1,1
+199,B,M,19,Laborer,1910,1,1
+200,B,F,40,Laundress,1910,0,1
+201,B,M,23,Farming at Farm,1910,1,1
+202,B,M,32,Janitor,1910,1,1
+203,B,M,22,Laborer,1910,1,1
+207,B,M,50,Farming at Farm,1910,1,1
+210,B,F,20,Maid,1910,0,1
+211,B,F,30,Dressmaker at Home,1910,0,1
+212,B,F,40,Porter,1910,0,1
+213,B,M,36,Laborer,1910,1,1
+215,B,M,30,Laborer,1910,1,1
+216,B,M,30,Porter,1910,1,1
+218,B,M,40,Laborer,1910,1,1
+220,B,F,27,Cook,1910,0,1
+221,B,M,20,Yard man at priuvate house,1910,1,1
+222,B,M,29,Laborer,1910,1,1
+223,B,F,27,Dressmaker at Home,1910,0,1
+224,B,F,70,Own ?,1910,0,1
+225,B,M,50,Caterer at club,1910,1,1
+226,B,F,54,Laundress,1910,0,1
+228,B,M,38,Laborer,1910,1,1
+231,B,M,44,Cook,1910,1,1
+232,B,F,23,Laundress,1910,0,1
+233,B,M,33,Laborer,1910,1,1
+237,B,F,29,Dressmaker at Home,1910,0,1
+238,W,M,62,Storekeeper at General Store,1910,1,0
+241,W,M,24,Clerk,1910,1,0
+242,W,M,22,Clerk,1910,1,0
+243,W,M,20,Clerk,1910,1,0
+249,B,M,36,Laborer,1910,1,1
+251,B,M,28,Laborer,1910,1,1
+252,B,M,50,Laborer,1910,1,1
+254,B,M,18,Caddie at Golf Field,1910,1,1
+255,B,M,16,Caddie at Golf Field,1910,1,1
+256,B,F,39,Laundress,1910,0,1
+257,B,F,20,Laundress,1910,0,1
+258,B,M,29,Waitress,1910,1,1
+259,B,M,30,Laborer,1910,1,1
+261,B,F,30,Dressmaker at Home,1910,0,1
+262,B,M,50,Salesman at Charcoal,1910,1,1
+267,B,F,44,Laundress,1910,0,1
+268,B,M,24,Porter,1910,1,1
+269,B,F,50,Laundress,1910,0,1
+271,B,M,50,Laborer,1910,1,1
+275,W,M,25,Merchant at Grocery,1910,1,0
+280,W,M,34,Undertaker at Shop,1910,1,0
+285,W,M,21,Barber,1910,1,0
+286,B,F,37,Laundress,1910,0,1
+288,B,M,31,Laborer,1910,1,1
+289,B,M,27,Farming at Farm,1910,1,1
+291,B,M,40,Laborer,1910,1,1
+293,B,M,19,Farming at Farm,1910,1,1
+294,B,F,38,Laborer,1910,0,1
+297,B,M,22,Porter,1910,1,1
+298,B,M,27,Yard man at private house,1910,1,1
+299,B,M,26,Laborer,1910,1,1
+0,W,M,32,Blacksmith At Shops,1920,1,0
+1,W,F,27,Dress Maker At Home,1920,0,0
+6,B,M,35,Longshoreman At Port,1920,1,1
+8,B,F,51,Washing At Home,1920,0,1
+9,B,M,26,Cook,1920,1,1
+11,B,M,28,Tailor At Shop,1920,1,1
+12,B,M,43,Stockman At Farm,1920,1,1
+13,B,F,30,Dress Maker At Home,1920,0,1
+14,B,M,31,Laborer,1920,1,1
+16,B,M,40,Driver,1920,1,1
+17,B,M,33,Cook,1920,1,1
+18,B,F,30,Workerwoman At Home,1920,0,1
+19,W,M,30,Laborer,1920,1,0
+23,W,M,29,Cook,1920,1,0
+24,B,M,62,Longshoreman At Port,1920,1,1
+26,W,M,29,Laborer,1920,1,0
+30,W,M,40,Laborer,1920,1,0
+31,W,M,21,Mechanic At Rr Shop,1920,1,0
+35,W,M,70,Laborer,1920,1,0
+37,B,F,25,Workwoman At Home,1920,0,1
+40,B,M,42,Laborer,1920,1,1
+41,B,M,39,Laborer,1920,1,1
+42,W,M,34,Laborer,1920,1,0
+44,W,M,38,Help At Hotel,1920,1,0
+46,W,M,19,Help At Hotel,1920,1,0
+50,W,F,50,Owner of Business,1920,0,0
+51,W,M,25,Laborer,1920,1,0
+52,W,F,21,Assistant,1920,0,0
+53,W,M,45,Cook,1920,1,0
+54,W,M,50,Dishwasher At Hotel,1920,1,0
+55,W,M,60,"Tomeles Maker, ? And Peddler At Homer Street",1920,1,0
+59,W,M,25,Driver,1920,1,0
+60,W,M,47,Candy Maker At Teller Street,1920,1,0
+62,W,M,17,Waitress,1920,1,0
+63,W,M,15,Driver,1920,1,0
+65,W,M,52,Laborer,1920,1,0
+66,W,M,35,Laborer,1920,1,0
+70,W,M,40,Laborer,1920,1,0
+73,W,M,25,Farmer,1920,1,0
+75,W,M,25,Laborer,1920,1,0
+76,B,F,40,Washwoman,1920,0,1
+77,B,M,24,Laborer,1920,1,1
+78,B,F,15,Hired Girl At Private Family,1920,0,1
+81,B,F,50,Washwoman,1920,0,1
+82,B,M,60,Driver,1920,1,1
+83,B,F,60,Washwoman,1920,0,1
+84,B,F,40,Nurse,1920,0,1
+85,W,F,26,Owner of Business,1920,0,0
+87,W,M,35,Dishwasher At Restaurant,1920,1,0
+88,W,M,29,Yard Man At Restaurant,1920,1,0
+89,W,M,27,Bus Boy At Restaurant,1920,1,0
+90,W,M,24,Bus Boy At Restaurant,1920,1,0
+91,B,M,67,Boiler Maker At Factory,1920,1,1
+92,B,M,28,Carpenter,1920,1,1
+93,W,M,44,Laborer,1920,1,0
+94,W,F,37,Ironer At Laundry,1920,0,0
+95,W,M,22,Laborer,1920,1,0
+98,W,M,23,Laborer,1920,1,0
+100,B,F,25,Workwokman At Home,1920,0,1
+101,B,M,18,Laborer,1920,1,1
+102,B,M,16,Laborer,1920,1,1
+103,B,M,24,Laborer,1920,1,1
+104,W,M,55,Dishwasher At Hotel,1920,1,0
+106,W,M,24,Dishwasher At Hotel,1920,1,0
+107,W,M,35,None (Sickly),1920,1,0
+108,W,M,28,Washwoman,1920,1,0
+109,W,F,16,Washwoman,1920,0,0
+113,W,M,37,Laborer,1920,1,0
+116,W,M,35,Laborer,1920,1,0
+119,W,M,38,Laborer,1920,1,0
+120,W,M,45,Laborer,1920,1,0
+122,W,M,33,Laborer,1920,1,0
+124,W,M,18,Assistant,1920,1,0
+125,W,M,20,Help At Hotel,1920,1,0
+126,W,F,38,Washwoman,1920,0,0
+129,W,F,42,Washwoman,1920,0,0
+130,W,M,32,Bus Boy At Hotel,1920,1,0
+131,W,M,54,Laborer,1920,1,0
+133,W,M,44,Laborer,1920,1,0
+135,W,M,24,Laborer,1920,1,0
+136,W,M,23,Laborer,1920,1,0
+137,W,M,17,Laborer,1920,1,0
+138,W,M,22,Laborer,1920,1,0
+141,W,M,36,Laborer,1920,1,0
+142,W,F,36,Washwoman,1920,0,0
+145,W,M,48,Laborer,1920,1,0
+146,W,M,23,Laborer,1920,1,0
+148,W,M,33,Laborer,1920,1,0
+149,W,M,24,Laborer,1920,1,0
+153,W,M,25,Laborer,1920,1,0
+154,W,M,35,Laborer,1920,1,0
+155,W,F,30,Washwoman,1920,0,0
+160,B,F,39,Washwoman,1920,0,1
+162,B,F,17,Nurse,1920,0,1
+163,B,M,36,Driver,1920,1,1
+164,W,M,37,Laborer,1920,1,0
+167,W,M,28,Cook,1920,1,0
+168,B,M,38,Cook,1920,1,1
+169,B,F,47,Washwoman,1920,0,1
+170,B,F,37,Washwoman,1920,0,1
+171,B,M,40,Cook,1920,1,1
+172,B,M,25,Laborer,1920,1,1
+173,B,F,21,Waitress,1920,0,1
+174,B,M,37,Laborer,1920,1,1
+175,B,M,32,Cook,1920,1,1
+176,B,M,40,Waitress,1920,1,1
+177,B,F,30,Washwoman,1920,0,1
+184,B,F,22,Washwoman,1920,0,1
+189,B,F,36,Washwoman,1920,0,1
+190,B,M,21,Porter,1920,1,1
+192,B,M,38,Wringer Man At Laundry,1920,1,1
+193,B,M,29,Weigher At Cotton Pickery ,1920,1,1
+194,B,F,28,Washwoman,1920,0,1
+195,B,F,18,Nurse,1920,0,1
+197,B,M,33,Laborer,1920,1,1
+199,W,F,28,Owner of Business,1920,0,0
+200,W,M,40,Laborer,1920,1,0
+201,W,M,36,Laborer,1920,1,0
+202,W,M,36,Laborer,1920,1,0
+203,W,M,25,Laborer,1920,1,0
+204,W,M,25,Bus Boy At Restaurant,1920,1,0
+206,W,M,57,Laborer,1920,1,0
+209,W,M,51,Baker At Bakery,1920,1,0
+213,W,M,24,Laborer,1920,1,0
+214,W,F,18,Wrapper At Department Store,1920,0,0
+215,B,M,38,Cleaner,1920,1,1
+216,B,F,36,Laundress,1920,0,1
+217,B,F,20,Cook,1920,0,1
+219,W,F,35,Seamstress,1920,0,0
+221,W,M,33,Worker At Oil Fields,1920,1,0
+222,W,M,31,Pipe Liner At Oil Company,1920,1,0
+223,W,M,27,Pipe Liner At Oil Company,1920,1,0
+224,W,M,30,Driver,1920,1,0
+226,W,M,15,Driver,1920,1,0
+230,W,M,30,Painter At Houses,1920,1,0
+237,W,M,20,Dishwasher At Restaurant,1920,1,0
+239,B,M,67,Janitor,1920,1,1
+240,B,F,61,Washwoman,1920,0,1
+241,B,M,36,Cook,1920,1,1
+242,B,M,26,Hired Man At Farm,1920,1,1
+243,B,M,27,Mechanic At Garage,1920,1,1
+244,B,M,21,Cook,1920,1,1
+245,B,M,54,Carpenter,1920,1,1
+246,B,F,53,Washwoman,1920,0,1
+248,B,M,25,Porter,1920,1,1
+249,B,F,25,Cook,1920,0,1
+251,B,M,47,Porter,1920,1,1
+252,B,F,22,Washwoman,1920,0,1
+253,B,F,56,Washwoman,1920,0,1
+254,B,M,15,Oiler At Garage,1920,1,1
+255,B,M,24,Driller At Wells,1920,1,1
+256,B,M,32,Laborer,1920,1,1
+257,B,M,48,Laborer,1920,1,1
+258,B,F,33,Laundress,1920,0,1
+259,B,M,13,Assistant,1920,1,1
+260,B,M,11,Assistant,1920,1,1
+262,B,F,49,Housemaid At Private Family,1920,0,1
+264,B,F,37,Dishwasher At Restaurant,1920,0,1
+265,B,F,35,Cook,1920,0,1
+266,B,M,43,Laborer,1920,1,1
+267,B,F,32,Washwoman,1920,0,1
+268,B,F,23,Cook,1920,0,1
+269,W,M,54,Owner of Business,1920,1,0
+271,W,M,26,Clerk,1920,1,0
+274,W,M,21,Driver,1920,1,0
+280,W,M,35,Owner of Business,1920,1,0
+285,W,M,29,Cooler Man At Packing Company,1920,1,0
+291,W,F,55,Starcher At Laundry,1920,0,0
+292,W,M,34,Packer At Furniture Company,1920,1,0
+294,W,M,49,Solicitor At Furniture Company,1920,1,0
+296,W,M,28,Salesman At Fish Company,1920,1,0
+300,W,M,41,Chauffeur,1920,1,0
+301,W,M,69,Owner of Business,1920,1,0
+305,W,M,31,Manager,1920,1,0
+306,W,M,28,Collector At Real Estate,1920,1,0
+310,W,F,59,Washwoman,1920,0,0
+311,W,F,30,Washwoman,1920,0,0
+312,W,M,27,Chief Operator At Moringe Pic. Thea.,1920,1,0
+314,W,F,21,Actress At Theatrical Company,1920,0,0
+316,W,M,36,Carpenter,1920,1,0
+318,W,F,21,Stenographer At Livie Club,1920,0,0
+319,W,M,24,Driver,1920,1,0
+321,W,M,39,Sollicitor At Laundry,1920,1,0
+322,W,F,36,Proprietor At Rooming House,1920,0,0
+325,W,M,35,Barber,1920,1,0
+328,W,M,46,Assistant,1920,1,0
+331,W,F,44,Dispenser At Soda,1920,0,0
+336,W,M,24,Driller At Oil Company,1920,1,0
+337,W,M,18,Laborer,1920,1,0
+338,W,F,17,Cashier At Drug Company,1920,0,0
+339,W,M,29,Butcher At Packing Company,1920,1,0
+343,W,F,43,Maid,1920,0,0
+344,W,M,13,Assistant,1920,1,0
+345,W,F,50,Seamstress,1920,0,0
+346,W,M,33,Waitress,1920,1,0
+350,W,M,41,Trackman At Railway,1920,1,0
+351,W,F,28,Clerk,1920,0,0
+356,W,M,26,Salesman At Grocery,1920,1,0
+359,W,M,36,Steamfibler At R Road Company,1920,1,0
+364,W,M,48,Farmer Renter At Farm,1920,1,0
+367,W,M,40,Barber,1920,1,0
+369,W,M,22,Presser,1920,1,0
+370,W,M,20,Presser,1920,1,0
+373,W,M,65,Retired Book Publisher At Book Company,1920,1,0
+374,W,M,29,Dealer At Poultry,1920,1,0
+375,W,M,24,Owner of Business,1920,1,0
+378,W,M,42,Clerk,1920,1,0
+380,W,M,18,Operator At Elevator,1920,1,0
+381,W,M,13,Newsboy At M Paper Company,1920,1,0
+384,W,M,31,Harness Maker For Harness Company,1920,1,0
+388,W,M,20,Bookkeeper At Harness Company,1920,1,0
+389,W,M,35,Veterinary Doctor,1920,1,0
+391,W,F,55,Owner of Business,1920,0,0
+392,W,M,24,Farmworker At Farms,1920,1,0
+393,W,M,61,Miller At New Mill,1920,1,0
+395,W,M,25,Laborer,1920,1,0
+398,W,M,32,Driver,1920,1,0
+402,W,M,35,Salesman At Ice Cream Company,1920,1,0
+407,W,M,51,Engineer At Railway Company,1920,1,0
+409,W,M,24,Manager,1920,1,0
+410,W,M,21,Fireman At Railway Company,1920,1,0
+411,W,F,18,Clerk,1920,0,0
+412,W,M,21,Paymaster At Oil Company,1920,1,0
+413,W,F,24,Office Girl At Physician ,1920,0,0
+414,W,F,21,Office Girl At Physician ,1920,0,0
+415,W,F,18,Office Girl At Lawyer,1920,0,0
+416,W,M,32,Clerk,1920,1,0
+420,W,M,47,Lawyer At General Practice,1920,1,0
+422,W,M,43,Contractor At Paint Firm,1920,1,0
+424,W,F,19,Operator At Telephone,1920,0,0
+425,W,M,17,Painter At Paint Firm,1920,1,0
+428,W,M,24,Salesman At Motor Company ,1920,1,0
+430,W,M,37,Carpenter,1920,1,0
+433,W,F,42,Operator At Hemstitching Machine,1920,0,0
+434,W,F,19,Operater At Telephone Company,1920,0,0
+435,W,M,60,Owner of Business,1920,1,0
+436,W,F,53,Manager,1920,0,0
+437,W,M,37,Cook,1920,1,0
+438,W,F,32,Abstracter At Loan And Investments,1920,0,0
+439,W,M,21,Clerk,1920,1,0
+441,W,F,52,Dressmaker At Home,1920,0,0
+442,W,M,19,Stenographer At Oil Company,1920,1,0
+443,W,M,28,Farmer At Home,1920,1,0
+444,W,M,23,Mechanic At Automobile Company,1920,1,0
+445,W,M,36,Waitress,1920,1,0
+447,W,M,20,Timekeeper At Oil Company,1920,1,0
+448,W,F,18,Seamstress,1920,0,0
+449,W,M,41,Clerk,1920,1,0
+450,W,F,41,Owner of Business,1920,0,0
+452,W,F,46,Operator At Telephone Company,1920,0,0
+453,W,M,29,Carpenter,1920,1,0
+455,W,M,23,Ironworker At Construction Company,1920,1,0
+458,W,M,28,Ironworker At Construction Company,1920,1,0
+460,W,M,59,Farmer At Wheat,1920,1,0
+462,W,M,43,Carpenter,1920,1,0
+463,W,F,44,Weaver At Textile Mills,1920,0,0
+465,W,M,23,Barber,1920,1,0
+466,W,M,17,Pipefiller At Gas Works,1920,1,0
+469,W,M,22,Painter At Buildings,1920,1,0
+471,W,M,49,Carpenter,1920,1,0
+472,W,F,48,Nurse,1920,0,0
+474,B,F,36,Seamstress,1920,0,1
+475,B,M,15,Delivery Boy At Drug Store,1920,1,1
+477,W,F,43,Cook,1920,0,0
+478,W,F,32,Cook,1920,0,0
+479,W,M,43,Painter At Buildings,1920,1,0
+480,W,M,38,Owner of Business,1920,1,0
+481,W,F,32,Clerk,1920,0,0
+483,W,F,36,Photographer At Photo Firms,1920,0,0
+484,W,M,40,Musician At Brewing House,1920,1,0
+486,W,M,33,Clerk,1920,1,0
+490,W,M,42,Clerk,1920,1,0
+491,W,M,40,Clerk,1920,1,0
+492,W,M,34,Clerk,1920,1,0
+493,W,M,30,Pressmaker At Painting Company,1920,1,0
+500,W,M,24,Cook,1920,1,0
+501,W,F,25,Operator At Telephone Company,1920,0,0
+502,W,M,24,Lineman At Line And Power Company,1920,1,0
+504,W,F,19,Clerk,1920,0,0
+505,W,M,51,Lawyer At General Practice,1920,1,0
+507,W,F,21,Teacher At Music At Home,1920,0,0
+511,W,M,47,Bookkeeper At Loan Company,1920,1,0
+513,W,M,24,Travelling Salesman At Dry Goods Company,1920,1,0
+514,W,M,48,Travelling Salesman At Dry Goods Company,1920,1,0
+517,W,M,26,Cook,1920,1,0
+520,W,M,38,Inspector At Railroad Company,1920,1,0
+521,W,F,35,Secretary At Medicine Company,1920,0,0
+522,W,M,39,Clerk,1920,1,0
+524,W,M,55,Conductor At Railroad Company,1920,1,0
+526,W,M,25,Accountant At Light And Power Company,1920,1,0
+527,W,F,37,Saleslady At Seed House,1920,0,0
+528,W,F,17,Stenographer At Lawyer'S Office,1920,0,0
+532,W,M,61,Warehouse Worker At The Us Government,1920,1,0
+534,W,M,26,Bookkeeper At Department Store,1920,1,0
+535,W,F,22,Cashier At Department Store,1920,0,0
+537,W,M,17,Soda Dispenser At Drug Store,1920,1,0
+538,W,M,67,Real Estate At Agent,1920,1,0
+540,W,M,41,Retail Salesman At Oil Company,1920,1,0
+542,W,M,27,Bell Boy At Hotel,1920,1,0
+545,W,M,33,Pressman At Printing Company,1920,1,0
+546,W,F,33,None ,1920,0,0
+548,W,M,25,Electric Welder At Murphy Company,1920,1,0
+551,W,F,23,Stenographer At Dictephone Company,1920,0,0
+552,W,M,22,Mechanic At Automobile Company,1920,1,0
+553,W,F,18,Stenographer At Oil Company,1920,0,0
+554,W,M,22,Mechanic At Auto Line,1920,1,0
+555,W,M,33,Clerk,1920,1,0
+557,W,M,24,Clerk,1920,1,0
+558,W,M,22,Refinery Worker At Oil Company,1920,1,0
+559,W,M,20,Clerk,1920,1,0
+560,W,M,39,Mechanic At Automobile Company,1920,1,0
+561,W,F,28,Stenographer At Home,1920,0,0
+562,W,M,54,Live Stock Buyer At Packing Company,1920,1,0
+563,W,M,31,Bricklayer,1920,1,0
+565,W,M,37,Painter At Buildings,1920,1,0
+566,W,F,35,Teacher At Public School,1920,0,0
+568,W,M,40,Bricklayer,1920,1,0
+570,W,M,53,Retired Mechanic At Railway,1920,1,0
+572,W,F,27,Vocal Teacher At Music Company,1920,0,0
+573,W,M,24,Truck Contractor At Government,1920,1,0
+574,W,F,20,Teacher At Dance,1920,0,0
+575,B,M,45,Driver,1920,1,1
+577,B,F,40,Washerwoman At Home,1920,0,1
+578,W,M,41,Mechanic At Dairy Products Company,1920,1,0
+579,W,F,43,Owner of Business,1920,0,0
+580,W,F,18,Operator At Telephone Company,1920,0,0
+581,W,F,16,Operator At Telephone Company,1920,0,0
+583,W,M,56,Park Keeper At City,1920,1,0
+584,W,F,46,Garment Worker At Overall Factory,1920,0,0
+586,W,M,24,Presser,1920,1,0
+589,W,M,19,Electrician At Light And Power Company,1920,1,0
+590,W,F,19,Waitress,1920,0,0
+591,W,M,43,City Evangelist At Baptist Church,1920,1,0
+592,W,F,33,Social Service Worker At Baptist Church,1920,0,0
+595,W,M,30,Mechanic At Motor Company,1920,1,0
+597,W,M,38,Shoemaker At Repair Shop,1920,1,0
+600,B,M,38,Waswoman At Home,1920,1,1
+601,B,M,19,Cleaner,1920,1,1
+602,B,M,47,Laborer,1920,1,1
+603,B,F,44,Washwoman,1920,0,1
+604,W,M,50,Bricklayer,1920,1,0
+606,W,M,15,Assistant,1920,1,0
+607,W,M,35,Laborer,1920,1,0
+609,W,M,46,Baker At Bakery,1920,1,0
+610,B,M,24,Cleaner,1920,1,1
+611,B,F,28,Maid,1920,0,1
+612,B,F,21,Maid,1920,0,1
+613,B,F,24,Cook,1920,0,1
+614,B,F,37,Cook,1920,0,1
+615,B,M,35,Laborer,1920,1,1
+616,B,F,31,Washwoman,1920,0,1
+617,B,M,34,Janitor,1920,1,1
+621,W,M,34,Conductor At Pullman Company,1920,1,0
+623,W,M,47,Carpenter,1920,1,0
+625,W,M,21,Double Checker At Drug Company,1920,1,0
+626,W,M,19,Electrician At Railway Shops,1920,1,0
+631,W,M,61,Veterinary Surgeon At General Practice,1920,1,0
+633,W,F,22,Chemist At Sulphur Company,1920,0,0
+635,W,M,41,Mover At Piano Company,1920,1,0
+637,W,M,23,Clerk,1920,1,0
+638,W,M,31,Carpenter,1920,1,0
+639,W,M,61,Painter At Job,1920,1,0
+641,W,F,24,Operator At Comptomete Railway Company,1920,0,0
+642,W,F,18,Comptemeter Operator At Oil Company,1920,0,0
+643,W,M,50,Trader At Home,1920,1,0
+644,W,F,41,Seamstress,1920,0,0
+645,W,F,23,Stenographer At Auditing Company,1920,0,0
+646,W,F,21,Stenographer At Ship Building Company,1920,0,0
+647,W,M,19,Painter At Farm,1920,1,0
+649,W,M,54,Carpenter,1920,1,0
+650,W,F,19,Stenographer At Dry Goods Company,1920,0,0
+651,W,M,59,Private Detective At Oil Company,1920,1,0
+653,W,M,28,Clerk,1920,1,0
+654,W,F,22,Physical Director At High School,1920,0,0
+655,B,M,28,Laborer,1920,1,1
+659,B,F,31,Cook,1920,0,1
+660,B,M,46,Porter,1920,1,1
+662,B,M,23,Teacher At Colored Academy ,1920,1,1
+663,B,M,21,Chauffeur,1920,1,1
+664,B,M,18,Chauffeur,1920,1,1
+666,B,M,13,Delivery Boy At Drug Store,1920,1,1
+672,W,F,40,Dressmaker At Home,1920,0,0
+673,W,M,34,Clerk,1920,1,0
+679,W,F,29,Stenographer At Sign Company,1920,0,0
+681,W,F,37,Cashier At Moving Picture Company,1920,0,0
+682,B,M,32,Driver,1920,1,1
+685,B,M,46,Driver,1920,1,1
+687,B,M,30,Laborer,1920,1,1
+691,B,M,36,Driver,1920,1,1
+693,B,F,26,Waitress,1920,0,1
+695,B,F,27,Waitress,1920,0,1
+696,B,M,28,Contracter At Papering And Plaster,1920,1,1
+699,B,M,59,Switchman At Railway Company,1920,1,1
+702,B,M,45,Driver,1920,1,1
+703,B,F,38,Washwoman,1920,0,1
+705,B,M,25,Carriage Man At Sawmill,1920,1,1
+707,W,M,36,Well Driller At Water Company,1920,1,0
+709,W,M,55,Physician At General Practice,1920,1,0
+711,W,M,23,Oil Scout At Oil Company,1920,1,0
+712,W,M,21,Chauffeur,1920,1,0
+716,W,F,26,Lawyer At General Practice,1920,0,0
+717,B,F,30,Cook,1920,0,1
+718,B,M,24,Carpenter,1920,1,1
+719,B,F,29,Cook,1920,0,1
+720,B,F,22,Waitress,1920,0,1
+721,B,M,20,Porter,1920,1,1
+722,B,M,20,Porter,1920,1,1
+723,W,M,39,Clerk,1920,1,0
+725,W,M,14,Newsboy (Carrier) At N Paper Company,1920,1,0
+729,W,F,29,Cashier At Restaurant,1920,0,0
+731,B,M,46,Driver,1920,1,1
+733,B,M,36,Porter,1920,1,1
+734,B,F,31,Cook,1920,0,1
+735,B,M,28,Owner of Business,1920,1,1
+738,B,F,26,Cook,1920,0,1
+739,B,F,29,Owner of Business,1920,0,1
+740,B,M,28,Porter,1920,1,1
+741,B,M,26,Waitress,1920,1,1
+742,B,F,28,Manicuring At Private Homes,1920,0,1
+743,B,F,23,Maid,1920,0,1
+744,B,M,22,Chauffeur,1920,1,1
+745,B,M,23,Laborer,1920,1,1
+746,B,F,26,Cook,1920,0,1
+747,B,F,20,Maid,1920,0,1
+748,B,M,29,Porter,1920,1,1
+749,B,M,28,Renter At Farm,1920,1,1
+750,B,F,35,Washwoman,1920,0,1
+752,B,M,22,Waitress,1920,1,1
+753,B,M,25,Cook,1920,1,1
+755,B,M,25,Janitor,1920,1,1
+756,B,F,20,Cook,1920,0,1
+757,B,M,19,Carrier At Drug Store,1920,1,1
+758,B,F,27,Dressmaker At Home,1920,0,1
+759,B,F,47,Washwoman,1920,0,1
+760,B,M,50,Laborer,1920,1,1
+761,B,M,27,Trucking At R.R. Freight,1920,1,1
+763,B,M,23,Trucking At R.R. Freight,1920,1,1
+764,B,M,20,Trimmer At Hat Company,1920,1,1
+765,B,M,20,Assistant,1920,1,1
+766,B,M,17,Cook,1920,1,1
+767,B,F,27,Waitress,1920,0,1
+768,B,M,40,Laborer,1920,1,1
+769,B,M,28,Chauffeur,1920,1,1
+770,B,F,48,Owner of Business,1920,0,1
+772,B,M,26,Porter,1920,1,1
+773,B,F,26,Seamstress,1920,0,1
+774,B,M,28,Trucker At Freight House,1920,1,1
+775,B,F,28,Maid,1920,0,1
+776,B,M,26,Mechanic At Garage,1920,1,1
+777,B,M,40,Laborer,1920,1,1
+778,B,M,33,Waitress,1920,1,1
+779,B,M,29,Laborer,1920,1,1
+780,B,M,35,Longshoreman At Ship Channel,1920,1,1
+781,B,M,25,Longshoreman At Ship Channel,1920,1,1
+782,B,M,24,Laborer,1920,1,1
+783,B,M,31,Laborer,1920,1,1
+784,B,F,29,Maid,1920,0,1
+786,B,M,25,Laborer,1920,1,1
+787,B,M,42,Minister At Mission Baptist Church,1920,1,1
+788,B,M,50,Contractor At Buildings,1920,1,1
+790,B,M,41,Driver,1920,1,1
+791,B,F,28,Seamstress,1920,0,1
+795,B,F,24,Laundress,1920,0,1
+796,B,M,40,Carpenter,1920,1,1
+797,B,F,36,Washwoman,1920,0,1
+798,B,M,20,Porter,1920,1,1
+800,B,F,42,Laundress,1920,0,1
+803,B,M,35,Driver,1920,1,1
+804,B,F,35,Maid,1920,0,1
+806,B,F,10,Office Girl At Physician,1920,0,1
+807,B,F,23,Doctors Assistant At Surgery,1920,0,1
+808,B,M,27,Machinist At Cobton Oil Company,1920,1,1
+809,B,M,24,Machinist At R.R. Traction Company,1920,1,1
+810,B,M,19,Laborer,1920,1,1
+811,B,M,41,Laborer,1920,1,1
+812,B,F,31,Maid,1920,0,1
+813,B,F,38,Washwoman,1920,0,1
+814,B,M,33,Laborer,1920,1,1
+815,B,M,35,Laborer,1920,1,1
+816,B,M,40,Laborer,1920,1,1
+818,B,M,33,Porter,1920,1,1
+819,B,F,29,Maid,1920,0,1
+821,B,F,27,Cook,1920,0,1
+822,B,M,28,Laborer,1920,1,1
+823,B,M,34,Laborer,1920,1,1
+824,B,F,40,Stretching Curtains  At Home,1920,0,1
+825,B,M,25,Laborer,1920,1,1
+826,B,M,24,Laborer,1920,1,1
+827,B,F,44,Hat Dresser At Home,1920,0,1
+828,B,F,25,Manicures At Beauty Parlor,1920,0,1
+829,B,M,32,Bell Boy At Hotel,1920,1,1
+830,B,M,23,Porter,1920,1,1
+831,B,M,23,Porter,1920,1,1
+832,B,M,23,Window Trimmer At Department Store,1920,1,1
+834,B,M,21,Bell Boy At Hotel,1920,1,1
+835,B,M,20,Bell Boy At Hotel,1920,1,1
+836,B,F,22,Soda Dispenser At Drug Store,1920,0,1
+837,B,M,22,Porter,1920,1,1
+839,B,M,48,Switchman At Railway Company,1920,1,1
+842,B,M,56,Renter At Truck Farm,1920,1,1
+845,B,M,69,Laborer,1920,1,1
+846,B,M,45,Owner of Business,1920,1,1
+847,B,F,39,Cook,1920,0,1
+849,B,M,52,Yardman At Private Family,1920,1,1
+850,B,M,23,Laborer,1920,1,1
+851,B,F,27,Washwoman,1920,0,1
+852,B,F,14,Maid,1920,0,1
+853,B,F,43,Washwoman,1920,0,1
+854,B,M,24,Chauffeur,1920,1,1
+855,B,M,28,Trucker At Cotton Press,1920,1,1
+856,B,F,26,Washwoman,1920,0,1
+860,W,M,37,Worker At Macaroni Factory,1920,1,0
+865,W,M,68,Owner of Business,1920,1,0
+875,B,M,38,Brakeman At R.Road Company,1920,1,1
+876,B,F,35,Owner of Business,1920,0,1
+877,B,M,15,Assistant,1920,1,1
+881,B,M,45,Plumber At Hotel,1920,1,1
+882,B,F,32,Washwoman,1920,0,1
+883,B,M,40,Assistant,1920,1,1
+884,B,F,36,Cook,1920,0,1
+885,B,M,21,Performer At Theatrical Company,1920,1,1
+886,B,F,18,Performer At Theatrical Company,1920,0,1
+887,B,M,35,Chauffeur,1920,1,1
+888,B,M,39,Assistant,1920,1,1
+889,B,F,36,Owner of Business,1920,0,1
+890,B,M,22,Laborer,1920,1,1
+894,B,M,30,Laborer,1920,1,1
+895,B,M,32,Owner of Business,1920,1,1
+896,B,M,50,Laborer,1920,1,1
+897,B,M,30,Laborer,1920,1,1
+898,B,M,40,Laborer,1920,1,1
+899,B,M,33,Driver,1920,1,1
+901,B,F,42,Washwoman,1920,0,1
+902,B,M,33,Teamster At Lumber Company,1920,1,1
+903,B,F,27,Washwoman,1920,0,1
+904,B,M,10,Delivery Boy At Grocery,1920,1,1
+906,B,M,23,Repairman At Auto Line,1920,1,1
+907,B,M,24,Repairman At Auto Line,1920,1,1
+908,B,M,26,Bricklayer,1920,1,1
+909,B,F,36,Maid,1920,0,1
+910,B,M,33,Assistant,1920,1,1
+911,B,F,52,Washwoman,1920,0,1
+912,B,F,40,Chambermaid At Hotel,1920,0,1
+913,B,M,30,Boiler At Paper Factory,1920,1,1
+914,B,M,48,Owner of Business,1920,1,1
+915,B,F,47,Manager,1920,0,1
+916,B,M,30,Cook,1920,1,1
+917,B,M,26,Soldier At Us Army,1920,1,1
+918,B,F,24,Washwoman,1920,0,1
+919,B,M,32,Owner of Business,1920,1,1
+921,B,M,38,Concreter At Buildings,1920,1,1
+922,B,F,26,Maid,1920,0,1
+924,B,M,57,Barber,1920,1,1
+925,B,F,52,Nurse,1920,0,1
+926,B,F,26,Show Boss At Laundry,1920,0,1
+929,B,M,26,Tailor At Shop,1920,1,1
+931,B,F,50,Washwoman,1920,0,1
+932,B,F,33,Washwoman,1920,0,1
+933,B,F,30,Dressmaker At Home,1920,0,1
+934,B,M,20,Teamster At Oil Company,1920,1,1
+935,B,M,23,Teamster At Oil Company,1920,1,1
+936,B,F,23,Hairdresser At Home,1920,0,1
+938,B,M,22,Laborer,1920,1,1
+939,B,F,22,Maid,1920,0,1
+940,B,F,28,Washwoman,1920,0,1
+941,B,F,25,Maid,1920,0,1
+942,B,M,47,Laborer,1920,1,1
+943,B,M,45,Owner of Business,1920,1,1
+944,B,M,49,Laborer,1920,1,1
+945,B,M,40,Laborer,1920,1,1
+946,B,F,42,Washwoman,1920,0,1
+947,B,M,17,Delivery Boy At Market,1920,1,1
+948,B,M,37,Hod Carrier At Buildings,1920,1,1
+949,B,M,35,Chauffeur,1920,1,1
+951,B,M,64,Owner of Business,1920,1,1
+952,B,F,54,Midwife At General Practice,1920,0,1
+953,B,M,21,Chauffeur,1920,1,1
+954,B,F,43,Laundress,1920,0,1
+955,B,F,22,Nurse,1920,0,1
+956,B,F,24,Maid,1920,0,1
+957,B,M,20,Waitress,1920,1,1
+958,B,M,59,Owner of Business,1920,1,1
+959,B,M,59,Minister At Miss. Baptist Church,1920,1,1
+960,B,F,42,Laundress,1920,0,1
+961,B,M,36,Contractor At Electrician,1920,1,1
+963,B,M,25,Cook,1920,1,1
+964,B,M,38,Painter At Buildings,1920,1,1
+965,B,F,35,Laundress,1920,0,1
+966,B,M,15,Driver,1920,1,1
+967,B,M,38,Laborer,1920,1,1
+968,B,F,27,Cook,1920,0,1
+971,B,M,47,Owner of Business,1920,1,1
+972,B,M,49,Yardman At Private Family,1920,1,1
+973,B,F,37,Dressmaker At Home,1920,0,1
+974,B,M,20,Busboy At Restaurant ,1920,1,1
+975,B,M,24,Chauffeur,1920,1,1
+976,B,M,48,Carpenter,1920,1,1
+977,B,F,27,Owner of Business,1920,0,1
+979,B,F,19,Farm Help At Farm,1920,0,1
+980,B,F,22,Cook,1920,0,1
+981,B,M,25,Porter,1920,1,1
+982,B,M,22,Laborer,1920,1,1
+983,B,F,21,Maid,1920,0,1
+984,B,F,44,Washwoman,1920,0,1
+985,B,M,17,Assistant,1920,1,1
+986,B,M,32,Loading A Truck At Wholesale Grocery,1920,1,1
+987,B,F,25,Maid,1920,0,1
+989,B,M,20,Laborer,1920,1,1
+990,B,M,37,Mover At Transfer Company,1920,1,1
+991,B,F,33,Hairdresser At Home,1920,0,1
+992,B,M,11,Barber,1920,1,1
+993,B,M,46,Laborer,1920,1,1
+995,B,M,32,Washwoman,1920,1,1
+1000,B,M,23,Driver,1920,1,1
+1001,B,F,29,Washwoman,1920,0,1
+1003,B,M,20,Laborer,1920,1,1
+1004,B,M,17,Driver,1920,1,1
+1005,B,M,30,Digger At Oil Company,1920,1,1
+1006,B,M,25,Digger At Oil Company,1920,1,1
+1007,B,F,35,Maid,1920,0,1
+1008,B,M,34,Driver,1920,1,1
+1009,B,F,29,Dressmaker At Home,1920,0,1
+1011,B,F,40,Owner of Business,1920,0,1
+1012,B,M,38,Driver,1920,1,1
+1013,B,M,40,Porter,1920,1,1
+1014,B,M,51,Waitress,1920,1,1
+1015,B,M,45,Barber,1920,1,1
+1016,B,M,62,Longshoreman At Fishing Basin,1920,1,1
+1017,B,F,43,Owner of Business,1920,0,1
+1019,B,F,46,Cook,1920,0,1
+1020,B,M,33,Laborer,1920,1,1
+1021,B,F,23,Waitress,1920,0,1
+1022,B,F,25,Cook,1920,0,1
+1023,B,M,18,Chauffeur,1920,1,1
+1024,B,M,23,Laborer,1920,1,1
+1025,B,M,26,Laborer,1920,1,1
+1026,B,F,29,Ironer At Laundry,1920,0,1
+1027,B,M,40,Owner of Business,1920,1,1
+1028,B,F,33,Manager,1920,0,1
+1029,B,M,16,Porter,1920,1,1
+1030,B,M,34,Truckman At Railroad Freight,1920,1,1
+1032,B,M,30,Cook,1920,1,1
+1035,B,M,53,Owner of Business,1920,1,1
+1036,B,M,21,Laborer,1920,1,1
+1037,B,M,32,Owner of Business,1920,1,1
+1038,B,F,32,Dressmaker At Home,1920,0,1
+1039,B,M,22,Chauffeur,1920,1,1
+1041,B,M,14,Porter,1920,1,1
+1042,B,M,12,Dishwasher At Private Home,1920,1,1
+1043,B,M,10,Dishwasher At Private Home,1920,1,1
+1045,B,F,14,Assistant,1920,0,1
+1046,B,M,22,Laborer,1920,1,1
+1047,B,F,22,Cook,1920,0,1
+1048,B,M,26,Driver,1920,1,1
+1049,B,F,25,Washwoman,1920,0,1
+1050,B,M,12,Yardboy At Private Family,1920,1,1
+1053,B,M,18,Chauffeur,1920,1,1
+1054,B,M,19,Porter,1920,1,1
+1055,B,M,21,Porter,1920,1,1
+1056,B,M,20,Laborer,1920,1,1
+1057,B,M,22,Laborer,1920,1,1
+1058,B,M,16,Porter,1920,1,1
+1059,B,M,30,Porter,1920,1,1
+1060,B,F,32,Hairdresser At Home,1920,0,1
+1064,W,M,20,Seller At Newspapers ,1920,1,0
+1068,W,M,27,Laborer,1920,1,0
+1069,W,M,22,Laborer,1920,1,0
+1070,B,M,36,Carpet Maker At Furniture,1920,1,1
+1071,B,F,35,Washwoman,1920,0,1
+1076,B,M,26,Driver,1920,1,1
+1077,B,F,27,Maid,1920,0,1
+1078,B,F,22,Cook,1920,0,1
+1079,B,F,21,Servant,1920,0,1
+1080,B,F,37,Owner of Business,1920,0,1
+1081,B,F,17,Nurse,1920,0,1
+1082,B,M,16,Waitress,1920,1,1
+1083,B,M,46,Driver,1920,1,1
+1084,B,M,40,Washer At Laundry,1920,1,1
+1085,B,M,19,Laborer,1920,1,1
+1086,B,M,30,Laborer,1920,1,1
+1089,B,M,28,Maid,1920,1,1
+1090,B,F,22,Maid,1920,0,1
+1091,B,M,27,Laborer,1920,1,1
+1092,B,M,27,Laborer,1920,1,1
+1093,B,F,26,Laundress,1920,0,1
+1095,B,M,32,Laborer,1920,1,1
+1096,B,F,37,Maid,1920,0,1
+1098,B,M,30,Machinist At Railway Company,1920,1,1
+1101,B,M,32,Mechanic At Auto Line,1920,1,1
+1102,B,F,23,Cook,1920,0,1
+1103,B,F,22,Maid,1920,0,1
+1104,B,F,19,Maid,1920,0,1
+1105,B,M,20,Driver,1920,1,1
+1106,B,M,17,Dishwasher At Pullman,1920,1,1
+1107,B,M,28,Assistant,1920,1,1
+1108,B,F,26,Seamstress,1920,0,1
+1110,B,F,28,Washer At Dairy,1920,0,1
+1111,B,F,37,Seamstress,1920,0,1
+1112,B,F,27,Cleaner,1920,0,1
+1113,B,M,35,Laborer,1920,1,1
+1114,B,F,25,Washwoman,1920,0,1
+1115,B,M,28,Contractor At Concrete Work,1920,1,1
+1116,B,M,39,Laborer,1920,1,1
+1117,B,M,36,Laborer,1920,1,1
+1118,B,M,45,Laborer,1920,1,1
+1119,B,M,25,Dispenser At Soda,1920,1,1
+1122,B,M,16,Cook,1920,1,1
+1123,B,M,35,Laborer,1920,1,1
+1124,B,M,28,Driver,1920,1,1
+1125,W,M,40,Owner of Business,1920,1,0
+1126,W,F,36,Owner of Business,1920,0,0
+1128,B,M,25,Detective At Police Department ,1920,1,1
+1129,B,F,26,Seamstress,1920,0,1
+1131,B,M,19,Elevator Man At Skyscraper,1920,1,1
+1132,B,F,17,Nurse,1920,0,1
+1134,B,M,47,Barber,1920,1,1
+1135,B,M,28,Tailor At Own Shop,1920,1,1
+1136,B,M,20,Laborer,1920,1,1
+1137,B,M,54,Merchant At Produce,1920,1,1
+1138,B,M,38,Laborer,1920,1,1
+1139,B,F,25,Washwoman,1920,0,1
+1141,B,F,22,Waitress,1920,0,1
+1143,B,F,22,Washwoman,1920,0,1
+1144,B,M,32,Laborer,1920,1,1
+1145,B,M,50,Owner of Business,1920,1,1
+1146,B,M,29,Manager,1920,1,1
+1147,B,F,34,Laborer,1920,0,1
+1148,B,M,35,Repairer At Automobile Company,1920,1,1
+1149,B,F,22,Washwoman,1920,0,1
+1150,B,F,18,Cook,1920,0,1
+1151,B,M,27,Mechanic At Railroad Company,1920,1,1
+1152,B,F,28,Washwoman,1920,0,1
+1153,B,M,39,Laborer,1920,1,1
+1154,B,M,22,Laborer,1920,1,1
+1156,B,M,45,Owner of Business,1920,1,1
+1157,B,M,55,Laborer,1920,1,1
+1158,B,M,35,Dealer At Fish And Oysters,1920,1,1
+1159,W,M,39,Owner of Business,1920,1,0
+1161,W,M,28,Merchant At Grocery Store,1920,1,0
+1163,B,M,50,Pastor At Colored Baptist Church,1920,1,1
+1166,B,M,60,Cook,1920,1,1
+1167,B,M,56,Farmer At Cotton And Corn,1920,1,1
+1169,B,M,69,Laborer,1920,1,1
+1170,B,M,75,Glassier (Retired) At Buildings,1920,1,1
+1171,B,F,37,Laundress,1920,0,1
+1173,B,M,68,Laborer,1920,1,1
+1174,B,F,27,Maid,1920,0,1
+1175,B,M,27,Porter,1920,1,1
+1176,B,M,18,Laborer,1920,1,1
+1177,B,F,21,Dresser At Laundry,1920,0,1
+1178,B,M,24,Laborer,1920,1,1
+1179,B,M,21,Laborer,1920,1,1
+1181,B,F,32,Cook,1920,0,1
+1182,B,F,23,Maid,1920,0,1
+1183,B,M,22,Laborer,1920,1,1
+1185,B,F,32,Sorter At Laundry,1920,0,1
+1186,B,F,22,Market At Laundry,1920,0,1
+1187,B,M,38,Laborer,1920,1,1
+1189,B,F,51,Midwife At General Practice,1920,0,1
+1190,B,M,23,Laborer,1920,1,1
+1194,B,M,29,Waitress,1920,1,1
+1195,B,F,23,Seamstress,1920,0,1
+1198,B,M,36,Messman At Steamboat Company,1920,1,1
+1199,B,F,31,Washwoman,1920,0,1
+1200,B,F,21,Washwoman,1920,0,1
+1202,B,M,55,Stableman At Laundry,1920,1,1
+1203,B,F,20,Worker At Laundry,1920,0,1
+1205,B,M,50,Paperhanger At Houses,1920,1,1
+1206,B,M,47,Owner of Business,1920,1,1
+1208,B,F,21,Barber,1920,0,1
+1212,B,M,50,Carpenter,1920,1,1
+1213,B,M,48,Laborer,1920,1,1
+1214,B,F,42,Beauty Culture At Homes,1920,0,1
+1215,B,M,48,Carpenter,1920,1,1
+1217,B,M,64,Nurse,1920,1,1
+1218,B,F,32,Maid,1920,0,1
+1220,B,M,23,Mechanic At Ford Plant,1920,1,1
+1221,B,M,54,Renter At Farm,1920,1,1
+1222,B,F,41,Owner of Business,1920,0,1
+1224,B,M,37,Laborer,1920,1,1
+1225,B,M,39,Laborer,1920,1,1
+1226,B,M,34,Chauffeur,1920,1,1
+1227,B,F,28,Cook,1920,0,1
+1228,B,F,19,Cook,1920,0,1
+1229,B,M,24,Laborer,1920,1,1
+1231,B,M,24,Laborer,1920,1,1
+1234,B,F,67,Owner of Business,1920,0,1
+1236,B,M,23,Cook,1920,1,1
+1237,B,M,47,Longshoreman At Port,1920,1,1
+1238,B,F,47,Seamstress,1920,0,1
+1241,B,M,19,Driver,1920,1,1
+1242,B,M,69,Owner of Business,1920,1,1
+1243,B,M,40,Assistant,1920,1,1
+1244,B,M,44,Longshoreman At Steam Ship,1920,1,1
+1249,B,M,27,Laborer,1920,1,1
+1250,B,F,25,Washwoman,1920,0,1
+1251,B,M,31,Longshoreman At Ship Channel,1920,1,1
+1252,B,F,42,Missionary At Baptist Church,1920,0,1
+1253,B,M,25,Fireman At Laundry,1920,1,1
+1258,B,M,43,Colored Minister At Baptist Church,1920,1,1
+1259,B,M,50,Driver,1920,1,1
+1260,B,F,43,Washwoman,1920,0,1
+1263,B,M,37,Porter,1920,1,1
+1267,B,M,22,Porter,1920,1,1
+1268,B,F,40,Cook,1920,0,1
+1269,B,F,25,Cook,1920,0,1
+1270,B,M,40,Cleaner,1920,1,1
+1272,B,F,20,Cook,1920,0,1
+1273,B,F,19,Folder At Laundry,1920,0,1
+1276,B,M,14,Newsboy At Paper Company,1920,1,1
+1281,W,M,28,Cook,1920,1,0
+1282,B,M,19,Porter,1920,1,1
+1283,B,F,39,Maid,1920,0,1
+1284,B,M,35,Porter,1920,1,1
+1285,B,M,48,Laborer,1920,1,1
+1286,B,F,35,Washwoman,1920,0,1
+1287,B,F,27,Washwoman,1920,0,1
+1288,W,M,37,Laborer,1920,1,0
+1292,W,M,36,Laborer,1920,1,0
+1295,W,M,42,Laborer,1920,1,0
+1297,W,M,27,Laborer,1920,1,0
+1299,B,F,42,Presser,1920,0,1
+1300,B,M,29,Sorter At Hide Company,1920,1,1
+1301,B,F,45,Cleaner,1920,0,1
+1302,B,F,37,Ladis Tailor At Home,1920,0,1
+1303,B,M,20,Primer At Tailor Shop,1920,1,1
+1304,B,F,20,Marking Goods At Department Store,1920,0,1
+1306,B,F,45,Washwoman,1920,0,1
+1307,B,M,29,Tailor At Shop,1920,1,1
+1308,B,M,50,Watchman At Garage,1920,1,1
+1309,B,F,28,Dressmaker At Home ,1920,0,1
+1311,B,F,22,Cook,1920,0,1
+1312,B,F,24,Chambermaid At Hotel,1920,0,1
+1313,B,M,46,Blacksmith At Own Shop,1920,1,1
+1314,B,M,36,Laborer,1920,1,1
+1315,B,M,40,Laborer,1920,1,1
+1316,B,F,30,Owner of Business,1920,0,1
+1319,B,M,27,Porter,1920,1,1
+1321,B,F,45,Washwoman,1920,0,1
+1322,B,F,26,Washwoman,1920,0,1
+1327,B,F,21,Washwoman,1920,0,1
+1330,B,M,25,Soldier At Us Army,1920,1,1
+1331,B,F,27,Cook,1920,0,1
+1332,B,F,28,Presser,1920,0,1
+1333,B,F,24,Housekeeper At Private Family,1920,0,1
+1334,B,M,35,Driver,1920,1,1
+1335,B,F,26,Presser,1920,0,1
+1336,B,M,43,Teamster At Transfer Company,1920,1,1
+1337,B,F,36,Washwoman,1920,0,1
+1341,B,F,37,Nurse,1920,0,1
+1342,B,M,39,Laborer,1920,1,1
+1343,B,M,36,Fireman At Laundry,1920,1,1
+1345,B,M,23,Infantry Soldier At Us Army (New Mex.),1920,1,1
+1346,B,F,24,Finisher At Laundry,1920,0,1
+1347,B,M,32,Waitress,1920,1,1
+1348,B,M,56,Assistant,1920,1,1
+1349,B,F,22,Wringer At Laundry,1920,0,1
+1350,B,F,34,Seamstress,1920,0,1
+1351,B,M,59,Laborer,1920,1,1
+1353,B,F,16,Cleaner,1920,0,1
+1354,B,M,26,Laborer,1920,1,1
+1355,B,F,18,Finisher At Laundry,1920,0,1
+1356,B,M,22,Waitress,1920,1,1
+1357,B,M,21,Laborer,1920,1,1
+1358,B,F,20,Maid,1920,0,1
+1359,B,F,20,Cook,1920,0,1
+1360,B,F,30,Presser,1920,0,1
+1361,B,F,28,Maid,1920,0,1
+1362,B,F,27,Washwoman,1920,0,1
+1363,B,M,50,Waitress,1920,1,1
+1364,B,F,46,Cook,1920,0,1
+1365,B,M,13,Delivery Boy At Meat Market,1920,1,1
+1366,B,M,28,Washer At Laundry,1920,1,1
+1367,B,F,73,Cook,1920,0,1
+1369,B,M,47,Engineer At Stationery (Illegible),1920,1,1
+1370,B,F,22,Cook,1920,0,1
+1371,B,F,30,Washwoman,1920,0,1
+1372,B,F,13,Nurse,1920,0,1
+1373,B,M,23,Laborer,1920,1,1
+1374,B,M,22,Laborer,1920,1,1
+1375,B,M,35,Laborer,1920,1,1
+1376,B,F,36,Maid,1920,0,1
+1377,B,M,38,Porter,1920,1,1
+1378,B,F,41,Laundress,1920,0,1
+1380,B,M,41,Sampler At Cotton,1920,1,1
+1381,B,M,40,Lonshoreman At Shipyard,1920,1,1
+1383,B,F,40,Washwoman,1920,0,1
+1384,B,M,21,Laborer,1920,1,1
+1385,B,M,45,Repairer At Furniture ,1920,1,1
+1386,B,M,70,Driver,1920,1,1
+1387,W,M,65,Laborer,1920,1,0
+1388,B,F,17,Cook,1920,0,1
+1389,B,M,32,Laborer,1920,1,1
+1390,B,F,28,Cook,1920,0,1
+1391,B,M,24,Laborer,1920,1,1
+1392,B,F,19,Cook,1920,0,1
+1393,B,M,28,Driver,1920,1,1
+1396,B,F,24,Waitress,1920,0,1
+1397,B,M,40,Cement Worker At Buildings,1920,1,1
+1398,W,M,60,Overseer At Oil Pipe Line,1920,1,0
+1399,B,F,21,Servant,1920,0,1
+1400,B,M,45,Woodcutter At Machine Saw,1920,1,1
+1401,B,M,22,Operator At Picture Show,1920,1,1
+1402,B,F,20,Washwoman,1920,0,1
+1404,B,M,41,Laborer,1920,1,1
+1405,B,F,29,Nurse,1920,0,1
+1406,B,M,24,Driver,1920,1,1
+1409,B,F,32,Washwoman,1920,0,1
+1410,B,M,27,Chauffeur,1920,1,1
+1411,B,F,32,Maid,1920,0,1
+1412,B,M,47,Chauffeur,1920,1,1
+1414,B,M,50,Fireman At Oil Mill,1920,1,1
+1415,B,M,22,Cleaner,1920,1,1
+1417,B,M,20,Porter,1920,1,1
+1419,B,F,46,Maid,1920,0,1
+1420,B,M,42,Mechanic At Auto Shop,1920,1,1
+1422,B,M,30,Laborer,1920,1,1
+1423,B,M,37,Loader At Cotton Compress,1920,1,1
+1425,B,M,22,Laborer,1920,1,1
+1426,B,M,24,Laborer,1920,1,1
+1427,B,F,53,Washwoman,1920,0,1
+1428,B,F,36,Washwoman,1920,0,1
+1429,B,M,26,Manager,1920,1,1
+1433,B,F,24,Laborer,1920,0,1
+1434,B,M,38,Owner of Business,1920,1,1
+1435,B,F,27,Soloist At Pianist,1920,0,1
+1437,B,F,30,Barber,1920,0,1
+1439,B,M,34,Barber,1920,1,1
+1443,B,F,25,Cook,1920,0,1
+1444,B,F,28,Bellboy At Hotel,1920,0,1
+1446,B,F,45,Washwoman,1920,0,1
+1447,B,M,43,Porter,1920,1,1
+1448,B,F,24,Marker At Laundry,1920,0,1
+1449,B,M,25,Driver,1920,1,1
+1450,B,F,23,Dressmaker At Home,1920,0,1
+1453,B,F,25,Cook,1920,0,1
+1455,B,F,21,Maid,1920,0,1
+1456,B,F,24,Cook,1920,0,1
+1457,B,F,25,Housemaid At Hotel,1920,0,1
+1458,B,M,24,Laborer,1920,1,1
+1459,B,M,24,Chauffeur,1920,1,1
+1460,B,M,21,Laborer,1920,1,1
+1461,B,F,26,Washwoman,1920,0,1
+1462,B,F,26,Seamstress,1920,0,1
+1463,B,F,28,Nurse,1920,0,1
+1464,B,M,33,Laborer,1920,1,1
+1465,B,F,27,Market At Department Store,1920,0,1
+1468,B,M,24,Driver,1920,1,1
+1470,B,F,45,Washwoman,1920,0,1
+1471,B,F,19,Maid,1920,0,1
+1473,B,M,35,Wringer At Laundry,1920,1,1
+1475,B,M,35,Waitress,1920,1,1
+1476,B,M,44,Straw Boss At Gas Plant,1920,1,1
+1477,B,F,38,Washwoman,1920,0,1
+1478,B,M,42,Cook,1920,1,1
+1479,B,F,23,Cook,1920,0,1
+1480,B,M,40,Laborer,1920,1,1
+1481,B,F,41,Washwoman,1920,0,1
+1482,B,M,39,Plumber At Buildings,1920,1,1
+1483,B,M,52,Barber,1920,1,1
+1484,B,F,47,Washwoman,1920,0,1
+1485,B,M,25,Laborer,1920,1,1
+1487,B,M,47,Herb Doctor At General Practice,1920,1,1
+1488,B,F,37,Hair Culture At Home,1920,0,1
+1489,B,M,40,Laborer,1920,1,1
+1490,B,F,38,Washwoman,1920,0,1
+1491,B,M,12,Laborer,1920,1,1
+1492,B,M,6,Manager,1920,1,1
+1493,B,M,20,Presser,1920,1,1
+1494,B,M,34,Porter,1920,1,1
+1495,B,F,32,Washwoman,1920,0,1
+1496,B,M,43,Porter,1920,1,1
+1498,B,M,31,Mechanic At Garage,1920,1,1
+1500,B,M,40,Laborer,1920,1,1
+1501,B,M,20,Porter,1920,1,1
+1502,B,M,51,Waitress,1920,1,1
+1503,B,M,48,Porter,1920,1,1
+1504,B,M,34,Porter,1920,1,1
+1505,B,M,48,Waitress,1920,1,1
+1506,B,M,33,Carpenter,1920,1,1
+1507,B,M,35,Teamster At Hauling Company,1920,1,1
+1508,B,M,26,Dishwasher At Resteaurant,1920,1,1
+1510,B,M,17,Porter,1920,1,1
+1511,B,F,32,Washwoman,1920,0,1
+1512,B,F,22,Presser,1920,0,1
+1513,B,M,29,Wringer At Laundry,1920,1,1
+1514,B,F,25,Cleaner,1920,0,1
+1515,B,F,29,Cook,1920,0,1
+1516,B,M,32,Wringer At Laundry,1920,1,1
+1517,B,M,39,Longshoreman At Ship Channel,1920,1,1
+1520,B,F,35,Haidresser At Home,1920,0,1
+1521,B,F,25,Maid,1920,0,1
+1522,B,M,29,Porter,1920,1,1
+1523,B,M,35,Porter,1920,1,1
+1524,B,F,28,Washwoman,1920,0,1
+1526,B,F,32,Haidresser At Home,1920,0,1
+1527,B,M,32,Waitress,1920,1,1
+1528,B,M,25,Assistant,1920,1,1
+1531,B,F,26,Washwoman,1920,0,1
+1533,B,F,23,Cook,1920,0,1
+1534,B,F,19,Maid,1920,0,1
+1535,B,M,27,Driver,1920,1,1
+1536,B,M,39,Driver,1920,1,1
+1537,B,F,43,Starcher At Laundry,1920,0,1
+1539,B,F,28,Washwoman,1920,0,1
+1540,B,F,50,Washwoman,1920,0,1
+1541,B,M,40,Dishwasher At Restaurant,1920,1,1
+1542,B,M,34,Cook,1920,1,1
+1543,B,M,36,Driver,1920,1,1
+1544,B,F,28,Waitress,1920,0,1
+1547,B,M,26,Driver,1920,1,1
+1549,B,M,38,Laborer,1920,1,1
+1551,B,F,36,Cook,1920,0,1
+1552,B,M,26,Laborer,1920,1,1
+1553,B,F,27,Cook,1920,0,1
+1554,B,M,17,Waitress,1920,1,1
+1555,B,M,23,Mechanic At Garage,1920,1,1
+1556,B,F,22,Ticket Seller At Moving Picture Company,1920,0,1
+1558,B,M,38,Laborer,1920,1,1
+1560,B,F,30,Teacher At Kindergarten,1920,0,1
+1562,B,F,22,Secretary At Secret Society,1920,0,1
+1563,B,M,36,Porter,1920,1,1
+1569,B,M,31,Porter,1920,1,1
+1570,B,M,36,Laborer,1920,1,1
+1571,B,F,38,Washwoman,1920,0,1
+1572,B,M,27,Carpenter,1920,1,1
+1573,B,F,23,Cook,1920,0,1
+1574,B,M,45,Switchman At Railway Yard,1920,1,1
+1578,B,M,46,Porter,1920,1,1
+1579,B,M,30,Straw Boss At Railway Freight,1920,1,1
+1580,B,M,25,Stockman At Paint Company,1920,1,1
+1582,W,M,36,Cleaner,1920,1,0
+1590,B,F,54,Presser,1920,0,1
+1591,B,M,29,Bellboy At Hotel,1920,1,1
+1592,B,F,27,Nurse,1920,0,1
+1593,B,M,24,Porter,1920,1,1
+1594,B,M,24,Mechanic At Autoline,1920,1,1
+1595,B,F,23,Dressmaker At Home,1920,0,1
+1596,B,M,54,Preacher At Miss. Baptist Church,1920,1,1
+1597,B,F,49,Seamstress,1920,0,1
+1598,B,M,14,Manager,1920,1,1
+1599,B,M,24,Cook,1920,1,1
+1600,B,F,22,Ticket Collector At Moving Picture Theater,1920,0,1
+1601,B,M,17,Cook,1920,1,1
+1604,B,M,25,Porter,1920,1,1
+1606,B,M,22,Driver,1920,1,1
+1608,B,F,32,Housekeeper At Private Party,1920,0,1
+1609,B,M,36,Chefcook At Club,1920,1,1
+1610,B,M,58,Porter,1920,1,1
+1611,B,F,22,Manager,1920,0,1
+1612,B,M,25,Laborer,1920,1,1
+1613,B,M,49,Driver,1920,1,1
+1614,B,M,25,Porter,1920,1,1
+1615,B,M,25,Cook,1920,1,1
+1616,B,M,20,Porter,1920,1,1
+1617,B,F,26,Washwoman,1920,0,1
+1620,B,M,35,Cook,1920,1,1
+1621,B,M,32,Egg Classer At Whole Produce Company,1920,1,1
+1622,B,F,25,Maid,1920,0,1
+1623,B,M,47,Cleaner,1920,1,1
+1625,B,M,15,Driver,1920,1,1
+1627,B,M,30,Laobrer At Buildings,1920,1,1
+1629,B,M,30,Laborer,1920,1,1
+1631,B,F,63,Washwoman,1920,0,1
+1632,B,M,24,Cook,1920,1,1
+1633,B,F,22,Presser,1920,0,1
+1634,B,M,38,Assistant Warehouse At Refining Company,1920,1,1
+1635,B,F,41,Owner of Business,1920,0,1
+1637,B,M,21,Cook,1920,1,1
+1638,B,M,36,Porter,1920,1,1
+1639,B,F,29,Beauty Culturist At Parlor,1920,0,1
+1640,B,M,27,Clerk,1920,1,1
+1641,B,F,34,Shirt Finisher At Laundry,1920,0,1
+1642,B,M,37,Mover At Piano Company,1920,1,1
+1643,B,M,37,Laborer,1920,1,1
+1644,B,F,24,Maid,1920,0,1
+1646,B,M,24,Waitress,1920,1,1
+1647,B,F,26,Washwoman,1920,0,1
+1648,B,M,43,Laborer,1920,1,1
+1649,B,M,40,Chauffeur,1920,1,1
+1650,B,M,38,Garbage Man City,1920,1,1
+1652,B,M,28,Laborer,1920,1,1
+1653,B,F,31,Garbage Man At City,1920,0,1
+1654,B,M,39,Washwoman,1920,1,1
+1655,B,F,53,Carpenter,1920,0,1
+1656,B,F,38,Waitress,1920,0,1
+1657,B,M,27,Dishwasher At Restaurant,1920,1,1
+1658,B,F,28,Elevator Operator At Dry Goods Company,1920,0,1
+1659,B,M,28,Cook,1920,1,1
+1660,B,M,23,Chauffeur,1920,1,1
+1661,B,M,37,Brakeman At Railway,1920,1,1
+1662,B,F,52,Barber,1920,0,1
+1665,B,M,26,Laundress,1920,1,1
+1666,B,F,13,Manager,1920,0,1
+1669,B,M,23,Laborer,1920,1,1
+1671,B,M,38,Laborer,1920,1,1
+1673,B,M,59,Labor At Common,1920,1,1
+1674,B,F,57,Labor At Common,1920,0,1
+1675,B,M,21,Cook,1920,1,1
+1676,B,M,19,Chauffeur,1920,1,1
+1678,B,M,27,Cook,1920,1,1
+1679,B,F,28,Maid,1920,0,1
+1680,B,M,19,Cement Finisher At Concrete Works,1920,1,1
+1681,B,F,20,Washwoman,1920,0,1
+1682,B,M,43,Chauffeur,1920,1,1
+1690,B,M,54,Laborer,1920,1,1
+1691,B,F,50,Washwoman,1920,0,1
+1692,B,M,19,Labor At Common,1920,1,1
+1693,B,M,16,Labor At Common,1920,1,1
+1694,B,F,19,Dishwasher At Sanitorium,1920,0,1
+1695,B,F,44,Washwoman,1920,0,1
+1696,B,F,33,Cook,1920,0,1
+1697,B,M,19,Farm Help At Farm,1920,1,1
+1698,B,M,16,Carpenter,1920,1,1
+1700,B,M,29,Laborer,1920,1,1
+1701,B,F,28,Houseworker At Private Family,1920,0,1
+1702,B,F,29,Cook,1920,0,1
+1705,B,M,33,Laborer,1920,1,1
+1706,B,F,35,Laborer,1920,0,1
+1707,B,M,38,Laborer,1920,1,1
+1708,B,M,60,Assistant,1920,1,1
+1709,B,F,45,Cleaner,1920,0,1
+1710,B,F,24,Typewriter At Office,1920,0,1
+1711,B,M,27,Owner of Business,1920,1,1
+1712,B,F,50,Cleaner,1920,0,1
+1713,B,M,35,Porter,1920,1,1
+1714,B,F,26,Cook,1920,0,1
+1716,B,M,19,Laborer,1920,1,1
+1717,B,F,26,Maid,1920,0,1
+1718,B,F,14,Nurse,1920,0,1
+1719,B,M,28,Blacksmith Help At Shop,1920,1,1
+1720,B,F,27,Dressmaker At Home,1920,0,1
+1722,B,M,23,Presser,1920,1,1
+1723,B,M,23,Porter,1920,1,1
+1724,B,F,35,Cook,1920,0,1
+1725,B,F,22,Washwoman,1920,0,1
+1727,B,F,46,Ironer At Laundry,1920,0,1
+1729,B,M,49,Laborer,1920,1,1
+1730,B,F,43,Washwoman,1920,0,1
+1732,B,M,40,Waitress,1920,1,1
+1733,B,M,45,Porter,1920,1,1
+1734,B,M,39,Chauffeur,1920,1,1
+1735,B,F,39,Cook,1920,0,1
+1736,B,M,29,Laborer,1920,1,1
+1737,B,F,23,Cook,1920,0,1
+1738,B,F,40,Nurse,1920,0,1
+1739,B,M,25,Porter,1920,1,1
+1740,B,F,25,Manicurist At Parlor ,1920,0,1
+1741,B,M,34,Driver,1920,1,1
+1742,B,F,32,Seamstress,1920,0,1
+1743,B,M,52,Straw Boss At Oil Mill,1920,1,1
+1747,B,F,22,Office Girl At Joshyneian,1920,0,1
+1748,B,M,27,Assistant,1920,1,1
+1750,B,M,22,Laborer,1920,1,1
+1752,B,F,29,Hairdresser At Home,1920,0,1
+1753,B,F,29,Cook,1920,0,1
+1754,B,F,24,Maid,1920,0,1
+1755,B,M,30,Peddler At Vegetables,1920,1,1
+1757,B,M,15,Porter,1920,1,1
+1758,B,M,25,Porter,1920,1,1
+1759,B,F,56,Laundress,1920,0,1
+1760,B,F,31,Hairdresser At Home,1920,0,1
+1762,B,M,38,Packer At Us Army Camp,1920,1,1
+1763,B,F,27,Restaurant Help At Department Store,1920,0,1
+1765,B,F,45,Laundress,1920,0,1
+1766,B,M,22,Waitress,1920,1,1
+1767,B,M,34,Chambermaid At Hotel,1920,1,1
+1768,B,M,52,Teamster At Lumber Company,1920,1,1
+1769,B,M,35,Switchman At Railway,1920,1,1
+1770,B,F,50,Washwoman,1920,0,1
+1771,B,M,20,Pantry Man At Café,1920,1,1
+1772,B,M,22,Pantry Man At Café,1920,1,1
+1773,B,M,30,Driver,1920,1,1
+1774,B,F,23,Cleaner,1920,0,1
+1775,B,M,40,Porter,1920,1,1
+1776,B,F,33,Chef At Tea Room,1920,0,1
+1777,B,M,19,Sailor At Us Navy,1920,1,1
+1778,B,M,22,Porter,1920,1,1
+1780,B,M,63,Contractor At Paper ,1920,1,1
+1783,B,F,48,Seamstress,1920,0,1
+1784,B,M,32,Teamster At Produce Company,1920,1,1
+1785,B,F,27,Seamstress,1920,0,1
+1786,B,M,30,Teamster At Produce Company,1920,1,1
+1787,B,F,25,Shirt Finisher At Laundry,1920,0,1
+1788,B,M,34,Cook,1920,1,1
+1790,B,F,24,Manicurist At Home,1920,0,1
+1791,B,M,28,Porter,1920,1,1
+1792,B,F,24,Washwoman,1920,0,1
+1793,B,F,49,Washwoman,1920,0,1
+1794,B,F,26,Waswhoman At Home,1920,0,1
+1800,W,M,29,Secretary At N. Paper Publisher,1920,1,0
+1801,W,M,43,Operator At Telegraph Company,1920,1,0
+1803,W,M,13,Newsboy At News Route,1920,1,0
+1805,W,M,29,Manager,1920,1,0
+1808,W,M,44,Stable Man At City Stables,1920,1,0
+1812,W,M,44,Cleaner,1920,1,0
+1813,W,M,31,Driver,1920,1,0
+1814,B,F,29,Washwoman,1920,0,1
+1815,B,M,40,Contractor At Cement Walls,1920,1,1
+1816,B,M,37,Band Leader At Orchestra,1920,1,1
+1817,B,F,38,Flower Maker At Home,1920,0,1
+1819,B,M,38,Plumber Help At Buildings,1920,1,1
+1820,B,F,35,Laundress,1920,0,1
+1822,B,F,24,Assorter At Paper Factory,1920,0,1
+1823,B,M,38,Laborer,1920,1,1
+1824,B,F,21,Waitress,1920,0,1
+1825,B,M,50,Laborer,1920,1,1
+1826,B,M,25,Laborer,1920,1,1
+1828,B,M,23,Laborer,1920,1,1
+1831,B,M,38,Assistant,1920,1,1
+1832,B,F,35,Washwoman,1920,0,1
+1834,B,M,30,Porter,1920,1,1
+1840,B,M,38,Cook,1920,1,1
+1841,B,F,26,Cook,1920,0,1
+1842,B,F,22,Ironer At Laundry,1920,0,1
+1843,B,M,24,Porter,1920,1,1
+1845,B,M,19,Laborer,1920,1,1
+1846,B,M,34,Driver,1920,1,1
+1848,B,M,34,Laborer,1920,1,1
+1854,B,M,29,Chauffeur,1920,1,1
+1855,B,F,26,Waitress,1920,0,1
+1856,B,F,57,Cleaner,1920,0,1
+1858,B,M,30,Laborer,1920,1,1
+1863,B,M,24,Laborer,1920,1,1
+1864,B,F,28,Ironer At Laundry,1920,0,1
+1865,B,M,24,Cleaner,1920,1,1
+1866,B,F,20,Waitress,1920,0,1
+1867,B,M,45,Farmer At Rent,1920,1,1
+1868,B,M,25,Us Soldier At Infantry,1920,1,1
+1869,B,M,54,Minister At Col. M.E. Church,1920,1,1
+1870,B,F,51,Seamstress,1920,0,1
+1871,B,M,26,Mechanic At Gasoline Engine,1920,1,1
+1872,B,F,26,Cook,1920,0,1
+1875,B,M,28,Clerk,1920,1,1
+1876,B,M,28,Laborer,1920,1,1
+1877,B,M,39,Porter,1920,1,1
+1882,B,M,38,Laborer,1920,1,1
+1883,B,M,27,Laborer,1920,1,1
+1885,B,M,51,Laborer,1920,1,1
+1887,B,M,27,Presser,1920,1,1
+1888,B,F,24,Laundress,1920,0,1
+1889,B,F,20,Manicurist At Private Home,1920,0,1
+1890,B,M,36,Brakeman At Railway Company,1920,1,1
+1893,B,M,21,Washer At Laundry,1920,1,1
+1894,B,M,28,Plumber At Construction Company,1920,1,1
+1895,B,M,25,Tank Filler Railway Shop,1920,1,1
+1897,B,M,42,Laborer,1920,1,1
+1899,B,F,37,Owner of Business,1920,0,1
+1901,B,F,30,Cook,1920,0,1
+1902,B,M,36,Chauffeur,1920,1,1
+1903,B,M,23,Porter,1920,1,1
+1904,B,M,23,Chauffeur,1920,1,1
+1905,B,M,24,Cleaner,1920,1,1
+1906,B,F,22,Waitress,1920,0,1
+1907,B,M,24,Porter,1920,1,1
+1908,B,M,33,Waitress,1920,1,1
+1909,B,M,23,Cleaner,1920,1,1
+1910,B,M,22,Mechanic At Automobile Company,1920,1,1
+1911,B,M,65,Laborer,1920,1,1
+1914,B,M,28,Laborer,1920,1,1
+1915,B,F,23,Folder At Laundry,1920,0,1
+1916,B,M,35,Laborer,1920,1,1
+1917,B,F,36,Laborer,1920,0,1
+1918,B,F,40,Washwoman,1920,0,1
+1919,B,F,22,Cook,1920,0,1
+1920,B,F,23,Cook,1920,0,1
+1921,B,F,15,Presser,1920,0,1
+1922,B,F,35,Finisher At Lauyndry,1920,0,1
+1923,B,M,23,Laborer,1920,1,1
+1924,B,M,23,Laborer,1920,1,1
+1925,B,M,35,Laborer,1920,1,1
+1926,B,F,25,Maid,1920,0,1
+1927,B,M,35,Waitress,1920,1,1
+1928,B,M,21,Dishwasher At Cafe,1920,1,1
+1929,B,M,24,Laborer,1920,1,1
+1930,B,M,22,Cook,1920,1,1
+1931,B,M,38,Laborer,1920,1,1
+1932,B,F,35,Washwoman,1920,0,1
+1933,B,M,32,Laborer,1920,1,1
+1934,B,F,25,Maid,1920,0,1
+1935,B,M,26,Laborer,1920,1,1
+1937,B,M,34,Laborer,1920,1,1
+1938,B,F,37,Maid,1920,0,1
+1939,B,M,22,Laborer,1920,1,1
+1940,B,F,20,Waitress,1920,0,1
+1941,B,M,25,Laborer,1920,1,1
+1943,B,M,23,Laborer,1920,1,1
+1944,B,F,20,Washwoman,1920,0,1
+1945,B,M,45,Cook,1920,1,1
+1946,B,F,22,Cook,1920,0,1
+1947,B,M,27,Laborer,1920,1,1
+1948,B,M,68,Laborer,1920,1,1
+1949,B,F,28,Washwoman,1920,0,1
+1950,W,M,41,Butcher At Own Shop,1920,1,0
+1952,W,M,15,Mechanic At Buildings,1920,1,0
+1959,W,M,35,Merchant At Own Store,1920,1,0
+1964,W,M,26,Merchant At Own Store,1920,1,0
+1968,B,F,28,Washwoman,1920,0,1
+1970,B,M,33,Laborer,1920,1,1
+1971,B,M,19,Dishwasher At Hotel,1920,1,1
+1972,B,M,40,Laborer,1920,1,1
+1973,B,M,25,Porter,1920,1,1
+1974,B,M,38,Laborer,1920,1,1
+1976,B,M,29,Porter,1920,1,1
+1978,B,M,29,Repairer At Automobile Company,1920,1,1
+1979,B,M,21,Laborer,1920,1,1
+1980,B,M,28,Laborer,1920,1,1
+1981,B,M,29,Laborer,1920,1,1
+1982,B,M,28,Cleaner,1920,1,1
+1983,B,M,35,Owner of Business,1920,1,1
+1984,B,F,27,Seamstress,1920,0,1
+1985,B,F,25,Maid,1920,0,1
+1986,B,M,39,Porter,1920,1,1
+1987,B,F,45,Cook,1920,0,1
+1988,B,M,28,Mechanic At Auto Livery,1920,1,1
+1989,B,M,34,Laborer,1920,1,1
+1990,B,M,28,Bellboy At Hotel,1920,1,1
+1992,B,M,29,Tailor At Own Shop,1920,1,1
+1993,B,F,30,Nurse,1920,0,1
+1994,B,F,42,Work At Daily,1920,0,1
+1995,B,M,21,Porter,1920,1,1
+1996,B,M,30,Porter,1920,1,1
+1997,B,F,40,Washwoman,1920,0,1
+1999,B,M,23,Porter,1920,1,1
+2000,B,M,43,Laborer,1920,1,1
+2002,B,M,26,Laborer,1920,1,1
+2003,B,M,36,Teamster At Building Company,1920,1,1
+2006,B,F,32,Seamstress,1920,0,1
+2008,B,F,56,Cook,1920,0,1
+2009,B,F,26,Seamstress,1920,0,1
+2010,B,M,28,Cook,1920,1,1
+2011,B,M,48,Laborer,1920,1,1
+2012,B,F,45,Owner of Business,1920,0,1
+2013,B,M,32,Cleaner,1920,1,1
+2014,B,F,32,Washwoman,1920,0,1
+2015,B,M,10,Newsboy At Newspaper Company,1920,1,1
+2017,B,M,43,Agent At Real Estate,1920,1,1
+2018,B,M,39,Teamster At Ice Plant,1920,1,1
+2019,B,M,43,Porter,1920,1,1
+2020,B,M,29,Barber,1920,1,1
+2021,B,M,20,Porter,1920,1,1
+2022,B,M,19,Shiner At Shoe Parlor,1920,1,1
+2023,B,M,63,Porter,1920,1,1
+2024,B,M,18,Shiner At Boot Parlor,1920,1,1
+2025,B,M,24,Porter,1920,1,1
+2026,B,M,44,Shoe Repairer At Own Shop,1920,1,1
+2027,B,M,33,Agent At Real Estate,1920,1,1
+2028,B,M,24,Florist At Greenhouse,1920,1,1
+2029,B,M,20,Pantry Boy At Hotel,1920,1,1
+2030,B,M,22,Porter,1920,1,1
+2031,B,M,38,Tailor At Shop,1920,1,1
+2033,B,M,22,Teamster At Whol. Grocery,1920,1,1
+2036,B,M,22,Porter,1920,1,1
+2037,B,F,18,Cook,1920,0,1
+2038,B,M,47,Laborer,1920,1,1
+2041,B,M,43,Switchman At Railway,1920,1,1
+2042,B,F,36,Seamstress,1920,0,1
+2047,B,M,38,Laborer,1920,1,1
+2048,B,M,15,Laborer,1920,1,1
+2049,B,M,14,Cook,1920,1,1
+2050,B,F,26,Beauty Culture At Beauty Parlor,1920,0,1
+2051,B,M,29,Porter,1920,1,1
+2052,B,M,45,Blacksmith At Shop,1920,1,1
+2053,B,M,22,Waitress,1920,1,1
+2054,B,F,17,Nurse,1920,0,1
+2055,W,F,48,Manager,1920,0,0
+2056,W,F,32,Housekeeper At Private Family,1920,0,0
+2057,W,M,31,Manager,1920,1,0
+2058,B,M,45,Laborer,1920,1,1
+2059,B,F,38,Dressmaker At Home,1920,0,1
+2060,B,F,20,Pianist At Theatre,1920,0,1
+2061,B,M,18,Cleaner,1920,1,1
+2063,B,M,23,Laborer,1920,1,1
+2064,B,F,19,Daily Work At Private Family,1920,0,1
+2065,B,M,40,Laborer,1920,1,1
+2066,B,F,36,Folder At Laundry,1920,0,1
+2069,B,M,25,Driver,1920,1,1
+2070,B,M,32,Porter,1920,1,1
+2071,B,M,25,Owner of Business,1920,1,1
+2072,B,F,27,Manager,1920,0,1
+2074,B,M,23,Driver,1920,1,1
+2075,B,F,21,Stamper At Laundry,1920,0,1
+2076,B,F,19,Maid,1920,0,1
+2077,B,M,21,Porter,1920,1,1
+2078,B,M,38,Porter,1920,1,1
+2080,B,M,22,Chauffeur,1920,1,1
+2081,B,F,20,Cook,1920,0,1
+2083,B,F,42,Washwoman,1920,0,1
+2084,B,F,32,Cook,1920,0,1
+2085,B,F,21,Cook,1920,0,1
+2086,B,F,21,Cook,1920,0,1
+2088,B,M,25,Laborer,1920,1,1
+2089,B,F,27,Cook,1920,0,1
+2090,B,M,39,Driver,1920,1,1
+2091,B,M,22,Laborer,1920,1,1
+2092,B,M,18,Laborer,1920,1,1
+2093,B,M,60,Laborer,1920,1,1
+2094,B,M,20,Mechanic At Garage,1920,1,1
+2095,B,F,17,Worker At Laundry,1920,0,1
+2097,B,M,37,Porter,1920,1,1
+2100,W,F,36,Owner of Business,1920,0,0
+2101,W,M,27,Chauffeur,1920,1,0
+2103,B,M,50,Laborer,1920,1,1
+2104,B,F,48,Owner of Business,1920,0,1
+2105,B,M,25,Foreman At Government Warehouse,1920,1,1
+2106,B,M,26,Laborer,1920,1,1
+2107,B,F,22,Maid,1920,0,1
+2109,B,M,30,Boilermaker At Locomot. Wks.,1920,1,1
+2110,B,F,19,Cook,1920,0,1
+2113,B,M,20,Laborer,1920,1,1
+2114,B,F,18,Cook,1920,0,1
+2115,B,M,28,Machinist At Shop,1920,1,1
+2116,B,M,25,Laborer,1920,1,1
+2117,B,M,31,Laborer,1920,1,1
+2118,B,M,37,Machinist At Government Warehouse,1920,1,1
+2119,B,F,25,Maid,1920,0,1
+2120,B,M,22,Laborer,1920,1,1
+2121,B,F,30,Dishwasher At Restaurant,1920,0,1
+2123,B,F,49,Cook,1920,0,1
+2124,B,M,21,Laborer,1920,1,1
+2125,B,M,40,Laborer,1920,1,1
+2126,B,M,37,Fireman At Railway Shop,1920,1,1
+2127,B,F,39,Cook,1920,0,1
+2128,B,M,25,Laborer,1920,1,1
+2129,B,F,19,Office Girl At Wood Business,1920,0,1
+2130,B,M,55,Carpenter,1920,1,1
+2131,W,F,39,Owner of Business,1920,0,0
+2132,B,M,28,Driver,1920,1,1
+2133,B,F,30,Cook,1920,0,1
+2134,B,F,20,Chambermaid At Hotel,1920,0,1
+2135,B,M,24,Switchman At Railway Co.,1920,1,1
+2136,B,F,21,Chambermaid At Private Family,1920,0,1
+2137,B,M,24,U.S. Soldier At Us. Cavalry ,1920,1,1
+2138,B,F,21,Maid,1920,0,1
+2139,B,M,50,Laborer,1920,1,1
+2140,B,F,35,Owner of Business,1920,0,1
+2143,B,M,30,Laborer,1920,1,1
+2144,B,M,35,Bricklayer,1920,1,1
+2145,B,F,28,Hairdresser At Home,1920,0,1
+2146,B,F,22,Housework At Private Families,1920,0,1
+2147,B,F,23,Laborer,1920,0,1
+2149,B,M,22,Driver,1920,1,1
+2150,B,M,24,Driver,1920,1,1
+2152,B,M,47,Driver,1920,1,1
+2153,B,M,22,Laborer,1920,1,1
+2154,B,M,44,Plumber At Buildings,1920,1,1
+2155,B,F,36,Washwoman,1920,0,1
+2156,B,M,22,Laborer,1920,1,1
+2157,B,M,19,Laborer,1920,1,1
+2158,B,M,37,Freight Handler At Rr Freight House,1920,1,1
+2162,B,M,20,Laborer,1920,1,1
+2164,B,M,34,Driver,1920,1,1
+2165,B,F,34,Laundress,1920,0,1
+2166,B,F,28,Cook,1920,0,1
+2167,B,M,24,Driver,1920,1,1
+2168,B,F,21,Laborer,1920,0,1
+2169,B,M,26,Laborer,1920,1,1
+2170,B,F,28,Laborer,1920,0,1
+2172,B,F,65,Midwife At Gen. Practice,1920,0,1
+2173,W,M,50,Cook,1920,1,0
+2174,B,F,28,Washwoman,1920,0,1
+2176,B,M,55,Assistant,1920,1,1
+2178,B,M,11,Bootblack At Shoe Shin. Parlor,1920,1,1
+2179,B,M,50,Yardman At Private Family,1920,1,1
+2180,B,M,46,Driver,1920,1,1
+2181,B,F,43,Washwoman,1920,0,1
+2182,B,F,38,Seamstress,1920,0,1
+2183,B,F,20,Maid,1920,0,1
+2184,B,M,13,Messenger At Drugstore,1920,1,1
+2186,B,M,47,Presser,1920,1,1
+2187,B,F,47,Cook,1920,0,1
+2188,B,M,49,Porter,1920,1,1
+2189,B,M,33,Laborer,1920,1,1
+2190,B,F,26,Washwoman,1920,0,1
+2191,B,F,49,Washwoman,1920,0,1
+2192,B,M,26,Porter,1920,1,1
+2193,B,M,18,Driver,1920,1,1
+2194,B,M,15,Delivery Boy At Drugstore,1920,1,1
+2195,B,F,23,Maid,1920,0,1
+2196,B,F,20,Maid,1920,0,1
+2197,B,M,38,Laborer,1920,1,1
+2198,B,F,34,Cleaner,1920,0,1
+2199,B,M,36,Cook,1920,1,1
+2200,W,F,32,Dressmaker At Home,1920,0,0
+2201,B,F,35,Maid,1920,0,1
+2202,B,M,25,Laborer,1920,1,1
+2203,B,F,26,Owner of Business,1920,0,1
+2204,B,F,21,Assistant,1920,0,1
+2205,B,M,17,Laborer,1920,1,1
+2206,B,M,23,Laborer,1920,1,1
+2207,B,M,17,Laborer,1920,1,1
+2208,B,M,16,Renter At Farm,1920,1,1
+2209,W,F,39,Owner of Business,1920,0,0
+2211,B,M,52,Porter,1920,1,1
+2212,B,M,38,Driver,1920,1,1
+2213,B,F,36,Owner of Business,1920,0,1
+2218,B,F,18,Maid,1920,0,1
+2219,B,F,37,Cook,1920,0,1
+2220,B,F,17,Waitress,1920,0,1
+2221,B,F,24,Cleaner,1920,0,1
+2222,B,F,20,Waitress,1920,0,1
+2224,B,M,32,Driver,1920,1,1
+2225,B,F,27,Cook,1920,0,1
+2226,B,F,50,Seamstress,1920,0,1
+2227,B,F,24,Nurse,1920,0,1
+2228,B,F,21,Nurse,1920,0,1
+2229,B,M,30,Res. Physician At Hospital ,1920,1,1
+2230,B,M,48,Laborer,1920,1,1
+2231,B,M,43,Sawyer At Box Factory,1920,1,1
+2233,B,M,27,Porter,1920,1,1
+2234,B,F,60,Washwoman,1920,0,1
+2235,B,M,27,Porter,1920,1,1
+2236,B,F,42,Washwoman,1920,0,1
+2237,B,M,12,Messsenger At Diff. Families,1920,1,1
+2238,B,F,15,Cleaner,1920,0,1
+2239,B,M,20,Laborer,1920,1,1
+2240,W,F,52,Owner of Business,1920,0,0
+2241,W,M,28,Owner of Business,1920,1,0
+2242,W,F,22,Manager,1920,0,0
+2244,B,F,30,Washwoman,1920,0,1
+2245,B,M,30,Laborer,1920,1,1
+2246,B,M,25,Driver,1920,1,1
+2247,B,F,23,Washwoman,1920,0,1
+2248,B,M,51,Painter At Houses,1920,1,1
+2249,B,F,40,Laundress,1920,0,1
+2251,B,M,17,Laborer,1920,1,1
+2253,B,M,36,Morter Maker At Concrete Works,1920,1,1
+2254,B,F,38,Dressmaker At Home,1920,0,1
+2255,B,M,23,Bell Boy At Hotel,1920,1,1
+2256,B,F,21,Maid,1920,0,1
+2257,B,F,30,Ironer At Laundry,1920,0,1
+2258,B,M,39,Cook,1920,1,1
+2259,B,M,43,Driver,1920,1,1
+2260,B,M,37,Chauffeur,1920,1,1
+2262,B,M,30,Freight Handler At Freight Depot,1920,1,1
+2264,B,F,54,Washwoman,1920,0,1
+2265,B,F,40,Seamster At Home,1920,0,1
+2269,B,M,23,Barber,1920,1,1
+2271,B,M,30,Laborer,1920,1,1
+2272,B,F,24,Seamstress,1920,0,1
+2274,B,F,24,Seamstress,1920,0,1
+2275,B,M,35,Tailor At Shop,1920,1,1
+2276,B,F,29,Manicurist At Homes,1920,0,1
+2277,B,M,27,Porter,1920,1,1
+2278,B,F,30,Manager,1920,0,1
+2279,B,F,16,Maid,1920,0,1
+2281,B,F,35,Seamstress,1920,0,1
+2282,B,M,36,Blacksmith At Shop,1920,1,1
+2284,B,M,23,Laborer,1920,1,1
+2285,B,F,66,Washwoman,1920,0,1
+2286,B,M,31,Chauffeur,1920,1,1
+2287,B,M,78,Retired Mechanic At House,1920,1,1
+2288,B,M,80,Painter At Houses,1920,1,1
+2289,B,F,36,Maid,1920,0,1
+2290,B,M,60,Musician At Violin In Band,1920,1,1
+2293,W,M,33,Owner of Business,1920,1,0
+2302,B,F,39,Washwoman,1920,0,1
+2303,B,M,35,Laborer,1920,1,1
+2304,B,M,29,Washer At Laundry,1920,1,1
+2306,B,M,26,Teamster At City,1920,1,1
+2307,B,F,25,Maid,1920,0,1
+2308,B,F,28,Laundress,1920,0,1
+2309,B,F,41,Cook,1920,0,1
+2310,B,M,22,Packer At Drug Co.,1920,1,1
+2311,B,M,21,Laborer,1920,1,1
+2312,B,M,39,Porter,1920,1,1
+2313,B,F,39,Washwoman,1920,0,1
+2314,B,M,20,Laborer,1920,1,1
+2318,B,M,20,Laborer,1920,1,1
+2319,B,F,20,Washwoman,1920,0,1
+2320,B,M,20,Laborer,1920,1,1
+2321,B,F,43,Washwoman,1920,0,1
+2322,B,F,29,Owner of Business,1920,0,1
+2323,B,F,36,Seamstress,1920,0,1
+2324,B,M,30,Bellboy At Hotel,1920,1,1
+2325,B,M,26,Waitress,1920,1,1
+2326,B,M,35,Driver,1920,1,1
+2327,B,M,31,Teamster At Woodyard Yard,1920,1,1
+2329,B,M,30,Driver,1920,1,1
+2330,B,F,26,Washwoman,1920,0,1
+2332,B,F,28,Cook,1920,0,1
+2333,B,M,64,Cleaner,1920,1,1
+2334,B,F,58,Washwoman,1920,0,1
+2335,B,F,21,Seamstress,1920,0,1
+2336,B,F,32,Cook,1920,0,1
+2337,B,F,19,Cook,1920,0,1
+2338,B,M,17,Yardman At Private Families,1920,1,1
+2340,B,M,30,Laborer,1920,1,1
+2341,B,F,23,Assistant,1920,0,1
+2342,B,F,60,Nurse,1920,0,1
+2343,B,M,37,Owner of Business,1920,1,1
+2344,B,M,21,Laborer,1920,1,1
+2345,B,F,24,Washwoman,1920,0,1
+2346,B,F,48,Washwoman,1920,0,1
+2347,B,M,26,Carpenter,1920,1,1
+2348,B,M,28,Laborer,1920,1,1
+2349,B,M,28,Laborer,1920,1,1
+2350,B,F,24,Washwoman,1920,0,1
+2352,B,M,40,Roofing At Houses,1920,1,1
+2353,B,F,25,Laborer,1920,0,1
+2354,B,F,18,Farmer Help At Farm,1920,0,1
+2355,B,M,38,Driver,1920,1,1
+2357,B,F,22,Maid,1920,0,1
+2360,B,M,32,Farmer At Cotton And Com.,1920,1,1
+2363,B,F,35,Washwoman,1920,0,1
+2364,B,M,25,Porter,1920,1,1
+2365,B,M,25,Porter,1920,1,1
+2366,B,M,27,Mail Carrier At Us Post Office,1920,1,1
+2367,B,F,52,Nurse,1920,0,1
+2368,B,M,46,Porter,1920,1,1
+2370,B,M,32,Porter,1920,1,1
+2371,B,M,24,Laborer,1920,1,1
+2375,B,M,27,Laborer,1920,1,1
+2376,B,M,27,Laborer,1920,1,1
+2377,B,M,32,Spring Man At Rr Shops,1920,1,1
+2379,B,F,25,Seamstress,1920,0,1
+2380,B,M,50,Laborer,1920,1,1
+2381,B,F,40,Laundress,1920,0,1
+2382,B,F,19,Maid,1920,0,1
+2383,B,F,16,Maid,1920,0,1
+2384,B,M,46,Foreman At Cotton Boats,1920,1,1
+2385,B,F,33,Dressmaker At Home,1920,0,1
+2386,B,M,34,Laborer,1920,1,1
+2387,B,F,32,Maid,1920,0,1
+2388,B,F,44,Washwoman,1920,0,1
+2389,B,M,18,Dishwasher At Cafe,1920,1,1
+2390,B,M,19,Dishwasher At Cafe,1920,1,1
+2391,B,F,24,Cook,1920,0,1
+2392,B,M,49,Laborer,1920,1,1
+2393,B,M,22,Driver,1920,1,1
+2394,B,M,40,Laborer,1920,1,1
+2395,B,F,39,Washwoman,1920,0,1
+2396,B,M,21,Laborer,1920,1,1
+2397,B,F,16,Cleaner,1920,0,1
+2399,B,F,28,Dressmaker At Home,1920,0,1
+2400,B,M,27,Baker At Shop,1920,1,1
+2405,B,M,46,Checker At Grocery Store,1920,1,1
+2409,B,M,34,Mechanic At Rr Shops,1920,1,1
+2410,B,M,60,Spring Man At Rr Shops,1920,1,1
+2412,B,M,12,Assistant,1920,1,1
+2415,B,F,48,Nurse,1920,0,1
+2417,B,M,11,Assistant,1920,1,1
+2418,B,M,15,Driver,1920,1,1
+2421,B,F,28,Ironer At Laundry,1920,0,1
+2422,B,F,28,Cook,1920,0,1
+2424,B,M,37,Welder At Streetcar Co,1920,1,1
+2425,B,F,33,Ironer At Laundry,1920,0,1
+2426,B,M,21,Driver,1920,1,1
+2428,B,F,52,Cook,1920,0,1
+2429,B,M,16,Assistant,1920,1,1
+2430,B,M,49,Laborer,1920,1,1
+2431,B,F,38,Washwoman,1920,0,1
+2433,B,M,24,Laborer,1920,1,1
+2434,B,F,38,Laundress,1920,0,1
+2435,B,F,19,Laundress,1920,0,1
+2437,B,M,20,Laborer,1920,1,1
+2438,B,M,19,Porter,1920,1,1
+2439,B,M,25,Driver,1920,1,1
+2440,B,F,21,Laundress,1920,0,1
+2441,B,F,41,Laundress,1920,0,1
+2442,B,M,27,Driver,1920,1,1
+2443,B,M,22,Laborer,1920,1,1
+2444,B,F,23,Counter At Laundry,1920,0,1
+2445,B,F,34,Maid,1920,0,1
+2446,B,M,55,Repairman At Street Car Co,1920,1,1
+2447,B,M,43,Checker At Rr Freight,1920,1,1
+2449,B,F,38,Laundress,1920,0,1
+2450,B,M,29,Driver,1920,1,1
+2451,B,F,25,Seamstress,1920,0,1
+2455,B,M,19,Driver,1920,1,1
+2456,B,F,58,Laundress,1920,0,1
+2457,B,F,30,Sorter At Commission House,1920,0,1
+2459,B,M,39,Manager,1920,1,1
+2460,B,M,24,Laborer,1920,1,1
+2461,B,F,27,Laundress,1920,0,1
+2464,B,M,20,Laborer,1920,1,1
+2466,B,F,10,Nurse,1920,0,1
+2467,B,M,13,Seller At Junk Co,1920,1,1
+2468,B,M,21,Driver,1920,1,1
+2469,B,F,19,Laundress,1920,0,1
+2470,B,M,32,Laborer,1920,1,1
+2475,B,F,39,Seamstress,1920,0,1
+2476,B,F,61,Laundress,1920,0,1
+2477,B,M,68,Cleaner,1920,1,1
+2478,B,M,64,Digger At Dirty Streets,1920,1,1
+2479,B,F,54,Laundress,1920,0,1
+2480,B,F,51,Laundress,1920,0,1
+2481,B,F,26,Social Worker Colored Settlement,1920,0,1
+2482,B,F,25,Nurse,1920,0,1
+2484,B,M,46,Bricklayer,1920,1,1
+2485,B,F,47,Laundress,1920,0,1
+2486,B,M,26,Junk Dealer At City Dump,1920,1,1
+2487,B,F,19,Seamstress,1920,0,1
+2491,B,M,25,Porter,1920,1,1
+2492,B,F,26,Maid,1920,0,1
+2494,B,M,24,Laborer,1920,1,1
+2495,B,F,29,Laundress,1920,0,1
+2496,B,F,38,Laundress,1920,0,1
+2497,B,F,20,Laundress,1920,0,1
+2498,B,M,14,Driver,1920,1,1
+2499,B,M,18,Assistant,1920,1,1
+2500,B,F,38,Cook,1920,0,1
+2501,B,F,28,Owner of Business,1920,0,1
+2503,B,M,25,Bakery At Shop,1920,1,1
+2504,B,M,42,Laborer,1920,1,1
+2506,B,F,40,Maid,1920,0,1
+2507,B,M,26,Driver,1920,1,1
+2508,B,M,36,Owner of Business,1920,1,1
+2513,B,F,27,Seamstress,1920,0,1
+2514,B,M,31,Chauffeur,1920,1,1
+2515,B,M,21,Laborer,1920,1,1
+2517,B,F,42,Washwoman,1920,0,1
+2519,B,M,60,Grave Digger At Cemetary Co,1920,1,1
+2520,B,M,33,Laborer,1920,1,1
+2521,B,F,22,Cook,1920,0,1
+2522,B,F,40,Cook,1920,0,1
+2526,B,M,50,Laborer,1920,1,1
+2527,B,F,36,Washwoman,1920,0,1
+2531,B,M,28,Owner of Business,1920,1,1
+2532,B,F,28,Hairdresser At Home,1920,0,1
+2533,B,F,34,Washwoman,1920,0,1
+2534,B,M,20,Assistant,1920,1,1
+2535,B,F,19,Cook,1920,0,1
+2536,B,F,30,Cook,1920,0,1
+2537,B,M,47,Assistant,1920,1,1
+2538,B,M,43,Plumber Help At Plumbing Co,1920,1,1
+2541,B,F,46,Laundress,1920,0,1
+2542,B,M,36,Laborer,1920,1,1
+2548,B,M,63,Bricklayer,1920,1,1
+2549,B,M,33,Hauling At Wood,1920,1,1
+2550,B,F,23,Laundress,1920,0,1
+2551,B,M,14,Junk Seller At City Dump,1920,1,1
+2552,B,M,50,Driver,1920,1,1
+2553,W,M,35,Superintendent City Detention Camp,1920,1,0
+2555,B,M,30,Laborer,1920,1,1
+2558,B,M,50,Waitress,1920,1,1
+2560,B,M,32,Laborer,1920,1,1
+2562,B,M,28,Laborer,1920,1,1
+2563,B,F,24,Cook,1920,0,1
+2566,B,F,46,Laundress,1920,0,1
+2567,B,F,38,Laundress,1920,0,1
+2568,B,M,50,Junk Seller At City Dump,1920,1,1
+2569,B,M,30,Farmer At Cotton And Corn,1920,1,1
+2570,B,F,37,Washwoman,1920,0,1
+2571,B,F,44,Ironer At Laundry,1920,0,1
+2572,B,F,28,Ironer At Laundry,1920,0,1
+2575,B,M,37,Bricklayer,1920,1,1
+2577,B,M,35,Mechanic At Automobile Co,1920,1,1
+2578,B,F,38,Dressmaker At Home,1920,0,1
+2579,B,F,21,Maid,1920,0,1
+2580,B,M,35,Laborer,1920,1,1
+2583,B,M,55,Driver,1920,1,1
+2584,B,M,60,Sampler At Cotton Co,1920,1,1
+2585,B,F,44,Laundress,1920,0,1
+2586,B,F,55,Laundress,1920,0,1
+2588,B,M,28,Laborer,1920,1,1
+2589,B,F,27,Domestic Help At Private Families,1920,0,1
+2591,B,M,26,Chauffeur,1920,1,1
+2592,B,F,21,Help At Domestic,1920,0,1
+2595,B,F,26,Maid,1920,0,1
+2597,B,M,23,Laborer,1920,1,1
+2598,B,F,63,None ,1920,0,1
+2599,B,F,23,Laundress,1920,0,1
+2601,B,M,26,Laborer,1920,1,1
+2604,B,F,40,Laundress,1920,0,1
+2606,B,M,54,Laborer,1920,1,1
+2607,B,F,49,Laundress,1920,0,1
+2608,B,F,38,Laundress,1920,0,1
+2609,B,M,38,Laborer,1920,1,1
+2614,B,M,24,Porter,1920,1,1
+2615,B,F,26,Maid,1920,0,1
+2617,B,M,68,Yardman At Private Families ,1920,1,1
+2618,B,M,44,Laborer,1920,1,1
+2619,B,F,43,Laundress,1920,0,1
+2620,B,F,21,Laundress,1920,0,1
+2623,B,M,74,Janitor,1920,1,1
+2624,B,F,74,Laundress,1920,0,1
+2625,B,M,50,Driver,1920,1,1
+2627,B,M,13,Shiner At Shoes,1920,1,1
+2628,B,M,24,Porter,1920,1,1
+2629,B,F,21,Laundress,1920,0,1
+2630,B,M,29,Laborer,1920,1,1
+2631,B,F,26,Cook,1920,0,1
+2635,B,F,44,Domestic Work Private Families,1920,0,1
+2636,B,F,25,Seamstress,1920,0,1
+2637,B,F,36,Washwoman,1920,0,1
+2638,B,M,32,Mechanic At Sugar Refinery,1920,1,1
+2639,B,F,49,Laundress,1920,0,1
+2640,B,M,24,Porter,1920,1,1
+2643,B,M,57,Barber,1920,1,1
+2647,B,M,51,Driver,1920,1,1
+2648,B,M,26,Chauffeur,1920,1,1
+2650,B,F,37,Washwoman,1920,0,1
+2651,B,F,22,Maid,1920,0,1
+2652,B,F,48,Washwoman,1920,0,1
+2653,B,M,30,Janitor,1920,1,1
+2655,B,M,22,Laborer,1920,1,1
+2656,B,M,60,Laborer,1920,1,1
+2657,B,F,27,Dressmaker At Home,1920,0,1
+2658,B,M,35,Teamster Grocery Co,1920,1,1
+2659,B,M,29,Chauffeur,1920,1,1
+2660,B,F,23,Cook,1920,0,1
+2663,B,M,30,Chauffeur,1920,1,1
+2664,B,F,29,Owner of Business,1920,0,1
+2665,B,F,34,Cook,1920,0,1
+2667,B,M,20,Dishwasher At Restaurant,1920,1,1
+2668,B,M,21,Cook,1920,1,1
+2669,B,M,36,Cook,1920,1,1
+2670,B,M,30,Driver,1920,1,1
+2671,B,F,30,Cook,1920,0,1
+2672,B,F,31,Maid,1920,0,1
+2673,B,F,47,Domestic At Private Families,1920,0,1
+2674,B,M,33,Owner of Business,1920,1,1
+2678,B,F,50,Washwoman,1920,0,1
+2679,B,M,20,Chauffeur,1920,1,1
+2680,B,F,30,Washwoman,1920,0,1
+2681,B,M,30,Driver,1920,1,1
+2682,B,F,30,Washwoman,1920,0,1
+2683,B,M,24,Waitress,1920,1,1
+2684,B,M,23,Fireman At Stat. Boiler,1920,1,1
+2686,B,M,50,Barber,1920,1,1
+2688,B,F,25,Cook,1920,0,1
+2689,B,M,29,Porter,1920,1,1
+2690,B,M,27,Tailor At Mens Tailoring ,1920,1,1
+2693,B,M,40,Laborer,1920,1,1
+2694,B,F,34,Laundress,1920,0,1
+2695,B,M,15,Bootblack At Shoe Shop,1920,1,1
+2700,B,M,47,Yardman At Private Families ,1920,1,1
+2701,B,F,36,Washwoman,1920,0,1
+2704,B,F,35,Cook,1920,0,1
+2707,B,F,48,Laundress,1920,0,1
+2708,B,M,70,Yardman At Private Families ,1920,1,1
+2709,B,M,30,Laborer,1920,1,1
+2710,B,M,27,Renter At Farm,1920,1,1
+2716,B,M,47,Laborer,1920,1,1
+2719,B,F,37,Washwoman,1920,0,1
+2722,B,F,15,Housegirl At Private Family,1920,0,1
+2723,B,F,29,Laborer,1920,0,1
+2725,B,F,25,Cleaner,1920,0,1
+2726,B,M,21,Porter,1920,1,1
+2729,B,M,25,Laborer,1920,1,1
+2730,B,M,29,Laborer,1920,1,1
+2731,B,M,27,Chauffeur,1920,1,1
+2732,B,F,18,Waitress,1920,0,1
+2734,B,F,45,Nurse,1920,0,1
+2735,B,M,29,Assistant,1920,1,1
+2738,B,F,33,Cook,1920,0,1
+2739,B,F,27,Dressmaker At Home,1920,0,1
+2740,B,M,32,Cook,1920,1,1
+2741,B,M,25,Laborer,1920,1,1
+2742,B,F,22,Cook,1920,0,1
+2743,B,M,21,Laborer,1920,1,1
+2744,B,F,26,Folder At Laundry,1920,0,1
+2745,B,F,28,Maid,1920,0,1
+2746,B,M,37,Laborer,1920,1,1
+2747,B,F,62,Washwoman,1920,0,1
+2748,B,M,54,Plaster Help At Buildings,1920,1,1
+2750,B,M,19,Porter,1920,1,1
+2751,B,M,16,Driver,1920,1,1
+2752,B,M,14,Bootblack At Shin. Parlor,1920,1,1
+2753,B,M,12,Bootblack At Shin. Parlor,1920,1,1
+2756,B,M,27,Laborer,1920,1,1
+2757,B,M,25,Laborer,1920,1,1
+2758,B,F,25,Maid,1920,0,1
+2761,B,F,56,Laundress,1920,0,1
+2762,B,F,32,Laundress,1920,0,1
+2764,B,M,17,Laborer,1920,1,1
+2765,B,F,28,Cook,1920,0,1
+2768,B,M,18,Laborer,1920,1,1
+2769,B,M,17,Laborer,1920,1,1
+2770,B,M,49,Porter,1920,1,1
+2771,B,F,36,Owner of Business,1920,0,1
+2772,B,M,15,Chauffeur,1920,1,1
+2776,B,M,24,Laborer,1920,1,1
+2779,B,M,38,Laborer,1920,1,1
+2780,B,M,36,Brakeman At Freight Trains,1920,1,1
+2781,B,F,38,Washwoman,1920,0,1
+2782,B,M,20,Laborer,1920,1,1
+2783,B,F,23,Pantry Girl At Board. House,1920,0,1
+2784,B,F,38,Laundress,1920,0,1
+2785,B,M,12,Messenger At Country Club,1920,1,1
+2790,B,F,50,Laundress,1920,0,1
+2791,B,M,27,Laborer,1920,1,1
+2792,B,F,28,Seamstress,1920,0,1
+2794,B,M,37,Farmer At Cotton And Corn,1920,1,1
+2796,B,F,24,Laundress,1920,0,1
+2797,B,M,29,Laborer,1920,1,1
+2798,B,M,28,Laborer,1920,1,1
+2799,B,F,26,Maid,1920,0,1
+2801,B,M,18,Waitress,1920,1,1
+2802,B,M,38,Laborer,1920,1,1
+2805,B,F,22,Cook,1920,0,1
+2807,B,F,18,Waitress,1920,0,1
+2810,B,M,29,Laborer,1920,1,1
+2811,B,F,27,Laundress,1920,0,1
+2814,B,F,26,Domestic At Private Families,1920,0,1
+2817,B,F,49,Cook,1920,0,1
+2819,B,M,48,Renter At Farm,1920,1,1
+2820,B,M,62,Laborer,1920,1,1
+2822,B,M,21,Labor At Farm,1920,1,1
+2823,B,M,32,Hauling At Private Families,1920,1,1
+2825,B,M,28,Laborer,1920,1,1
+2826,B,M,25,Laborer,1920,1,1
+2827,B,M,25,Laborer,1920,1,1
+2828,B,M,26,Teamster At Hauling Co,1920,1,1
+2829,B,M,31,Laborer,1920,1,1
+2831,B,M,29,Chauffeur,1920,1,1
+2832,B,F,27,Manager,1920,0,1
+2834,B,M,28,Actor At Traveling Show,1920,1,1
+2835,B,M,32,Actor At Traveling Show,1920,1,1
+2836,B,F,26,Nurse,1920,0,1
+2838,B,M,28,Waitress,1920,1,1
+2840,B,M,42,Machinist Help At Railway Shops,1920,1,1
+2841,B,F,44,Laundress,1920,0,1
+2842,B,M,23,Laborer,1920,1,1
+2843,B,M,45,Porter,1920,1,1
+2844,B,F,35,Laundress,1920,0,1
+2845,B,M,25,Fireman At Furniture Store,1920,1,1
+2846,B,M,32,Laborer,1920,1,1
+2847,B,F,27,Folder At Laundry,1920,0,1
+2850,B,F,48,Laundress,1920,0,1
+2851,B,M,25,Laborer,1920,1,1
+2852,B,M,65,Carpenter,1920,1,1
+2854,B,M,37,Teamster Contractor At Buildings,1920,1,1
+2856,B,M,28,Laborer,1920,1,1
+2857,B,F,25,Cook,1920,0,1
+2858,B,M,38,Pipe Filler At Railway Shops,1920,1,1
+2860,B,M,31,Waitress,1920,1,1
+2865,B,M,32,Boilermaker At Railway Shops,1920,1,1
+2867,B,M,54,Express Man At Baggage,1920,1,1
+2868,B,M,42,Upholsterer At Furniture Co.,1920,1,1
+2869,B,F,34,Laundress,1920,0,1
+2870,B,M,17,Driver,1920,1,1
+2872,B,M,26,Driver,1920,1,1
+2873,B,M,35,Porter,1920,1,1
+2876,B,M,50,Waitress,1920,1,1
+2877,B,M,24,Porter,1920,1,1
+2878,B,M,20,Porter,1920,1,1
+2881,B,M,30,Fillman At Laundry,1920,1,1
+2887,B,M,40,Laborer,1920,1,1
+2888,B,F,28,Laundress,1920,0,1
+2889,B,M,10,Domestic At Private Family,1920,1,1
+2893,B,M,39,Finisher At Cement Walks Co.,1920,1,1
+2894,B,F,39,Laundress,1920,0,1
+2895,B,F,42,Laundress,1920,0,1
+2896,B,M,35,Laborer,1920,1,1
+2897,B,F,30,Laundress,1920,0,1
+2898,B,M,49,Laborer,1920,1,1
+2900,W,M,26,Carman At Railway ,1920,1,0
+2901,W,F,25,Seamstress,1920,0,0
+2902,W,F,32,Maid,1920,0,0
+2903,B,F,33,Maid,1920,0,1
+2905,B,M,30,Laborer,1920,1,1
+2913,W,M,38,Machinist At Oil Supply Co,1920,1,0
+2915,B,F,27,Presser,1920,0,1
+2916,B,M,29,Laborer,1920,1,1
+2917,B,M,23,Laborer,1920,1,1
+2919,B,M,70,Driver,1920,1,1
+2920,B,M,25,Porter,1920,1,1
+2921,B,F,20,Cook,1920,0,1
+2922,B,F,25,Washwoman,1920,0,1
+2923,B,M,30,Driver,1920,1,1
+2924,B,F,29,Domestic At Hotel,1920,0,1
+2925,B,M,18,Elevator Man At Hotel,1920,1,1
+2926,B,M,16,Porter,1920,1,1
+2927,B,F,53,Domestic At Private Families,1920,0,1
+2928,B,M,33,Driver,1920,1,1
+2930,B,F,18,Maid,1920,0,1
+2931,B,F,22,Ironer At Laundry,1920,0,1
+2934,B,M,32,Laborer,1920,1,1
+2935,B,F,30,Cook,1920,0,1
+2936,B,F,30,Domestic At Private Families,1920,0,1
+2938,B,F,33,Cook,1920,0,1
+2939,B,M,35,Laborer,1920,1,1
+2940,B,F,38,Maid,1920,0,1
+2944,B,M,14,Bootblack At Shine Stand,1920,1,1
+2945,B,M,23,Laborer,1920,1,1
+2946,B,F,23,Domestic At Private Families,1920,0,1
+2947,B,M,64,Laborer,1920,1,1
+2948,B,F,25,Mender At Laundry,1920,0,1
+2950,B,M,59,Laborer,1920,1,1
+2951,B,F,46,Laundress,1920,0,1
+2952,B,M,30,Laborer,1920,1,1
+2953,B,M,65,Laboerer At Oil Refinery,1920,1,1
+2954,B,F,45,Washwoman,1920,0,1
+2956,B,M,27,Laborer,1920,1,1
+2958,B,F,24,Waitress,1920,0,1
+2959,B,F,24,Cook,1920,0,1
+2960,B,F,24,Cook,1920,0,1
+2961,B,M,46,Cook,1920,1,1
+2962,B,M,33,Cook,1920,1,1
+2963,B,M,27,Laborer,1920,1,1
+2965,B,M,11,Delivery Boy At Drugstore,1920,1,1
+2968,B,M,36,Chauffeur,1920,1,1
+2970,B,M,27,Laborer,1920,1,1
+2971,B,F,47,Maid,1920,0,1
+2972,B,M,16,Teamster At Ice Co,1920,1,1
+2973,B,M,35,Assistant,1920,1,1
+2974,B,F,32,Cleaner,1920,0,1
+2975,B,M,27,Waitress,1920,1,1
+2976,B,M,35,Teamster At Gen. Hauling,1920,1,1
+2977,B,F,33,Laundress,1920,0,1
+2978,B,M,38,Laborer,1920,1,1
+2979,B,M,22,Laborer,1920,1,1
+2980,B,F,25,Washwoman,1920,0,1
+2981,W,M,33,Detective At Hotel,1920,1,0
+2983,W,M,24,Tailor At Hotel,1920,1,0
+2984,W,M,39,Sheet Metal Worker At Tin Shop,1920,1,0
+2988,B,M,34,Longshoreman At Ship Channel,1920,1,1
+2990,B,M,33,Laborer,1920,1,1
+2992,B,F,43,Laundress,1920,0,1
+2993,W,M,37,Baker At Bakershop,1920,1,0
+2994,W,F,48,Waitress,1920,0,0
+2995,W,M,31,Clerk,1920,1,0
+2997,B,M,20,Laborer,1920,1,1
+2998,B,F,26,Cleaner,1920,0,1
+2999,B,M,22,Chauffeur,1920,1,1
+3000,B,M,29,Teamster At Road Building,1920,1,1
+3001,B,M,19,Porter,1920,1,1
+3002,B,M,24,Porter,1920,1,1
+3004,B,M,20,Chauffeur,1920,1,1
+3005,B,M,70,Barber,1920,1,1
+3006,B,M,27,Laborer,1920,1,1
+3007,B,M,28,Laborer,1920,1,1
+3008,B,M,40,Waitress,1920,1,1
+3009,B,M,62,Yardman At Private Families,1920,1,1
+3011,B,M,29,Laborer,1920,1,1
+3012,B,M,18,Laborer,1920,1,1
+3013,B,M,23,Teamster At Hauling Co,1920,1,1
+3014,W,M,35,Laundry Man At Laundry,1920,1,0
+3015,B,F,22,Cook,1920,0,1
+3016,B,M,26,Laborer,1920,1,1
+3017,B,M,27,Porter,1920,1,1
+3018,B,M,23,Teamster At Us Camp,1920,1,1
+3019,B,F,23,Dressmaker At Home,1920,0,1
+3020,B,M,27,Bellboy At Hotel,1920,1,1
+3021,B,M,17,Laborer,1920,1,1
+3022,W,M,29,Shoemaker At Shoeshop,1920,1,0
+3023,W,M,29,Driver,1920,1,0
+3026,W,M,53,Merchantdraftsman At Iron Foundry,1920,1,0
+3027,W,M,19,Laborer,1920,1,0
+3028,W,M,36,Clerk,1920,1,0
+3029,W,F,31,Clerk,1920,0,0
+3030,W,M,69,Farmer At Cotton And Corn,1920,1,0
+3032,B,F,82,Maid,1920,0,1
+3033,B,M,62,Houseman At Private Family,1920,1,1
+3034,B,M,19,Laborer,1920,1,1
+3035,W,M,39,Owner of Business,1920,1,0
+3040,W,M,36,Carpenter,1920,1,0
+3046,B,M,32,Owner of Business,1920,1,1
+3047,B,F,36,Manager,1920,0,1
+3049,B,F,19,Cook,1920,0,1
+3050,B,F,19,Waitress,1920,0,1
+3051,B,M,39,Cook,1920,1,1
+3052,B,M,46,Cook,1920,1,1
+3053,B,F,37,Kitchen Help At Hotel,1920,0,1
+3058,B,F,24,Cook,1920,0,1
+3059,B,M,39,Laborer,1920,1,1
+3060,B,M,35,Porter,1920,1,1
+3061,B,M,31,Waitress,1920,1,1
+3063,B,M,35,Cook,1920,1,1
+3064,B,M,38,Porter,1920,1,1
+3065,B,F,35,Laundress,1920,0,1
+3066,B,M,8,Delivery Boy At Drug Store,1920,1,1
+3067,B,F,12,Nurse,1920,0,1
+3070,B,F,43,Manager,1920,0,1
+3071,B,F,39,Cook,1920,0,1
+3072,B,M,44,Laborer,1920,1,1
+3073,B,M,29,Laborer,1920,1,1
+3074,B,M,31,Porter,1920,1,1
+3075,B,M,35,Chauffeur,1920,1,1
+3077,B,M,22,Porter,1920,1,1
+3078,B,M,37,Repairman At Rroad Co,1920,1,1
+3079,B,M,17,Driver,1920,1,1
+3080,B,F,49,Washwoman,1920,0,1
+3081,B,F,23,General Help At Private Family,1920,0,1
+3082,B,F,20,General Help At Private Family,1920,0,1
+3083,B,M,26,Porter,1920,1,1
+3084,B,M,18,Driver,1920,1,1
+3085,B,M,16,Delivery Boy At Drug Store,1920,1,1
+3086,B,M,55,Dyeman At Laundry,1920,1,1
+3087,B,F,32,Beauty Work At Private Families,1920,0,1
+3088,B,M,21,Chauffeur,1920,1,1
+3089,B,F,24,Hairdresser At Private Families,1920,0,1
+3090,B,M,37,Laborer,1920,1,1
+3091,B,M,42,Foreman At Automobile Laundry,1920,1,1
+3092,B,F,44,Laundress,1920,0,1
+3093,W,M,40,Foreman At Sweeping Gang For City,1920,1,0
+3094,B,M,38,Laborer,1920,1,1
+3095,B,F,30,Laundress,1920,0,1
+3096,B,M,17,Laborer,1920,1,1
+3097,B,F,18,Cook,1920,0,1
+3098,B,M,48,Longshoreman At Ship Channel,1920,1,1
+3099,B,F,46,Laundress,1920,0,1
+3100,B,F,22,Cook,1920,0,1
+3102,B,F,18,Laundress,1920,0,1
+3103,B,F,38,Owner of Business,1920,0,1
+3104,B,M,66,Laborer,1920,1,1
+3106,B,M,21,Laborer,1920,1,1
+3107,B,M,19,Mechanic At Garage,1920,1,1
+3108,B,M,36,Laborer,1920,1,1
+3109,B,F,35,Laundress,1920,0,1
+3113,B,M,25,Driver,1920,1,1
+3115,B,M,61,Laborer,1920,1,1
+3116,B,M,18,Laborer,1920,1,1
+3117,B,M,30,Laborer,1920,1,1
+3118,B,M,25,Help At Restaurant,1920,1,1
+3119,B,M,30,Laborer,1920,1,1
+3120,B,F,48,Help At Laundry,1920,0,1
+3121,B,F,22,Pantry Girl At Restaurant,1920,0,1
+3122,B,F,20,Presser,1920,0,1
+3124,B,F,23,Maid,1920,0,1
+3125,B,F,23,Maid,1920,0,1
+3126,B,M,23,Laborer,1920,1,1
+3127,B,M,79,Owner of Business,1920,1,1
+3128,B,F,33,Dressmaker At Home,1920,0,1
+3129,B,F,23,Cook,1920,0,1
+3130,B,M,30,Waitress,1920,1,1
+3131,B,M,31,Contractor At Electrical Work,1920,1,1
+3132,B,M,34,Baker At Bakery,1920,1,1
+3133,B,F,34,Maid,1920,0,1
+3134,B,M,29,Laborer,1920,1,1
+3135,B,M,31,Laborer,1920,1,1
+3136,B,F,34,Maid,1920,0,1
+3137,B,F,65,Laundress,1920,0,1
+3138,B,M,27,Brakeman At Rr Freight Co,1920,1,1
+3139,B,M,18,Mechanic At Garage,1920,1,1
+3140,B,M,19,Presser,1920,1,1
+3141,B,M,26,Laborer,1920,1,1
+3142,B,M,35,Laborer,1920,1,1
+3143,B,M,34,Driver,1920,1,1
+3144,B,F,27,Waitress,1920,0,1
+3146,B,F,39,Cook,1920,0,1
+3147,B,M,14,Bootblack At His Own Stand,1920,1,1
+3148,B,M,52,Yardman At Private Families,1920,1,1
+3149,B,M,47,Cook,1920,1,1
+3150,B,M,22,Chauffeur,1920,1,1
+3151,B,M,29,Laborer,1920,1,1
+3152,B,M,44,Laborer,1920,1,1
+3153,B,F,34,Ironer At Laundry,1920,0,1
+3155,B,M,34,Mechanic At Automobile Co,1920,1,1
+3156,B,F,22,Stenographer At Office,1920,0,1
+3158,B,M,21,Operator At Moving Picture Machine,1920,1,1
+3159,B,M,23,Laborer,1920,1,1
+3160,B,M,46,Laborer,1920,1,1
+3161,B,M,16,Delivery Boy At Grocery Store,1920,1,1
+3165,B,M,30,Driver,1920,1,1
+3166,B,F,26,Laundress,1920,0,1
+3167,B,M,16,Driver,1920,1,1
+3168,B,M,40,Laborer,1920,1,1
+3169,B,F,35,Laundress,1920,0,1
+3171,B,M,15,Laborer,1920,1,1
+3172,B,M,37,Laborer,1920,1,1
+3176,B,F,42,Laundress,1920,0,1
+3177,B,M,38,Laborer,1920,1,1
+3179,B,M,15,Assistant,1920,1,1
+3181,B,M,25,Bricklayer,1920,1,1
+3182,B,F,25,Laundress,1920,0,1
+3183,B,M,23,Laborer,1920,1,1
+3184,W,M,24,Manager,1920,1,0
+3188,W,M,30,Manager,1920,1,0
+3191,W,M,22,Laborer,1920,1,0
+3194,W,M,50,Saddler At Saddlery,1920,1,0
+3197,B,M,36,Cook,1920,1,1
+3198,B,F,26,Cook,1920,0,1
+3200,W,F,54,Seamstress,1920,0,0
+3202,W,M,22,Teller At Bank,1920,1,0
+3205,W,M,47,Proprietor At Mattress Factory,1920,1,0
+3206,W,M,23,Salesman At Mattress Co,1920,1,0
+3207,W,F,34,Hairdresser At Private Families,1920,0,0
+3209,B,M,36,Assistant,1920,1,1
+3210,B,F,36,Laundress,1920,0,1
+3211,B,M,37,Operator Of Turning Table At Railway Shop,1920,1,1
+3212,B,M,33,Hoster At Railway Shop,1920,1,1
+3218,B,F,23,Maid,1920,0,1
+3219,B,M,39,Laborer,1920,1,1
+3221,B,F,19,Cook,1920,0,1
+3222,B,M,26,Porter,1920,1,1
+3223,B,M,20,Chauffeur,1920,1,1
+3225,B,F,27,Superintendent At Home For Delinquent Girls,1920,0,1
+3226,B,F,42,Teacher At Public School,1920,0,1
+3238,B,M,35,Plumber At Plumbing Co,1920,1,1
+3241,B,M,28,Waitress,1920,1,1
+3242,B,F,20,Cook,1920,0,1
+3243,B,M,28,Laborer,1920,1,1
+3244,B,F,20,Handwork At Laundry,1920,0,1
+3245,B,M,39,Tire Changer At Auto Tire Co,1920,1,1
+3248,W,M,45,Blacksmith At Own Shop,1920,1,0
+3250,W,M,23,Painter At Auto Painting Co,1920,1,0
+3252,W,M,20,Painter At Auto Painting Co,1920,1,0
+3255,W,M,21,Laborer,1920,1,0
+3256,B,M,20,Laborer,1920,1,1
+3257,B,M,18,Laborer,1920,1,1
+3258,B,M,49,Teamster At Own Ice Wagon,1920,1,1
+3259,B,F,28,Washwoman,1920,0,1
+3260,B,M,69,Clerk,1920,1,1
+3261,B,M,27,Cook,1920,1,1
+3264,B,M,24,Porter,1920,1,1
+3265,B,F,28,Cook,1920,0,1
+3266,B,M,19,Bus Boy At Hotel,1920,1,1
+3267,B,M,18,Bus Boy At Hotel,1920,1,1
+3268,B,M,47,Cook,1920,1,1
+3269,B,M,22,Teamster At Buildings,1920,1,1
+3270,B,F,21,Cook,1920,0,1
+3271,B,M,32,Pcoketmaker At Overall Factory,1920,1,1
+3273,B,M,40,Baker At Restaurant,1920,1,1
+3274,B,F,19,Cook,1920,0,1
+3275,B,M,26,Laborer,1920,1,1
+3276,B,M,37,Plumbers Help At Construction Co,1920,1,1
+3277,B,F,18,Laundry Worker At Laundry,1920,0,1
+3278,B,F,22,Dish Washer At Cafe,1920,0,1
+3280,B,M,47,Switchman At Railway Co,1920,1,1
+3281,B,M,35,Mover At Moving Co,1920,1,1
