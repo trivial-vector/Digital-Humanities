@@ -98,7 +98,7 @@ joblib==0.13.2
 MarkupSafe==1.1.1
 msrest==0.6.6
 msrestazure==0.6.0
-numpy==1.16.3
+numpy==1.22.0
 oauthlib==3.0.1
 pycparser==2.19
 PyJWT==1.7.1
